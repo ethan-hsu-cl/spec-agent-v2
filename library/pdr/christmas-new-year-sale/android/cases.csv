@@ -814,6 +814,428 @@ The balance is unchanged",P2,R-057,
 TC-142,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
 2. Christmas window: stage server, RD test date 2026-12-15
 3. The free dialog open",Press system Back,"The dialog closes, back on Image to Video, as ⓧ does",P2,R-062,
+TC-153,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 中文（台灣） (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 中文（台灣）, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",CHT. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-154,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 中文（简体） (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 中文（简体）, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",CHS. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-155,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Français (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Français, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",FRA. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-156,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Deutsch (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Deutsch, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",DEU. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-157,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language हिन्दी (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in हिन्दी, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Hindi. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-158,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Bahasa Indonesia (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Bahasa Indonesia, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",IND. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-159,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Italiano (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Italiano, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",ITA. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-160,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 日本語 (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 日本語, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",JPN. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-161,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 한국어 (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 한국어, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",KOR. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-162,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Español (España) (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Español (España), saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",ESP. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-163,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Bahasa Melayu (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Bahasa Melayu, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Malay. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-164,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Português (Brasil) (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Português (Brasil), saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",PTB. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-165,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Русский (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Русский, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",RUS. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-166,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language ไทย (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in ไทย, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Thai. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-167,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Español (México) (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Español (México), saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",ESP (MX). Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-168,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Tiếng Việt (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Tiếng Việt, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Viet. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-169,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Nederlands (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Nederlands, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Dutch. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-170,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Türkçe (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Türkçe, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Turkish. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-171,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language العربية (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in العربية, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Arabic. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-172,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Polski (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Polski, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Polish. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-173,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language فارسی (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in فارسی, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Persian. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-174,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language עברית (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in עברית, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",Hebrew. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-175,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Svenska (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Svenska, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",SVE. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-176,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Dansk (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Dansk, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",DAN. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-177,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Norsk bokmål (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Norsk bokmål, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",NOR. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-178,Not Enough Credit dialog,"1. Free account (not subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Українська (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Українська, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-055",UKR. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-134.
+TC-179,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 中文（台灣） (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 中文（台灣）, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",CHT. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-180,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 中文（简体） (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 中文（简体）, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",CHS. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-181,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Français (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Français, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",FRA. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-182,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Deutsch (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Deutsch, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",DEU. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-183,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language हिन्दी (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in हिन्दी, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Hindi. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-184,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Bahasa Indonesia (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Bahasa Indonesia, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",IND. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-185,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Italiano (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Italiano, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",ITA. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-186,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 日本語 (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 日本語, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",JPN. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-187,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language 한국어 (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 한국어, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",KOR. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-188,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Español (España) (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Español (España), saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",ESP. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-189,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Bahasa Melayu (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Bahasa Melayu, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Malay. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-190,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Português (Brasil) (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Português (Brasil), saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",PTB. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-191,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Русский (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Русский, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",RUS. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-192,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language ไทย (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in ไทย, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Thai. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-193,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Español (México) (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Español (México), saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",ESP (MX). Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-194,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Tiếng Việt (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Tiếng Việt, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Viet. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-195,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Nederlands (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Nederlands, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Dutch. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-196,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Türkçe (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Türkçe, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Turkish. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-197,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language العربية (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in العربية, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Arabic. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-198,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Polski (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Polski, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Polish. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-199,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language فارسی (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in فارسی, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Persian. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-200,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language עברית (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in עברית, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",Hebrew. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-201,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Svenska (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Svenska, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",SVE. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-202,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Dansk (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Dansk, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",DAN. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-203,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Norsk bokmål (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Norsk bokmål, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",NOR. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
+TC-204,Not Enough Credit dialog,"1. Pro account (subscribed) signed in
+2. Christmas window: stage server, RD test date 2026-12-15
+3. Credit balance below the price of Image to Video (Custom)
+4. App language Українська (phone or app language setting)","1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Українська, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",P2,"R-070, R-053",UKR. Q-19: the spec has no translation of the dialog; the app's wording is recorded. English: TC-132.
 TC-143,Layout,"1. Free account (not subscribed) signed in
 2. Christmas window: stage server, RD test date 2026-12-15
 3. A short Android screen (about 411×731 dp, or display size set largest)","1. Look at the interstitial

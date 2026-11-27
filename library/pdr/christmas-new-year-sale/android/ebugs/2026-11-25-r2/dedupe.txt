@@ -1,0 +1,9 @@
+# Dedupe — Christmas & New Year Sales Android R2 (16.9.0.2611231), read-only eBug Search, PowerDirector Mobile for Android only
+
+- ecl_query.py dedupe upload/bodies.json: 17 entries, no likely duplicate (New Year terms 0 candidates; IAP 3; Christmas Credit 4).
+- Whole pool read by text: "New Year" (31 hits), "Christmas" (all 16.9.0 hits = this feature's P0254–P0275), "Countdown", "Credit Special Offer", "Interstitial". No 16.9.0 ticket names the New Year sale.
+- Filed tickets of this feature (P0254–P0263 R1r, P0264–P0275 R1) are all titled 「Christmas Sale (…)」 with Christmas-window steps; none covers the New Year screens, so each New Year repeat is a new entry naming its related ticket (brief 2026-11-25): ISS-XMA-24 ↔ P0254, 25 ↔ P0255, 27 ↔ P0270, 28 ↔ P0264, 29 ↔ P0265, 31 ↔ P0266, 32 ↔ P0267, 33 ↔ P0268, 34 ↔ P0269, 36 ↔ P0275, 37 ↔ P0258, 38 ↔ P0261, 39 ↔ P0260.
+- ISS-XMA-40 (countdown on the Christmas credit page) vs the open P0257 / P0259 / P0260 / P0261 (Christmas Credit): different defects. Older countdown tickets (DRA221208-0007 「countdown timer is not removed」 11.0.0, DRA231223-0211/0212 13.0.0) are closed, other campaigns and versions: not the same bug.
+- ISS-XMA-26 (Back twice) vs DRA252511-0130 / 0129 (15.9.1 Christmas interstitial X / back from plans, closed): different behaviour.
+- ISS-XMA-30 (title art language) vs DRA252511-0135 (15.9.1 CHT/CHS interstitial text, closed): other campaign, other languages.
+- Nothing commented, uploaded or filed.

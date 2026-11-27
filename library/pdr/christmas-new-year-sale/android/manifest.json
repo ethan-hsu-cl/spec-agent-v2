@@ -2,9 +2,9 @@
   "feature": "pdr/christmas-new-year-sale",
   "platform": "android",
   "title": "(MX) Christmas & New Year Sales",
-  "version": 2,
-  "approved_at": "2026-11-20T09:40:47.823Z",
-  "draft": "20261120-165128",
+  "version": 3,
+  "approved_at": "2026-11-26T10:16:21.744Z",
+  "draft": "20261126-154459",
   "spec_folder": "specs/2026-11-20",
   "spec_files": [
     {
@@ -19,7 +19,7 @@
     }
   ],
   "spec_set_sha256": "0713ab30f419f1b3a996152c87b1f092ad8e60c292daa8822d63631805637159",
-  "cases": 151,
+  "cases": 203,
   "history": [
     {
       "version": 1,
@@ -36,6 +36,15 @@
       "spec_set_sha256": "0713ab30f419f1b3a996152c87b1f092ad8e60c292daa8822d63631805637159",
       "draft": "20261120-165128",
       "cases": 151,
+      "csv": "history/v2.csv",
+      "requirements": "history/v2-requirements.md"
+    },
+    {
+      "version": 3,
+      "approved_at": "2026-11-26T10:16:21.744Z",
+      "spec_set_sha256": "0713ab30f419f1b3a996152c87b1f092ad8e60c292daa8822d63631805637159",
+      "draft": "20261126-154459",
+      "cases": 203,
       "csv": "cases.csv",
       "requirements": "requirements.md"
     }

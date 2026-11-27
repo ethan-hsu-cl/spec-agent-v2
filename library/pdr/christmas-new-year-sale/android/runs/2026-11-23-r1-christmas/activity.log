@@ -1,0 +1,858 @@
+2026-11-23T03:10:59.873Z restart R5CN8194YSN
+2026-11-23T03:11:07.727Z logcat start
+2026-11-23T03:11:07.972Z build 
+2026-11-23T03:11:12.514Z shot 
+2026-11-23T03:11:13.525Z texts 
+2026-11-23T03:11:37.767Z case TC-008
+2026-11-23T03:11:37.922Z launch 
+2026-11-23T03:11:41.765Z texts TC-008-01
+2026-11-23T03:11:49.271Z lbl Get Started
+2026-11-23T03:11:49.648Z waitfor Christmas|SAVE|Get 7-Day|Allow|Home --timeout 30
+2026-11-23T03:11:54.328Z texts TC-008-02
+2026-11-23T03:11:59.203Z id permission_allow_button
+2026-11-23T03:11:59.448Z lbl Allow
+2026-11-23T03:12:00.270Z waitfor SAVE|Get 7-Day|Allow|Home|Christmas --timeout 30
+2026-11-23T03:12:02.541Z texts TC-008-03
+2026-11-23T03:12:07.068Z els Allow
+2026-11-23T03:12:11.197Z tap 540 1984
+2026-11-23T03:12:14.512Z texts TC-008-04
+2026-11-23T03:12:24.181Z run-log set TC-008 Pass
+2026-11-23T03:12:30.726Z case TC-027
+2026-11-23T03:12:30.881Z els Terms|Privacy|Restore|More sub
+2026-11-23T03:12:31.183Z lbl Terms of Service
+2026-11-23T03:12:35.614Z texts TC-027-01
+2026-11-23T03:12:44.448Z back 
+2026-11-23T03:12:46.677Z texts TC-027-02
+2026-11-23T03:12:47.746Z lbl Privacy Policy
+2026-11-23T03:12:52.497Z texts TC-027-03
+2026-11-23T03:12:53.530Z back 
+2026-11-23T03:12:55.754Z texts TC-027-04
+2026-11-23T03:13:16.926Z back 
+2026-11-23T03:13:19.754Z texts TC-027-02
+2026-11-23T03:13:25.308Z lbl Privacy Policy
+2026-11-23T03:13:29.713Z texts TC-027-03
+2026-11-23T03:13:30.914Z back 
+2026-11-23T03:13:34.087Z texts TC-027-04
+2026-11-23T03:13:44.440Z run-log set TC-027 Pass
+2026-11-23T03:13:48.417Z case TC-028
+2026-11-23T03:13:48.572Z lbl Restore Purchase
+2026-11-23T03:13:49.976Z texts TC-028-01
+2026-11-23T03:13:54.863Z texts TC-028-02
+2026-11-23T03:13:59.734Z lbl ConfirmDialog_OK
+2026-11-23T03:14:02.150Z texts TC-028-03
+2026-11-23T03:14:07.806Z texts TC-028-04
+2026-11-23T03:14:12.395Z els Allow|Deny
+2026-11-23T03:14:16.232Z els 
+2026-11-23T03:14:20.447Z id accept_button
+2026-11-23T03:14:22.738Z texts TC-028-05
+2026-11-23T03:14:28.552Z texts TC-028-06
+2026-11-23T03:14:33.743Z tap 922 2167
+2026-11-23T03:14:37.039Z texts TC-028-05
+2026-11-23T03:14:42.971Z texts TC-028-06
+2026-11-23T03:14:52.456Z logcat status
+2026-11-23T03:15:08.953Z lbl Restore Purchase
+2026-11-23T03:15:10.429Z texts 
+2026-11-23T03:15:10.670Z lbl ConfirmDialog_OK
+2026-11-23T03:15:12.521Z texts TC-028-07-1
+2026-11-23T03:15:15.501Z texts TC-028-07-2
+2026-11-23T03:15:18.058Z texts TC-028-07-3
+2026-11-23T03:15:20.631Z texts TC-028-07-4
+2026-11-23T03:15:33.624Z lbl Restore Purchase
+2026-11-23T03:15:35.209Z els OK
+2026-11-23T03:16:20.661Z run-log set TC-028 Pass
+2026-11-23T03:16:27.625Z case TC-017
+2026-11-23T03:16:27.779Z lbl Get 7-Day Free Trial
+2026-11-23T03:16:28.170Z waitfor Subscribe|Start trial|Free trial|Test card|Google Play|trial --timeout 20
+2026-11-23T03:16:35.427Z texts TC-017-01
+2026-11-23T03:16:59.914Z run-log set TC-017 Pass
+2026-11-23T03:17:00.070Z case TC-018
+2026-11-23T03:17:00.223Z back 
+2026-11-23T03:17:02.620Z texts TC-018-01
+2026-11-23T03:17:08.620Z texts 
+2026-11-23T03:17:12.828Z back 
+2026-11-23T03:17:15.151Z texts TC-018-02
+2026-11-23T03:17:22.098Z run-log set TC-018 Pass
+2026-11-23T03:17:26.538Z case TC-019
+2026-11-23T03:17:26.691Z lbl More subscription plan
+2026-11-23T03:17:31.080Z texts TC-019-01
+2026-11-23T03:17:53.781Z run-log set TC-019 Pass
+2026-11-23T03:17:53.942Z lbl IAP_Back
+2026-11-23T03:18:58.294Z texts TC-019-02
+2026-11-23T03:19:04.979Z case TC-006
+2026-11-23T03:19:05.136Z shot TC-006-01
+2026-11-23T03:19:06.439Z texts 
+2026-11-23T03:19:16.018Z tap 250 190
+2026-11-23T03:19:19.312Z texts TC-006-02
+2026-11-23T03:19:36.936Z lbl IAP_Back
+2026-11-23T03:20:41.000Z tap 970 2230
+2026-11-23T03:20:44.266Z texts TC-006-03
+2026-11-23T03:20:53.173Z lbl Claim Holiday Deal
+2026-11-23T03:20:56.604Z texts TC-006-04
+2026-11-23T03:21:16.992Z run-log set TC-006 Pass
+2026-11-23T03:21:17.150Z lbl IAP_Back
+2026-11-23T03:22:20.749Z case TC-009
+2026-11-23T03:22:20.903Z terminate 
+2026-11-23T03:22:23.773Z activate 
+2026-11-23T03:22:25.748Z texts TC-009-01
+2026-11-23T03:22:30.335Z texts TC-009-02
+2026-11-23T03:22:33.013Z texts TC-009-03
+2026-11-23T03:22:35.704Z texts TC-009-04
+2026-11-23T03:22:38.306Z texts TC-009-05
+2026-11-23T03:22:41.330Z texts TC-009-06
+2026-11-23T03:22:51.644Z tap 125 125
+2026-11-23T03:22:54.936Z texts TC-009-07
+2026-11-23T03:23:01.384Z run-log set TC-009 Pass
+2026-11-23T03:23:01.538Z case TC-016
+2026-11-23T03:23:01.693Z back 
+2026-11-23T03:23:04.600Z texts TC-016-01
+2026-11-23T03:23:12.045Z run-log set TC-016 Pass
+2026-11-23T03:23:12.197Z case TC-015
+2026-11-23T03:23:12.352Z launch 
+2026-11-23T03:23:15.497Z texts TC-015-01
+2026-11-23T03:23:19.912Z texts TC-015-02
+2026-11-23T03:23:22.975Z texts TC-015-03
+2026-11-23T03:23:26.054Z texts TC-015-04
+2026-11-23T03:23:31.792Z els 
+2026-11-23T03:23:32.052Z tap 74 174
+2026-11-23T03:23:34.345Z texts TC-015-05
+2026-11-23T03:23:43.218Z run-log set TC-015 Pass
+2026-11-23T03:23:48.088Z case TC-013
+2026-11-23T03:23:52.907Z texts TC-013-pbl-01
+2026-11-23T03:24:21.139Z run-log set TC-013 Blocked
+2026-11-23T03:24:21.298Z case TC-014
+2026-11-23T03:24:21.446Z run-log set TC-014 Blocked
+2026-11-23T03:24:26.964Z pull-logs R1-a
+2026-11-23T03:25:58.528Z restart R5CN8194YSN
+2026-11-23T03:26:06.109Z logcat start
+2026-11-23T03:26:28.165Z locale status
+2026-11-23T03:26:28.395Z case TC-029
+2026-11-23T03:26:28.548Z launch 
+2026-11-23T03:26:35.637Z shot TC-029-01
+2026-11-23T03:26:37.031Z texts 
+2026-11-23T03:26:47.999Z texts 
+2026-11-23T03:27:30.054Z launch --lang en-US
+2026-11-23T03:27:30.724Z waitfor Get Started --timeout 30
+2026-11-23T03:27:33.293Z els 
+2026-11-23T03:27:37.938Z id gdpr_accept_button
+2026-11-23T03:27:38.273Z waitfor Allow|SAVE|Get 7-Day --timeout 30
+2026-11-23T03:27:43.515Z tapif Allow
+2026-11-23T03:27:43.825Z waitfor SAVE|Get 7-Day --timeout 30
+2026-11-23T03:27:46.607Z shot TC-029-01
+2026-11-23T03:27:47.671Z els 
+2026-11-23T03:28:04.998Z run-log set TC-029 Pass
+2026-11-23T03:28:18.639Z run-log set TC-029 Pass
+2026-11-23T03:28:26.307Z case TC-030
+2026-11-23T03:28:26.785Z launch --lang zh-TW
+2026-11-23T03:28:27.513Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:29:04.026Z id gdpr_accept_button
+2026-11-23T03:29:08.421Z id permission_allow_button
+2026-11-23T03:29:08.664Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:29:12.085Z shot TC-030-01
+2026-11-23T03:29:12.964Z els 
+2026-11-23T03:29:24.478Z run-log set TC-030 Fail
+2026-11-23T03:29:24.628Z case TC-031
+2026-11-23T03:29:25.069Z launch --lang zh-CN
+2026-11-23T03:29:25.712Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:30:02.692Z id gdpr_accept_button
+2026-11-23T03:30:07.084Z id permission_allow_button
+2026-11-23T03:30:07.350Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:30:10.734Z shot TC-031-01
+2026-11-23T03:30:11.665Z els 
+2026-11-23T03:30:33.782Z run-log set TC-031 Fail
+2026-11-23T03:30:33.932Z case TC-032
+2026-11-23T03:30:34.385Z launch --lang fr-FR
+2026-11-23T03:30:35.000Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:31:11.807Z id gdpr_accept_button
+2026-11-23T03:31:16.197Z id permission_allow_button
+2026-11-23T03:31:16.522Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:31:19.927Z shot TC-032-01
+2026-11-23T03:31:21.262Z els 
+2026-11-23T03:31:43.080Z run-log set TC-032 Fail
+2026-11-23T03:31:43.230Z case TC-033
+2026-11-23T03:31:43.686Z launch --lang de-DE
+2026-11-23T03:31:44.365Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:32:21.313Z id gdpr_accept_button
+2026-11-23T03:32:25.715Z id permission_allow_button
+2026-11-23T03:32:26.056Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:32:29.428Z shot TC-033-01
+2026-11-23T03:32:30.382Z els 
+2026-11-23T03:32:46.906Z run-log set TC-033 Fail
+2026-11-23T03:32:47.057Z case TC-034
+2026-11-23T03:32:47.507Z launch --lang hi-IN
+2026-11-23T03:32:48.164Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:33:25.268Z id gdpr_accept_button
+2026-11-23T03:33:29.616Z id permission_allow_button
+2026-11-23T03:33:29.849Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:33:33.253Z shot TC-034-01
+2026-11-23T03:33:34.185Z els 
+2026-11-23T03:33:34.848Z case TC-035
+2026-11-23T03:33:35.289Z launch --lang id-ID
+2026-11-23T03:33:35.903Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:34:12.935Z id gdpr_accept_button
+2026-11-23T03:34:17.299Z id permission_allow_button
+2026-11-23T03:34:17.522Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:34:20.890Z shot TC-035-01
+2026-11-23T03:34:21.813Z els 
+2026-11-23T03:34:22.428Z case TC-036
+2026-11-23T03:34:22.862Z launch --lang it-IT
+2026-11-23T03:34:23.619Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:35:00.409Z id gdpr_accept_button
+2026-11-23T03:35:04.791Z id permission_allow_button
+2026-11-23T03:35:05.015Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:35:08.368Z shot TC-036-01
+2026-11-23T03:35:09.277Z els 
+2026-11-23T03:35:09.799Z case TC-037
+2026-11-23T03:35:10.259Z launch --lang ja-JP
+2026-11-23T03:35:10.959Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:35:47.378Z id gdpr_accept_button
+2026-11-23T03:35:51.766Z id permission_allow_button
+2026-11-23T03:35:51.995Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:35:55.389Z shot TC-037-01
+2026-11-23T03:35:56.304Z els 
+2026-11-23T03:36:25.768Z run-log set TC-034 Fail
+2026-11-23T03:36:25.910Z run-log set TC-035 Fail
+2026-11-23T03:36:26.052Z run-log set TC-036 Fail
+2026-11-23T03:36:26.196Z run-log set TC-037 Fail
+2026-11-23T03:36:32.530Z case TC-038
+2026-11-23T03:36:32.934Z launch --lang ko-KR
+2026-11-23T03:36:33.583Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:37:09.187Z id gdpr_accept_button
+2026-11-23T03:37:13.520Z id permission_allow_button
+2026-11-23T03:37:13.758Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:37:17.133Z shot TC-038-01
+2026-11-23T03:37:18.040Z els 
+2026-11-23T03:37:18.346Z case TC-039
+2026-11-23T03:37:18.774Z launch --lang es-ES
+2026-11-23T03:37:19.424Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:37:56.256Z id gdpr_accept_button
+2026-11-23T03:38:00.645Z id permission_allow_button
+2026-11-23T03:38:00.853Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:38:04.219Z shot TC-039-01
+2026-11-23T03:38:05.161Z els 
+2026-11-23T03:38:05.478Z case TC-040
+2026-11-23T03:38:05.892Z launch --lang ms-MY
+2026-11-23T03:38:06.567Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:38:42.926Z id gdpr_accept_button
+2026-11-23T03:38:47.299Z id permission_allow_button
+2026-11-23T03:38:47.511Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:38:50.881Z shot TC-040-01
+2026-11-23T03:38:51.803Z els 
+2026-11-23T03:38:52.110Z case TC-041
+2026-11-23T03:38:52.541Z launch --lang pt-BR
+2026-11-23T03:38:53.293Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:39:29.524Z id gdpr_accept_button
+2026-11-23T03:39:33.901Z id permission_allow_button
+2026-11-23T03:39:34.125Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:39:37.519Z shot TC-041-01
+2026-11-23T03:39:38.399Z els 
+2026-11-23T03:39:38.680Z case TC-042
+2026-11-23T03:39:39.124Z launch --lang ru-RU
+2026-11-23T03:39:39.810Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:40:16.139Z id gdpr_accept_button
+2026-11-23T03:40:20.491Z id permission_allow_button
+2026-11-23T03:40:20.715Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:40:24.124Z shot TC-042-01
+2026-11-23T03:40:25.002Z els 
+2026-11-23T03:40:25.268Z case TC-043
+2026-11-23T03:40:25.720Z launch --lang th-TH
+2026-11-23T03:40:26.359Z waitfor id:gdpr_accept_button --timeout 30
+2026-11-23T03:41:02.683Z id gdpr_accept_button
+2026-11-23T03:41:07.041Z id permission_allow_button
+2026-11-23T03:41:07.268Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:41:10.653Z shot TC-043-01
+2026-11-23T03:41:11.500Z els 
+2026-11-23T03:41:23.705Z case TC-044
+2026-11-23T03:41:24.129Z launch --lang es-MX
+2026-11-23T03:41:31.917Z id gdpr_accept_button
+2026-11-23T03:41:36.270Z id permission_allow_button
+2026-11-23T03:41:36.505Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:41:39.913Z shot TC-044-01
+2026-11-23T03:41:40.841Z els 
+2026-11-23T03:41:41.123Z case TC-045
+2026-11-23T03:41:41.541Z launch --lang vi-VN
+2026-11-23T03:41:47.486Z run-log set TC-038 Fail
+2026-11-23T03:41:47.628Z run-log set TC-039 Fail
+2026-11-23T03:41:47.772Z run-log set TC-040 Fail
+2026-11-23T03:41:47.915Z run-log set TC-041 Fail
+2026-11-23T03:41:48.058Z run-log set TC-042 Fail
+2026-11-23T03:41:48.201Z run-log set TC-043 Fail
+2026-11-23T03:41:49.226Z id gdpr_accept_button
+2026-11-23T03:41:53.591Z id permission_allow_button
+2026-11-23T03:41:53.810Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:41:57.191Z shot TC-045-01
+2026-11-23T03:41:58.114Z els 
+2026-11-23T03:41:58.410Z case TC-046
+2026-11-23T03:41:58.809Z launch --lang nl-NL
+2026-11-23T03:42:06.487Z id gdpr_accept_button
+2026-11-23T03:42:10.872Z id permission_allow_button
+2026-11-23T03:42:11.089Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:42:14.434Z shot TC-046-01
+2026-11-23T03:42:15.370Z els 
+2026-11-23T03:42:15.654Z case TC-047
+2026-11-23T03:42:16.079Z launch --lang tr-TR
+2026-11-23T03:42:23.763Z id gdpr_accept_button
+2026-11-23T03:42:28.144Z id permission_allow_button
+2026-11-23T03:42:28.378Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:42:31.757Z shot TC-047-01
+2026-11-23T03:42:32.687Z els 
+2026-11-23T03:42:33.005Z case TC-048
+2026-11-23T03:42:33.437Z launch --lang ar-EG
+2026-11-23T03:42:41.180Z id gdpr_accept_button
+2026-11-23T03:42:45.555Z id permission_allow_button
+2026-11-23T03:42:45.798Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:42:49.195Z shot TC-048-01
+2026-11-23T03:42:50.103Z els 
+2026-11-23T03:42:50.404Z case TC-049
+2026-11-23T03:42:50.854Z launch --lang pl-PL
+2026-11-23T03:42:58.581Z id gdpr_accept_button
+2026-11-23T03:43:02.942Z id permission_allow_button
+2026-11-23T03:43:03.188Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:43:06.536Z shot TC-049-01
+2026-11-23T03:43:07.447Z els 
+2026-11-23T03:43:27.984Z case TC-050
+2026-11-23T03:43:28.389Z launch --lang fa-IR
+2026-11-23T03:43:36.139Z id gdpr_accept_button
+2026-11-23T03:43:40.514Z id permission_allow_button
+2026-11-23T03:43:40.735Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:43:44.122Z shot TC-050-01
+2026-11-23T03:43:44.377Z run-log set TC-044 Fail
+2026-11-23T03:43:44.521Z run-log set TC-045 Fail
+2026-11-23T03:43:44.664Z run-log set TC-046 Fail
+2026-11-23T03:43:44.809Z run-log set TC-047 Fail
+2026-11-23T03:43:44.962Z run-log set TC-048 Fail
+2026-11-23T03:43:44.996Z els 
+2026-11-23T03:43:45.116Z run-log set TC-049 Fail
+2026-11-23T03:43:45.288Z case TC-051
+2026-11-23T03:43:45.698Z launch --lang he-IL
+2026-11-23T03:43:53.484Z id gdpr_accept_button
+2026-11-23T03:43:57.838Z id permission_allow_button
+2026-11-23T03:43:58.071Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:44:01.465Z shot TC-051-01
+2026-11-23T03:44:02.383Z els 
+2026-11-23T03:44:02.682Z case TC-052
+2026-11-23T03:44:03.144Z launch --lang sv-SE
+2026-11-23T03:44:10.891Z id gdpr_accept_button
+2026-11-23T03:44:15.254Z id permission_allow_button
+2026-11-23T03:44:15.461Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:44:18.818Z shot TC-052-01
+2026-11-23T03:44:19.738Z els 
+2026-11-23T03:44:20.018Z case TC-053
+2026-11-23T03:44:20.457Z launch --lang da-DK
+2026-11-23T03:44:28.194Z id gdpr_accept_button
+2026-11-23T03:44:32.577Z id permission_allow_button
+2026-11-23T03:44:32.779Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:44:36.141Z shot TC-053-01
+2026-11-23T03:44:37.063Z els 
+2026-11-23T03:44:37.344Z case TC-054
+2026-11-23T03:44:37.772Z launch --lang nb-NO
+2026-11-23T03:44:45.567Z id gdpr_accept_button
+2026-11-23T03:44:49.939Z id permission_allow_button
+2026-11-23T03:44:50.207Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:44:53.538Z shot TC-054-01
+2026-11-23T03:44:54.472Z els 
+2026-11-23T03:44:54.752Z case TC-055
+2026-11-23T03:44:55.176Z launch --lang uk-UA
+2026-11-23T03:45:02.911Z id gdpr_accept_button
+2026-11-23T03:45:07.298Z id permission_allow_button
+2026-11-23T03:45:07.517Z id com.android.permissioncontroller:id/permission_allow_button
+2026-11-23T03:45:10.914Z shot TC-055-01
+2026-11-23T03:45:11.829Z els 
+2026-11-23T03:45:43.717Z run-log set TC-050 Fail
+2026-11-23T03:45:43.869Z run-log set TC-051 Fail
+2026-11-23T03:45:44.013Z run-log set TC-052 Fail
+2026-11-23T03:45:44.155Z run-log set TC-053 Fail
+2026-11-23T03:45:44.297Z run-log set TC-054 Fail
+2026-11-23T03:45:44.439Z run-log set TC-055 Fail
+2026-11-23T03:45:44.592Z locale reset
+2026-11-23T03:45:45.102Z locale status
+2026-11-23T03:45:52.907Z launch 
+2026-11-23T03:46:01.992Z texts 
+2026-11-23T03:46:08.276Z id gdpr_accept_button
+2026-11-23T03:46:13.652Z texts 
+2026-11-23T03:46:13.920Z id btn_close
+2026-11-23T03:46:17.241Z shot R1-b-end
+2026-11-23T03:46:18.514Z texts 
+2026-11-23T03:46:24.021Z lbl Continue
+2026-11-23T03:46:29.583Z texts 
+2026-11-23T03:46:33.791Z els 
+2026-11-23T03:46:38.766Z id iv_back
+2026-11-23T03:46:43.126Z texts 
+2026-11-23T03:46:48.272Z id btn_close
+2026-11-23T03:46:51.633Z shot R1-b-end
+2026-11-23T03:46:52.945Z texts 
+2026-11-23T03:46:54.006Z locale status
+2026-11-23T03:47:01.113Z pull-logs R1-b
+2026-11-23T03:49:04.916Z restart R5CN8194YSN
+2026-11-23T03:49:13.541Z logcat start
+2026-11-23T03:49:23.753Z build 
+2026-11-23T03:49:24.043Z shot R1-c-start
+2026-11-23T03:49:25.016Z texts 
+2026-11-23T03:49:37.067Z case TC-083
+2026-11-23T03:49:39.496Z texts 
+2026-11-23T03:49:39.789Z els 
+2026-11-23T03:49:44.551Z id btn_close
+2026-11-23T03:49:49.094Z shot TC-083-01
+2026-11-23T03:49:50.342Z texts 
+2026-11-23T03:49:59.575Z els 
+2026-11-23T03:50:13.200Z texts 
+2026-11-23T03:50:19.399Z texts 
+2026-11-23T03:50:25.699Z texts 
+2026-11-23T03:50:35.464Z run-log set TC-083 Fail
+2026-11-23T03:50:35.616Z case TC-084
+2026-11-23T03:50:38.999Z shot TC-084-01
+2026-11-23T03:50:40.339Z texts 
+2026-11-23T03:50:52.642Z run-log set TC-084 Fail
+2026-11-23T03:50:52.794Z case TC-087
+2026-11-23T03:50:52.948Z zoom 
+2026-11-23T03:50:53.102Z id layout_try_badge
+2026-11-23T03:50:56.593Z shot TC-087-02
+2026-11-23T03:50:57.588Z texts 
+2026-11-23T03:51:21.798Z run-log set TC-087 Fail
+2026-11-23T03:51:21.956Z lbl [AID]IAP_Back
+2026-11-23T03:52:26.403Z case TC-090
+2026-11-23T03:52:26.558Z texts 
+2026-11-23T03:52:27.723Z shot TC-090-01
+2026-11-23T03:52:37.175Z run-log set TC-090 Fail
+2026-11-23T03:52:37.328Z case TC-091
+2026-11-23T03:52:37.482Z els 
+2026-11-23T03:52:44.167Z shot TC-091-01
+2026-11-23T03:52:45.433Z id tv_premium
+2026-11-23T03:52:49.882Z shot TC-091-02
+2026-11-23T03:52:50.600Z texts 
+2026-11-23T03:52:51.049Z els 
+2026-11-23T03:53:03.539Z id layout_home
+2026-11-23T03:53:06.013Z shot TC-091-03
+2026-11-23T03:53:07.352Z els 
+2026-11-23T03:53:17.268Z run-log set TC-091 Pass
+2026-11-23T03:53:17.425Z case TC-093
+2026-11-23T03:53:17.579Z id tv_premium
+2026-11-23T03:53:20.732Z shot TC-093-01
+2026-11-23T03:53:21.456Z texts 
+2026-11-23T03:53:27.451Z run-log set TC-093 Pass
+2026-11-23T03:53:27.602Z lbl User Sign in
+2026-11-23T03:53:31.032Z texts 
+2026-11-23T03:53:31.320Z shot signin-01
+2026-11-23T03:53:39.438Z tap 422 1272
+2026-11-23T03:53:45.757Z texts 
+2026-11-23T03:53:46.134Z shot signin-02
+2026-11-23T03:53:51.569Z activate 
+2026-11-23T03:53:57.056Z texts 
+2026-11-23T03:53:57.491Z shot signin-03
+2026-11-23T03:54:17.483Z case TC-095
+2026-11-23T03:54:17.632Z run-log set TC-095 Fail
+2026-11-23T03:54:22.420Z case TC-096
+2026-11-23T03:54:22.574Z lbl Claim Holiday Deal
+2026-11-23T03:54:25.986Z shot TC-096-01
+2026-11-23T03:54:27.002Z texts 
+2026-11-23T03:54:51.433Z run-log set TC-096 Pass
+2026-11-23T03:54:51.605Z case TC-100
+2026-11-23T03:54:53.859Z els 
+2026-11-23T03:55:16.465Z shot TC-100-01
+2026-11-23T03:55:17.469Z run-log set TC-100 Fail
+2026-11-23T03:55:28.079Z run-log set TC-100 Blocked
+2026-11-23T03:55:28.233Z case TC-101
+2026-11-23T03:55:38.158Z run-log set TC-101 Blocked
+2026-11-23T03:55:38.317Z case TC-104
+2026-11-23T03:55:38.475Z id continueBtn
+2026-11-23T03:56:05.404Z shot TC-104-01
+2026-11-23T03:56:06.291Z texts 
+2026-11-23T03:56:51.245Z lbl Understood
+2026-11-23T03:57:43.888Z texts 
+2026-11-23T03:57:57.544Z case TC-105
+2026-11-23T03:57:57.697Z id iap_radioBtn_monthly
+2026-11-23T03:58:41.279Z els 
+2026-11-23T03:58:52.681Z shot TC-105-01
+2026-11-23T03:58:53.667Z id continueBtn
+2026-11-23T03:59:32.254Z tap 540 1930
+2026-11-23T03:59:52.878Z tap 540 1930
+2026-11-23T04:00:18.477Z lbl Understood
+2026-11-23T04:01:09.348Z run-log set TC-104 Blocked
+2026-11-23T04:01:09.493Z run-log set TC-105 Blocked
+2026-11-23T04:01:18.400Z case TC-110
+2026-11-23T04:01:18.558Z id termOfServiceBtn
+2026-11-23T04:01:57.848Z shot TC-110-01
+2026-11-23T04:01:58.643Z texts 
+2026-11-23T04:02:04.445Z back 
+2026-11-23T04:02:08.277Z texts 
+2026-11-23T04:02:23.673Z id privatePolicyBtn
+2026-11-23T04:03:02.484Z shot TC-110-02
+2026-11-23T04:03:03.258Z texts 
+2026-11-23T04:03:03.919Z back 
+2026-11-23T04:03:07.717Z texts 
+2026-11-23T04:03:29.568Z id restorePurchaseBtn
+2026-11-23T04:04:04.859Z shot TC-110-03
+2026-11-23T04:04:05.567Z texts 
+2026-11-23T04:04:09.948Z lbl [AID]ConfirmDialog_OK
+2026-11-23T04:04:13.374Z shot TC-110-04
+2026-11-23T04:04:14.081Z texts 
+2026-11-23T04:04:33.720Z run-log set TC-110 Pass
+2026-11-23T04:04:33.874Z case TC-098
+2026-11-23T04:04:34.028Z lbl Try Pro 7 days for free
+2026-11-23T04:04:37.383Z shot TC-098-01
+2026-11-23T04:04:38.404Z texts 
+2026-11-23T04:04:58.098Z run-log set TC-098 Pass
+2026-11-23T04:04:58.256Z case TC-108
+2026-11-23T04:04:58.412Z lbl [AID]IAP_Back
+2026-11-23T04:06:04.297Z shot TC-108-01
+2026-11-23T04:06:05.015Z texts 
+2026-11-23T04:06:13.326Z run-log set TC-108 Pass
+2026-11-23T04:06:13.481Z run-log set TC-111 Blocked
+2026-11-23T04:06:13.633Z run-log set TC-112 Blocked
+2026-11-23T04:06:13.780Z run-log set TC-113 Blocked
+2026-11-23T04:06:13.931Z case TC-124
+2026-11-23T04:06:14.085Z lbl Credits
+2026-11-23T04:06:18.508Z shot TC-124-01
+2026-11-23T04:06:19.202Z texts 
+2026-11-23T04:06:26.053Z run-log set TC-111 Blocked
+2026-11-23T04:06:26.198Z run-log set TC-112 Blocked
+2026-11-23T04:06:26.344Z run-log set TC-113 Blocked
+2026-11-23T04:06:26.495Z case TC-124
+2026-11-23T04:06:26.649Z tap 860 915
+2026-11-23T04:06:30.939Z shot TC-124-01
+2026-11-23T04:06:31.657Z texts 
+2026-11-23T04:06:36.281Z lbl Not now
+2026-11-23T04:06:40.339Z shot TC-124-02
+2026-11-23T04:06:41.064Z texts 
+2026-11-23T04:06:49.534Z back 
+2026-11-23T04:06:52.196Z texts 
+2026-11-23T04:06:52.528Z shot TC-124-03
+2026-11-23T04:06:58.461Z lbl Buy More
+2026-11-23T04:07:02.873Z shot TC-124-04
+2026-11-23T04:07:03.783Z texts 
+2026-11-23T04:07:17.075Z run-log set TC-124 Fail
+2026-11-23T04:07:23.189Z back 
+2026-11-23T04:07:24.945Z back 
+2026-11-23T04:07:27.266Z texts 
+2026-11-23T04:07:27.523Z case TC-134
+2026-11-23T04:07:27.677Z id layout_home
+2026-11-23T04:07:30.164Z lbl Image to Video
+2026-11-23T04:07:35.511Z shot TC-134-01
+2026-11-23T04:07:36.299Z texts 
+2026-11-23T04:07:41.277Z lbl Not now
+2026-11-23T04:07:44.256Z texts 
+2026-11-23T04:07:44.564Z id layout_home
+2026-11-23T04:07:46.879Z lbl Image to Video
+2026-11-23T04:07:52.374Z shot TC-134-01
+2026-11-23T04:07:53.367Z texts 
+2026-11-23T04:07:58.840Z back 
+2026-11-23T04:08:01.584Z texts 
+2026-11-23T04:08:06.335Z id layout_home
+2026-11-23T04:08:08.799Z lbl Image to Video
+2026-11-23T04:08:14.530Z shot TC-134-01
+2026-11-23T04:08:15.778Z texts 
+2026-11-23T04:08:20.996Z lbl Try It Now
+2026-11-23T04:08:26.053Z shot TC-134-02
+2026-11-23T04:08:26.752Z texts 
+2026-11-23T04:08:31.272Z lbl Not now
+2026-11-23T04:08:35.363Z shot TC-134-03
+2026-11-23T04:08:36.105Z texts 
+2026-11-23T04:08:41.647Z els 
+2026-11-23T04:08:46.681Z id etPrompt
+2026-11-23T04:08:48.669Z type A snowman waves under falling snow
+2026-11-23T04:08:50.149Z hidekb 
+2026-11-23T04:08:53.984Z els 
+2026-11-23T04:08:58.795Z shot TC-134-04
+2026-11-23T04:08:59.502Z els 
+2026-11-23T04:09:09.396Z els 
+2026-11-23T04:09:14.596Z id ivImportedImage
+2026-11-23T04:09:19.076Z shot TC-134-05
+2026-11-23T04:09:19.951Z texts 
+2026-11-23T04:09:28.669Z lbl Next
+2026-11-23T04:09:32.000Z tapif Allow
+2026-11-23T04:09:35.401Z shot TC-134-06
+2026-11-23T04:09:36.451Z texts 
+2026-11-23T04:09:41.815Z lbl Continue
+2026-11-23T04:09:46.205Z shot TC-134-07
+2026-11-23T04:09:47.670Z texts 
+2026-11-23T04:09:48.304Z els 
+2026-11-23T04:09:58.321Z tap 540 1680
+2026-11-23T04:10:02.637Z shot TC-134-08
+2026-11-23T04:10:03.327Z texts 
+2026-11-23T04:10:08.269Z lbl Not now
+2026-11-23T04:10:12.230Z texts 
+2026-11-23T04:10:12.823Z els 
+2026-11-23T04:10:13.457Z shot TC-134-09
+2026-11-23T04:10:18.918Z id btnGenerate
+2026-11-23T04:10:23.568Z shot TC-134-10
+2026-11-23T04:10:24.299Z texts 
+2026-11-23T04:10:29.581Z lbl Not now
+2026-11-23T04:10:33.670Z shot TC-134-11
+2026-11-23T04:10:34.443Z texts 
+2026-11-23T04:10:41.288Z id btnGenerate
+2026-11-23T04:10:46.146Z texts 
+2026-11-23T04:10:46.392Z lbl Sign In
+2026-11-23T04:10:51.195Z shot TC-134-12
+2026-11-23T04:10:51.917Z texts 
+2026-11-23T04:10:56.351Z els 
+2026-11-23T04:11:01.597Z tap 540 1371
+2026-11-23T04:11:07.543Z texts 
+2026-11-23T04:11:07.819Z shot TC-134-13
+2026-11-23T04:11:13.319Z tap 422 1272
+2026-11-23T04:11:21.630Z texts 
+2026-11-23T04:11:29.842Z back 
+2026-11-23T04:11:35.774Z texts 
+2026-11-23T04:11:52.969Z tap 540 1493
+2026-11-23T04:11:55.577Z texts 
+2026-11-23T04:11:56.084Z run-log set TC-134 Blocked
+2026-11-23T04:11:56.231Z run-log set TC-135 Blocked
+2026-11-23T04:11:56.378Z run-log set TC-142 Blocked
+2026-11-23T04:12:01.906Z back 
+2026-11-23T04:12:04.795Z texts 
+2026-11-23T04:12:12.972Z case TC-144
+2026-11-23T04:12:42.111Z run-log set TC-144 Fail
+2026-11-23T04:12:42.264Z case TC-146
+2026-11-23T04:12:42.418Z id layout_try_badge
+2026-11-23T04:12:47.440Z texts 
+2026-11-23T04:13:03.076Z run-log set TC-146 Pass
+2026-11-23T04:13:03.231Z lbl [AID]IAP_Back
+2026-11-23T04:13:05.680Z case TC-145
+2026-11-23T04:13:05.834Z launch 
+2026-11-23T04:13:16.069Z texts 
+2026-11-23T04:13:52.529Z texts 
+2026-11-23T04:13:58.767Z lbl Get Started
+2026-11-23T04:14:04.139Z tapif Allow
+2026-11-23T04:14:09.515Z texts 
+2026-11-23T04:14:45.139Z run-log set TC-145 Blocked
+2026-11-23T04:14:45.574Z case TC-143
+2026-11-23T04:14:50.173Z texts 
+2026-11-23T04:15:03.643Z lbl More subscription plan
+2026-11-23T04:15:08.744Z els 
+2026-11-23T04:15:31.839Z case TC-109
+2026-11-23T04:15:31.994Z back 
+2026-11-23T04:15:46.522Z texts 
+2026-11-23T04:16:00.406Z run-log set TC-109 Fail
+2026-11-23T04:16:00.558Z case TC-143
+2026-11-23T04:16:00.711Z id tv_premium
+2026-11-23T04:16:04.717Z texts 
+2026-11-23T04:16:05.067Z els 
+2026-11-23T04:16:10.487Z id credit_point_textview
+2026-11-23T04:16:14.875Z texts 
+2026-11-23T04:16:15.133Z tapif Not now
+2026-11-23T04:16:18.212Z texts 
+2026-11-23T04:16:24.630Z back 
+2026-11-23T04:16:27.955Z lbl Buy More
+2026-11-23T04:16:32.943Z texts 
+2026-11-23T04:16:48.517Z texts 
+2026-11-23T04:16:48.961Z fingerdrag 540 950 540 500 8
+2026-11-23T04:16:52.739Z texts 
+2026-11-23T04:17:08.532Z run-log set TC-143 Fail
+2026-11-23T04:17:20.880Z pull-logs R1-c
+2026-11-23T06:06:47.930Z run-log set TC-148 Blocked
+2026-11-23T06:06:48.082Z run-log set TC-147 Blocked
+2026-11-23T06:06:48.235Z run-log set TC-151 Blocked
+2026-11-23T06:06:48.384Z run-log set TC-114 Blocked
+2026-11-23T06:06:48.531Z run-log set TC-115 Blocked
+2026-11-23T06:06:48.680Z run-log set TC-117 Blocked
+2026-11-23T06:06:48.828Z run-log set TC-118 Blocked
+2026-11-23T06:06:48.975Z run-log set TC-119 Blocked
+2026-11-23T06:06:49.123Z run-log set TC-120 Blocked
+2026-11-23T06:06:49.270Z run-log set TC-125 Blocked
+2026-11-23T06:06:49.415Z run-log set TC-127 Blocked
+2026-11-23T06:06:49.563Z run-log set TC-129 Blocked
+2026-11-23T06:06:49.710Z run-log set TC-130 Blocked
+2026-11-23T06:06:49.855Z run-log set TC-131 Blocked
+2026-11-23T06:06:50.001Z run-log set TC-132 Blocked
+2026-11-23T06:06:50.149Z run-log set TC-133 Blocked
+2026-11-23T06:06:50.296Z run-log set TC-141 Blocked
+2026-11-23T06:06:50.442Z run-log set TC-122 Blocked
+2026-11-23T06:06:50.589Z run-log set TC-149 Blocked
+2026-11-23T06:06:50.737Z run-log set TC-140 Blocked
+2026-11-23T06:06:50.886Z run-log set TC-150 Blocked
+2026-11-23T06:06:51.038Z run-log set TC-126 Blocked
+2026-11-23T03:11:13.329Z file screenshots/undefined.png
+2026-11-23T03:11:41.882Z file screenshots/TC-008-01.txt
+2026-11-23T03:11:43.241Z file screenshots/TC-008-01.png
+2026-11-23T03:11:54.414Z file screenshots/TC-008-02.txt
+2026-11-23T03:11:55.058Z file screenshots/TC-008-02.png
+2026-11-23T03:12:02.607Z file screenshots/TC-008-03.txt
+2026-11-23T03:12:03.291Z file screenshots/TC-008-03.png
+2026-11-23T03:12:14.659Z file screenshots/TC-008-04.txt
+2026-11-23T03:12:15.371Z file screenshots/TC-008-04.png
+2026-11-23T03:12:35.830Z file screenshots/TC-027-01.txt
+2026-11-23T03:12:36.396Z file screenshots/TC-027-01.png
+2026-11-23T03:13:19.862Z file screenshots/TC-027-02.txt
+2026-11-23T03:13:20.494Z file screenshots/TC-027-02.png
+2026-11-23T03:13:30.171Z file screenshots/TC-027-03.txt
+2026-11-23T03:13:30.717Z file screenshots/TC-027-03.png
+2026-11-23T03:13:34.226Z file screenshots/TC-027-04.txt
+2026-11-23T03:13:34.917Z file screenshots/TC-027-04.png
+2026-11-23T03:13:50.047Z file screenshots/TC-028-01.txt
+2026-11-23T03:13:50.610Z file screenshots/TC-028-01.png
+2026-11-23T03:13:54.943Z file screenshots/TC-028-02.txt
+2026-11-23T03:13:55.583Z file screenshots/TC-028-02.png
+2026-11-23T03:14:02.202Z file screenshots/TC-028-03.txt
+2026-11-23T03:14:02.555Z file screenshots/TC-028-03.png
+2026-11-23T03:14:07.877Z file screenshots/TC-028-04.txt
+2026-11-23T03:14:08.332Z file screenshots/TC-028-04.png
+2026-11-23T03:14:37.114Z file screenshots/TC-028-05.txt
+2026-11-23T03:14:37.731Z file screenshots/TC-028-05.png
+2026-11-23T03:14:43.050Z file screenshots/TC-028-06.txt
+2026-11-23T03:14:43.668Z file screenshots/TC-028-06.png
+2026-11-23T03:15:12.669Z file screenshots/TC-028-07-1.txt
+2026-11-23T03:15:13.760Z file screenshots/TC-028-07-1.png
+2026-11-23T03:15:15.633Z file screenshots/TC-028-07-2.txt
+2026-11-23T03:15:16.321Z file screenshots/TC-028-07-2.png
+2026-11-23T03:15:18.188Z file screenshots/TC-028-07-3.txt
+2026-11-23T03:15:18.890Z file screenshots/TC-028-07-3.png
+2026-11-23T03:15:20.753Z file screenshots/TC-028-07-4.txt
+2026-11-23T03:15:21.456Z file screenshots/TC-028-07-4.png
+2026-11-23T03:15:40.675Z file screenshots/TC-028-toast-1.png
+2026-11-23T03:15:41.762Z file screenshots/TC-028-toast-2.png
+2026-11-23T03:15:42.823Z file screenshots/TC-028-toast-3.png
+2026-11-23T03:15:43.910Z file screenshots/TC-028-toast-4.png
+2026-11-23T03:15:44.974Z file screenshots/TC-028-toast-5.png
+2026-11-23T03:15:46.034Z file screenshots/TC-028-toast-6.png
+2026-11-23T03:16:35.696Z file screenshots/TC-017-01.txt
+2026-11-23T03:16:36.225Z file screenshots/TC-017-01.png
+2026-11-23T03:17:02.822Z file screenshots/TC-018-01.txt
+2026-11-23T03:17:03.444Z file screenshots/TC-018-01.png
+2026-11-23T03:17:15.304Z file screenshots/TC-018-02.txt
+2026-11-23T03:17:16.024Z file screenshots/TC-018-02.png
+2026-11-23T03:17:43.590Z file screenshots/TC-019-01.txt
+2026-11-23T03:17:44.347Z file screenshots/TC-019-01.png
+2026-11-23T03:18:59.466Z file screenshots/TC-019-02.txt
+2026-11-23T03:19:00.548Z file screenshots/TC-019-02.png
+2026-11-23T03:19:06.255Z file screenshots/TC-006-01.png
+2026-11-23T03:19:31.432Z file screenshots/TC-006-02.txt
+2026-11-23T03:19:32.194Z file screenshots/TC-006-02.png
+2026-11-23T03:20:44.424Z file screenshots/TC-006-03.txt
+2026-11-23T03:20:44.888Z file screenshots/TC-006-03.png
+2026-11-23T03:21:07.715Z file screenshots/TC-006-04.txt
+2026-11-23T03:21:08.486Z file screenshots/TC-006-04.png
+2026-11-23T03:22:27.565Z file screenshots/TC-009-01.txt
+2026-11-23T03:22:28.588Z file screenshots/TC-009-01.png
+2026-11-23T03:22:30.581Z file screenshots/TC-009-02.txt
+2026-11-23T03:22:31.267Z file screenshots/TC-009-02.png
+2026-11-23T03:22:33.230Z file screenshots/TC-009-03.txt
+2026-11-23T03:22:33.963Z file screenshots/TC-009-03.png
+2026-11-23T03:22:35.861Z file screenshots/TC-009-04.txt
+2026-11-23T03:22:36.564Z file screenshots/TC-009-04.png
+2026-11-23T03:22:38.483Z file screenshots/TC-009-05.txt
+2026-11-23T03:22:39.593Z file screenshots/TC-009-05.png
+2026-11-23T03:22:41.574Z file screenshots/TC-009-06.txt
+2026-11-23T03:22:42.213Z file screenshots/TC-009-06.png
+2026-11-23T03:22:55.050Z file screenshots/TC-009-07.txt
+2026-11-23T03:22:55.772Z file screenshots/TC-009-07.png
+2026-11-23T03:23:05.624Z file screenshots/TC-016-01.txt
+2026-11-23T03:23:06.706Z file screenshots/TC-016-01.png
+2026-11-23T03:23:16.966Z file screenshots/TC-015-01.txt
+2026-11-23T03:23:17.677Z file screenshots/TC-015-01.png
+2026-11-23T03:23:20.052Z file screenshots/TC-015-02.txt
+2026-11-23T03:23:20.735Z file screenshots/TC-015-02.png
+2026-11-23T03:23:23.124Z file screenshots/TC-015-03.txt
+2026-11-23T03:23:23.814Z file screenshots/TC-015-03.png
+2026-11-23T03:23:26.162Z file screenshots/TC-015-04.txt
+2026-11-23T03:23:26.805Z file screenshots/TC-015-04.png
+2026-11-23T03:23:35.477Z file screenshots/TC-015-05.txt
+2026-11-23T03:23:36.542Z file screenshots/TC-015-05.png
+2026-11-23T03:23:53.127Z file screenshots/TC-013-pbl-01.txt
+2026-11-23T03:23:53.600Z file screenshots/TC-013-pbl-01.png
+2026-11-23T03:24:33.189Z file logs/R1-a-20261123-112426
+2026-11-23T03:27:47.481Z file screenshots/TC-029-01.png
+2026-11-23T03:28:59.794Z file screenshots/waitfor-timeout-20261123-112858.png
+2026-11-23T03:29:12.772Z file screenshots/TC-030-01.png
+2026-11-23T03:29:58.469Z file screenshots/waitfor-timeout-20261123-112957.png
+2026-11-23T03:30:11.474Z file screenshots/TC-031-01.png
+2026-11-23T03:31:07.588Z file screenshots/waitfor-timeout-20261123-113106.png
+2026-11-23T03:31:21.070Z file screenshots/TC-032-01.png
+2026-11-23T03:31:42.935Z file screenshots/TC-032-02.png
+2026-11-23T03:32:17.030Z file screenshots/waitfor-timeout-20261123-113216.png
+2026-11-23T03:32:30.190Z file screenshots/TC-033-01.png
+2026-11-23T03:33:21.040Z file screenshots/waitfor-timeout-20261123-113320.png
+2026-11-23T03:33:33.993Z file screenshots/TC-034-01.png
+2026-11-23T03:34:08.706Z file screenshots/waitfor-timeout-20261123-113407.png
+2026-11-23T03:34:21.624Z file screenshots/TC-035-01.png
+2026-11-23T03:34:56.198Z file screenshots/waitfor-timeout-20261123-113455.png
+2026-11-23T03:35:09.084Z file screenshots/TC-036-01.png
+2026-11-23T03:35:43.205Z file screenshots/waitfor-timeout-20261123-113542.png
+2026-11-23T03:35:56.121Z file screenshots/TC-037-01.png
+2026-11-23T03:37:04.979Z file screenshots/waitfor-timeout-20261123-113704.png
+2026-11-23T03:37:17.849Z file screenshots/TC-038-01.png
+2026-11-23T03:37:52.030Z file screenshots/waitfor-timeout-20261123-113751.png
+2026-11-23T03:38:04.960Z file screenshots/TC-039-01.png
+2026-11-23T03:38:38.707Z file screenshots/waitfor-timeout-20261123-113837.png
+2026-11-23T03:38:51.613Z file screenshots/TC-040-01.png
+2026-11-23T03:39:25.305Z file screenshots/waitfor-timeout-20261123-113924.png
+2026-11-23T03:39:38.217Z file screenshots/TC-041-01.png
+2026-11-23T03:40:11.928Z file screenshots/waitfor-timeout-20261123-114011.png
+2026-11-23T03:40:24.814Z file screenshots/TC-042-01.png
+2026-11-23T03:40:58.463Z file screenshots/waitfor-timeout-20261123-114057.png
+2026-11-23T03:41:11.308Z file screenshots/TC-043-01.png
+2026-11-23T03:41:32.107Z file screenshots/TC-042-02.png
+2026-11-23T03:41:32.166Z file screenshots/TC-043-02.png
+2026-11-23T03:41:40.651Z file screenshots/TC-044-01.png
+2026-11-23T03:41:57.925Z file screenshots/TC-045-01.png
+2026-11-23T03:42:15.179Z file screenshots/TC-046-01.png
+2026-11-23T03:42:32.496Z file screenshots/TC-047-01.png
+2026-11-23T03:42:49.914Z file screenshots/TC-048-01.png
+2026-11-23T03:43:07.257Z file screenshots/TC-049-01.png
+2026-11-23T03:43:28.108Z file screenshots/TC-049-02.png
+2026-11-23T03:43:28.167Z file screenshots/TC-048-02.png
+2026-11-23T03:43:44.818Z file screenshots/TC-050-01.png
+2026-11-23T03:44:02.182Z file screenshots/TC-051-01.png
+2026-11-23T03:44:19.540Z file screenshots/TC-052-01.png
+2026-11-23T03:44:36.870Z file screenshots/TC-053-01.png
+2026-11-23T03:44:54.279Z file screenshots/TC-054-01.png
+2026-11-23T03:45:11.639Z file screenshots/TC-055-01.png
+2026-11-23T03:45:28.480Z file screenshots/TC-055-02.png
+2026-11-23T03:46:52.763Z file screenshots/R1-b-end.png
+2026-11-23T03:47:10.680Z file logs/R1-b-20261123-114701
+2026-11-23T03:49:24.823Z file screenshots/R1-c-start.png
+2026-11-23T03:49:50.155Z file screenshots/TC-083-01.png
+2026-11-23T03:50:40.153Z file screenshots/TC-084-01.png
+2026-11-23T03:50:57.398Z file screenshots/TC-087-02.png
+2026-11-23T03:52:28.820Z file screenshots/TC-090-01.png
+2026-11-23T03:52:45.251Z file screenshots/TC-091-01.png
+2026-11-23T03:52:50.412Z file screenshots/TC-091-02.png
+2026-11-23T03:53:07.165Z file screenshots/TC-091-03.png
+2026-11-23T03:53:17.107Z file screenshots/TC-091-01-bar.png
+2026-11-23T03:53:17.110Z file screenshots/TC-091-02-bar.png
+2026-11-23T03:53:17.113Z file screenshots/TC-091-03-bar.png
+2026-11-23T03:53:21.274Z file screenshots/TC-093-01.png
+2026-11-23T03:53:31.794Z file screenshots/signin-01.png
+2026-11-23T03:53:46.652Z file screenshots/signin-02.png
+2026-11-23T03:53:58.045Z file screenshots/signin-03.png
+2026-11-23T03:54:26.809Z file screenshots/TC-096-01.png
+2026-11-23T03:55:17.286Z file screenshots/TC-100-01.png
+2026-11-23T03:56:06.114Z file screenshots/TC-104-01.png
+2026-11-23T03:58:53.475Z file screenshots/TC-105-01.png
+2026-11-23T03:59:20.475Z file screenshots/TC-105-01b.png
+2026-11-23T03:59:37.304Z file screenshots/TC-105-02.png
+2026-11-23T03:59:55.613Z file screenshots/TC-105-03.png
+2026-11-23T04:01:58.464Z file screenshots/TC-110-01.png
+2026-11-23T04:03:03.079Z file screenshots/TC-110-02.png
+2026-11-23T04:04:05.386Z file screenshots/TC-110-03.png
+2026-11-23T04:04:13.900Z file screenshots/TC-110-04.png
+2026-11-23T04:04:38.212Z file screenshots/TC-098-01.png
+2026-11-23T04:06:04.835Z file screenshots/TC-108-01.png
+2026-11-23T04:06:31.476Z file screenshots/TC-124-01.png
+2026-11-23T04:06:40.886Z file screenshots/TC-124-02.png
+2026-11-23T04:06:53.315Z file screenshots/TC-124-03.png
+2026-11-23T04:07:03.598Z file screenshots/TC-124-04.png
+2026-11-23T04:08:15.593Z file screenshots/TC-134-01.png
+2026-11-23T04:08:26.571Z file screenshots/TC-134-02.png
+2026-11-23T04:08:35.927Z file screenshots/TC-134-03.png
+2026-11-23T04:08:59.320Z file screenshots/TC-134-04.png
+2026-11-23T04:09:19.766Z file screenshots/TC-134-05.png
+2026-11-23T04:09:36.262Z file screenshots/TC-134-06.png
+2026-11-23T04:09:47.487Z file screenshots/TC-134-07.png
+2026-11-23T04:10:03.141Z file screenshots/TC-134-08.png
+2026-11-23T04:10:14.051Z file screenshots/TC-134-09.png
+2026-11-23T04:10:24.119Z file screenshots/TC-134-10.png
+2026-11-23T04:10:34.264Z file screenshots/TC-134-11.png
+2026-11-23T04:10:51.738Z file screenshots/TC-134-12.png
+2026-11-23T04:11:08.278Z file screenshots/TC-134-13.png
+2026-11-23T04:12:28.806Z file screenshots/TC-144-01.png
+2026-11-23T04:12:47.227Z file screenshots/TC-146-01.png
+2026-11-23T04:13:15.853Z file screenshots/TC-145-01.png
+2026-11-23T04:14:10.191Z file screenshots/TC-145-02.png
+2026-11-23T04:14:50.852Z file screenshots/TC-143-01.png
+2026-11-23T04:15:08.535Z file screenshots/TC-143-02.png
+2026-11-23T04:15:46.296Z file screenshots/TC-109-01.png
+2026-11-23T04:16:24.423Z file screenshots/TC-143-03.png
+2026-11-23T04:16:27.750Z file screenshots/TC-143-04.png
+2026-11-23T04:16:32.741Z file screenshots/TC-143-05.png
+2026-11-23T04:16:52.513Z file screenshots/TC-143-06.png
+2026-11-23T04:16:58.209Z file screenshots/TC-143-02-title.png
+2026-11-23T04:17:21.530Z file logs/.live
+2026-11-23T04:17:32.864Z file logs/R1-c-20261123-121720

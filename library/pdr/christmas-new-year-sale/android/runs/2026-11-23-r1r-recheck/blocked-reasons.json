@@ -1,0 +1,46 @@
+{
+  "TC-134": {
+    "label": "Needs a low-balance account (balance < 70)",
+    "note": "acda.test9 has 3545 credits and is the only Google account on the phone; no low-balance account can sign in without a password"
+  },
+  "TC-135": {
+    "label": "Needs a low-balance account (balance < 70)",
+    "note": "acda.test9 has 3545 credits and is the only Google account on the phone; no low-balance account can sign in without a password"
+  },
+  "TC-142": {
+    "label": "Needs a low-balance account (balance < 70)",
+    "note": "acda.test9 has 3545 credits and is the only Google account on the phone; no low-balance account can sign in without a password"
+  },
+  "TC-132": {
+    "label": "Needs a low-balance account (balance < 70)",
+    "note": "acda.test9 (now Pro) has 3510–5510 credits and is the only Google account on the phone; not burned down (~3,440 credits of generations)"
+  },
+  "TC-133": {
+    "label": "Needs a low-balance account (balance < 70)",
+    "note": "acda.test9 (now Pro) has 3510–5510 credits and is the only Google account on the phone; not burned down (~3,440 credits of generations)"
+  },
+  "TC-141": {
+    "label": "Needs a low-balance account (balance < 70)",
+    "note": "acda.test9 (now Pro) has 3510–5510 credits and is the only Google account on the phone; not burned down (~3,440 credits of generations)"
+  },
+  "TC-151": {
+    "label": "Needs the RD stage test date moved (New Year window)",
+    "note": "steps 1–2 seen (Pro launch goes straight to the Launcher); step 3 needs the test date 2026-12-30"
+  },
+  "TC-129": {
+    "label": "Needs the RD stage test date moved (New Year window)",
+    "note": "needs the test date 2026-12-25 00:03; today no countdown above the CTAs"
+  },
+  "TC-117": {
+    "label": "Defect: no VIP Benefits page on 16.9.0",
+    "note": "the Pro VIP banner is the card on Mine and opens nothing (TC-115 Fail), so Back from that page cannot be tested"
+  },
+  "TC-148": {
+    "label": "Defect: Christmas credit pack not offered",
+    "note": "Free: pdrm_500_credit_freeuser_christmas is fetched but has no card (TC-124 Fail); nothing bought"
+  },
+  "TC-149": {
+    "label": "Defect: Christmas credit pack not offered",
+    "note": "Pro: pdrm_2000_credit_paiduser_christmas is fetched but has no card, with or without Auto Pass (TC-122 / TC-126 Fail); nothing bought"
+  }
+}

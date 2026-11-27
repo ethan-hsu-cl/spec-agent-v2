@@ -1,0 +1,6 @@
+{
+  "lede": "Fourth batch of this feature, from R3: the low-balance Not Enough Credit rows (REQ-007, R3-a re-run REQ-008), build 2611251, Stage, acda.test9 Free with 7 credits against the 70-credit Image to Video Custom price, phone date moved into each window (KF-003). One new bug: ISS-XMA-41 (system Back on the Free dialog also leaves Image to Video).",
+  "why": {
+    "ISS-XMA-41": "Inputs lost: the photo, prompt and model are gone; ⓧ keeps them. Christmas and New Year dialogs."
+  }
+}

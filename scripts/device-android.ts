@@ -584,8 +584,13 @@ switch (cmd) {
   }
   case 'hidekb': await s('POST', '/appium/device/hide_keyboard', {}).catch(() => {}); console.log('keyboard hidden'); break;
   case 'type': await mobile('type', { text: rest.join(' ') }); console.log('typed'); break;
-  case 'back': await mobile('pressKey', { keycode: 4 }); console.log('back'); break;
-  case 'home': await mobile('pressKey', { keycode: 3 }); console.log('home'); break;
+  // UiAutomator2 5.x dropped `mobile: pressKey` (2026-11-23, SM-A516B): fall back to the W3C keycode route, then adb.
+  case 'back': case 'home': {
+    const keycode = cmd === 'back' ? 4 : 3;
+    try { await mobile('pressKey', { keycode }); }
+    catch { try { await s('POST', '/appium/device/press_keycode', { keycode }); } catch { sh(`input keyevent ${keycode}`); } }
+    console.log(cmd); break;
+  }
   case 'launch': {
     const li = rest.indexOf('--lang');
     if (li >= 0) setLanguage(rest[li + 1]);

@@ -58,7 +58,7 @@ MAX_NOTE_LINES = 7     # Device / MUI / Spec Link (≤2) / Basis / Related / <Cl
 SUMMARY_RE = re.compile(r"^摘要\s*[:：]\s*")
 SECTIONS = ["Repro Steps:", "Result:", "Expect Result:", "Note:"]
 URL_LINE = re.compile(r"^\s*https?://\S+\s*$")
-NOTE_LINE = re.compile(r"\s*(https?://\S+\s*$|Device:|MUI:|Spec Link:|Basis:|Related:|Design:|Jira:|<Claude Reviewed>|<GPT Reviewed>)")
+NOTE_LINE = re.compile(r"\s*(https?://\S+\s*$|Device:|MUI:|Spec Link:|Basis:|Related:|Comparison:|Design:|Jira:|<Claude Reviewed>|<GPT Reviewed>)")
 BASIS_RE = re.compile(r"^\s*Basis:\s*(In-product|External|None)\b\s*[—–-]?\s*(.*)$", re.I | re.M)
 IMAGE_EXT = re.compile(r"\.(jpe?g|png|gif|heic|webp)$", re.I)
 LOG_EXT = re.compile(r"_log\.(txt|log|zip)$", re.I)
@@ -351,6 +351,19 @@ def check_desc(key, desc, version, rep, files, upload_dir, tags=None, belong=Non
                 rep.err(key, f"{label}'s 摘要 contains no Chinese; it must be 正體中文（台灣用語）")
 
     note_lines = [l for l in note.split("\n") if l.strip()]
+    # a reviewer-requested comparison (user, 2026-11-25): 'Comparison: …' then one '- <item>: …' row per
+    # line; the rows are data, not Note lines, and do not count against the cap
+    kept, in_cmp = [], False
+    for l in note_lines:
+        if l.strip().startswith("Comparison:"):
+            in_cmp = True
+            kept.append(l)
+        elif in_cmp and l.strip().startswith("- "):
+            continue
+        else:
+            in_cmp = False
+            kept.append(l)
+    note_lines = kept
     # a Spec Link's URL sits on its own line (user, 2026-11-11); it does not count against the cap
     if len([l for l in note_lines if not URL_LINE.match(l)]) > MAX_NOTE_LINES:
         rep.err(key, f"Note has {len(note_lines)} lines (cap {MAX_NOTE_LINES}) — "

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "creator": "ANGOL_HUANG",
+    "creators_read_back": [
+      "ANGOL_HUANG"
+    ],
+    "token_owner": "",
+    "method": "api",
+    "tr": "TR261125-0064",
+    "server": "Stage",
+    "version": "16.9.0",
+    "build": "2611251",
+    "filed_on": "2026-11-26"
+  },
+  "bugs": [
+    {
+      "bugcode": "DRA262611P0328",
+      "short": "PDR-A 16.9.0 - [AIAgent][UI][ITA/VIE] Christmas Sale (Not Enough Credit): Free dialog body says Pro+; VIE mostly English",
+      "status": "BugNeedReview",
+      "severity": 3,
+      "priority": 5,
+      "belong": "RD",
+      "creator": "ANGOL_HUANG",
+      "created": "2026-11-26T16:23:45",
+      "build": "2611251",
+      "tr": "TR261125-0064",
+      "product": "PowerDirector Mobile for Android",
+      "template": "Generic v16.9",
+      "assignee": null,
+      "handler": "ANGOL_HUANG",
+      "version": "16.9.0",
+      "bug_source": "QA",
+      "reproduce": "2/2",
+      "happened": "Unknown",
+      "desc": "Repro Steps:\n1. Launch the APP with the phone on the real date\n2. Tap 「Image to Video」 on the Launcher\n3. Tap 「Custom」\n4. Tap the photo area\n5. Select a photo\n6. Enter a prompt\n7. Set the phone date to 2026-12-24 in Settings (automatic date and time off)\n8. Set the app language of PowerDirector to Italiano in Settings (per-app language)\n9. Return to the APP (Image to Video still open)\n10. Tap 「Genera」 (70 credits)\n11. Wait until the 「Passa a Pro」 dialog shows\n12. Read the dialog body\n13. Tap ⓧ\n14. Set the app language of PowerDirector to Tiếng Việt in Settings\n15. Return to the APP\n16. Tap 「Tạo」 (70 credits)\n17. Wait until the 「Nâng Cấp Lên Pro」 dialog shows\n18. Read the dialog body\n19. Check the result\n\nResult:\nITA body says 「Passa Pro+」, VIE 「Nâng cấp lên Pro+」 (titles say Pro); the VIE body is mostly English.\n摘要：義大利文與越南文內文寫成 Pro+（標題為 Pro）；越南文內文大多仍是英文。\n{16.9.0_xma42_ita.jpg} {16.9.0_xma42_vie.jpg} {16.9.0_xma42_eng.jpg}\n\nExpect Result:\nThe body names Pro like the title and the English 「Upgrade to Pro」, fully in the app language.\n摘要：內文應與標題及英文一致寫 Pro，且完整翻譯成該語言。\n\nNote:\nDevice: Samsung Galaxy A51 SM-A516B / Android 13\nRelated: Christmas sale window (Stage server, phone date 2026-12-24); build 2611251; Free account, signed in, balance 7 credits (below the price); Image to Video Custom (Kling 4.0, 5 s) costs 70; app language set per app\nRelated: the other 24 languages and English say Pro in the body (TC-134, TC-153 – TC-178); title and CTA are translated in ITA and VIE\nSpec Link: Christmas & New Year PM spec (PDRM-MX, Christmas Sale), pm-xmas-credit board (free user without enough credits: 「Upgrade to Pro」 dialog, English body 「… Upgrade to Pro to get free bonus credits every month.」) -\nhttps://www.figma.com/design/3urWYejMUP2uaglb4s73M5/PDRM-MX?node-id=3226-21365\n<Claude Reviewed>",
+      "attachments": [
+        "16.9.0_xma42_ita.jpg",
+        "16.9.0_xma42_vie.jpg",
+        "16.9.0_xma42_eng.jpg"
+      ],
+      "key": "NewYear-Sale-R4-01",
+      "iss": "ISS-XMA-42",
+      "feature": "NewYear-Sale-R4",
+      "problem_type": "UI"
+    }
+  ],
+  "dispositions": {}
+}

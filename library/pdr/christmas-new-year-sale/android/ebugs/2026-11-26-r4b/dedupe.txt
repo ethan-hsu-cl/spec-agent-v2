@@ -1,0 +1,12 @@
+# Dedupe — Christmas & New Year Sales Android R4-b (16.9.0.2611251), read-only eBug Search, PowerDirector Mobile for Android only
+
+- ecl_query.py dedupe upload/bodies.json: 1 entry; feature term 「Christmas Sale (Not Enough Credit)」 searched 1 candidate (DRA262611P0328, 80 %, shared phrases 「dialog body」 / 「mostly English」); open on 16.9.0 in that pool: P0328 only. Judged not a duplicate (below).
+- Whole pool read by text (--limit 2000): "tín dụng" (0), "Cần Thêm" (0), "Get credits" (0), "Vietnamese" (0), "More Credits Needed" (2), "Not Enough Credit" (8), "enough credit" (10), "Pro+" (1), "Christmas" (73), "localiz" (26), "not translated", and "VIE" / "MUI" filtered for credit / dialog / sale / Image to Video. None is about the paid 「More Credits Needed!」 dialog text in any language.
+- ISS-XMA-43 (TC-194, O-9: paid 「Cần Thêm Tín Dụng!」 dialog body 「You don't have enough tín dụng to use this feature. Get tín dụng now!」 left in English) — no same-OS match.
+  - DRA262611P0328 (open, NewCreated, R4 batch 2026-11-26-r4: [ITA/VIE] Free 「Upgrade to Pro」 / 「Nâng Cấp Lên Pro」 dialog body says Pro+, VIE mostly English, TC-159 / TC-168): RELATED, NOT A DUPLICATE. It names a different dialog (the Free user's 「Upgrade to Pro」, R-055) and a different string (the Free body with 「Upgrade to Pro to get free bonus credits every month」); this is the paid user's 「More Credits Needed!」 dialog (R-053) and its own body string 「… Get credits now!」. Same untranslated pattern, separate resource. Named in the Note's Related: line only; no comment on P0328 (AGENTS.md, overlay rule 6).
+  - DRA262611P0327 (open, R3: one Back on the Free dialog also closes Image to Video): other dialog, other defect.
+  - DRA262607-0068 / -0067 (closed, 16.5.5: More Credits Needed shown instead of Sign in): other defect.
+  - DRA262610P0301 (NAB), DRA252512-0033, DRA252511-0119, DRA252512-0051 (closed): dialog background, button order, credits after purchase — different defects.
+  - DRA262605-0077 (closed, [VIE] I2V inspiration prompt not localized): other text (the prompt), other screen element.
+  - DRA262611P0264 / P0265 / P0301 / P0302 / P0266 / P0304 ([MUI] interstitial strings): other screen.
+- Nothing commented, uploaded or filed.

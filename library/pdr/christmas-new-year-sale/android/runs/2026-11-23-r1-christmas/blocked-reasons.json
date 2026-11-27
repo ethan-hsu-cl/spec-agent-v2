@@ -1,0 +1,207 @@
+{
+  "TC-013": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-014": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-100": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-101": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-104": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-105": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-111": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-112": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-113": {
+    "group": "need:play-country",
+    "label": "Play Billing Lab terms not accepted (other Play stores: US, India, Indonesia, Philippines)",
+    "note": "Play Billing Lab's first screen accepts Google's terms; waits for the user's go-ahead (O-6)"
+  },
+  "TC-134": {
+    "group": "need:signed-in",
+    "label": "Stage sign-in fails after pm clear (bindMember HTTP 403)",
+    "note": "KP-093, O-9; DRA262611P0200 / DRA262611P0253; signed out, the Not Enough Credit dialog never comes"
+  },
+  "TC-135": {
+    "group": "need:signed-in",
+    "label": "Stage sign-in fails after pm clear (bindMember HTTP 403)",
+    "note": "KP-093, O-9; DRA262611P0200 / DRA262611P0253; signed out, the Not Enough Credit dialog never comes"
+  },
+  "TC-142": {
+    "group": "need:signed-in",
+    "label": "Stage sign-in fails after pm clear (bindMember HTTP 403)",
+    "note": "KP-093, O-9; DRA262611P0200 / DRA262611P0253; signed out, the Not Enough Credit dialog never comes"
+  },
+  "TC-145": {
+    "group": "need:tablet",
+    "label": "Interstitial stays portrait on this phone (landscape needs a tablet)",
+    "note": "TC-145: PromotionInterstitialActivity stays portrait with user_rotation 1"
+  },
+  "TC-148": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-147": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-151": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-114": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-115": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-117": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-118": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-119": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-120": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-125": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-127": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-129": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-130": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-131": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-132": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-133": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-141": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-122": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-149": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-140": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-150": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-126": {
+    "group": "need:purchase",
+    "label": "Purchases unavailable on the adb install (「Unofficial Version」)",
+    "note": "build 2611201 sideloaded with adb; every subscription CTA shows 「We couldn't verify your app installation. Purchases are unavailable.」 (O-10); R1-d not run at the user's decision"
+  },
+  "TC-001": {
+    "group": "need:rd-date",
+    "label": "RD test date fixed inside the Christmas window",
+    "note": "the row needs another date (before 12/11, a midnight boundary, the next day or another time zone)"
+  },
+  "TC-002": {
+    "group": "need:rd-date",
+    "label": "RD test date fixed inside the Christmas window",
+    "note": "the row needs another date (before 12/11, a midnight boundary, the next day or another time zone)"
+  },
+  "TC-005": {
+    "group": "need:rd-date",
+    "label": "RD test date fixed inside the Christmas window",
+    "note": "the row needs another date (before 12/11, a midnight boundary, the next day or another time zone)"
+  },
+  "TC-010": {
+    "group": "need:rd-date",
+    "label": "RD test date fixed inside the Christmas window",
+    "note": "the row needs another date (before 12/11, a midnight boundary, the next day or another time zone)"
+  },
+  "TC-011": {
+    "group": "need:old-build",
+    "label": "No earlier PowerDirector build to upgrade from",
+    "note": "upgrade-user rows"
+  },
+  "TC-012": {
+    "group": "need:old-build",
+    "label": "No earlier PowerDirector build to upgrade from",
+    "note": "upgrade-user rows"
+  }
+}

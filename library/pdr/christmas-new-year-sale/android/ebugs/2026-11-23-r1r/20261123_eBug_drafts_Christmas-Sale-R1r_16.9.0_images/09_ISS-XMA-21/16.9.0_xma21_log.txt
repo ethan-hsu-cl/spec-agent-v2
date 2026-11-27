@@ -1,0 +1,7 @@
+2026-11-23 15:17:16.314 32278 32278 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_christmas price: $84.99
+2026-11-23 15:17:16.314 32278 32278 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_yr_autopass price: $84.99
+2026-11-23 15:25:52.708  9620  9753 D CreditSystemManager: getMemberCreditRemain, gGetMemberRemainResponse: GGetMemberRemainResponse(totalRemain=3510, data=[BonusItem(remainCredit=43, category=give_away, eventId=giveaway_monthly, sid=0d340b
+2026-11-23 15:25:55.025  9620  9940 D CreditSystemManager: getMemberCreditRemain, gGetMemberRemainResponse: GGetMemberRemainResponse(totalRemain=5510, data=[BonusItem(remainCredit=43, category=give_away, eventId=giveaway_monthly, sid=0d340b
+2026-11-23 15:25:55.155  9620  9662 D CreditSystemManager: getMemberCreditRemain, gGetMemberRemainResponse: GGetMemberRemainResponse(totalRemain=5510, data=[BonusItem(remainCredit=43, category=give_away, eventId=giveaway_monthly, sid=0d340b
+2026-11-23 15:26:12.354  9620  9620 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_christmas price: NT$2,740.00
+2026-11-23 15:26:12.355  9620  9620 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_yr_autopass price: NT$2,490.00

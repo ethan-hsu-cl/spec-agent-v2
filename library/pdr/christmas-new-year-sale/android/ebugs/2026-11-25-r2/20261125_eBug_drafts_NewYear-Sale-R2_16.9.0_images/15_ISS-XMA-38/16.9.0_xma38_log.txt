@@ -1,0 +1,12 @@
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credits_paiduser_non_consumable price: NT$3,350.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_firstpurchase_non_consumable price: NT$2,820.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credits_paiduser price: NT$3,350.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_firstpurchase price: NT$2,820.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_summerpromo price: NT$2,400.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_christmas price: NT$2,740.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credits_freeuser_non_consumable price: NT$6,990.00
+2026-12-30 13:04:56.819 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_freeuser_firstpurchase_non_consumable price: NT$5,600.00
+2026-12-30 13:04:56.820 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credits_freeuser price: NT$6,990.00
+2026-12-30 13:04:56.820 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_freeuser_firstpurchase price: NT$5,600.00
+2026-12-30 13:04:56.820 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_freeuser_summerpromo price: NT$4,500.00
+2026-12-30 13:04:56.820 20661 20661 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_yr_autopass price: NT$2,490.00

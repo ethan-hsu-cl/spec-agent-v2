@@ -1,0 +1,11 @@
+# Dedupe — Christmas & New Year Sales Android R4 (16.9.0.2611251), read-only eBug Search, PowerDirector Mobile for Android only
+
+- ecl_query.py dedupe upload/bodies.json: 1 entry, no likely duplicate (feature term 「Christmas Sale (Not Enough Credit)」 searched 0 candidates, so the pool was read by text below).
+- Whole pool read by text (--limit 2000): "Pro+" (1), "Passa" (0), "Vietnamese" (0), "tín dụng" (0), "Nâng cấp" (0), "free bonus" (0), "Italian" (1), "Not Enough Credit" (7), "enough credit" (9), "Upgrade to Pro" (3), "Christmas" (73), "VIE" (1005) / "ITA" (88) / "MUI" (404) filtered for language tags with credit / dialog / upgrade / sale / Image to Video. Open on 16.9.0: 148 tickets read; none is about the Not Enough Credit dialog text or a plan name in any language.
+- ISS-XMA-42 (TC-159 ITA, TC-168 VIE, O-4: free 「Upgrade to Pro」 dialog body names Pro+; VIE body mostly English) — no same-OS match.
+  - DRA262611P0327 (open, R3: one Back on the same dialog also closes Image to Video): same dialog, other defect.
+  - DRA262608-0039 (closed, 16.6.0, Launcher shows 「Try Pro+ 7days for free」): other screen, the only Pro+ ticket.
+  - DRA262611P0303 (open, [FRA/ITA/UKR/ESP] New Year interstitial title art), P0304 / P0266 (CTA wording vs sheet), P0264 / P0301 / P0265 / P0302 (interstitial strings not localized): other screen (interstitial), not this dialog.
+  - DRA262610P0301 (NAB, Black Friday Not Enough Credits background), DRA252512-0033 (closed, dialog background colour), DRA252511-0119 (closed, I2V Not Enough Credit button order), DRA262607-0292 (closed, 「Upgrade to Pro」 dialog again on tab switch): different defects.
+  - DRA262610P0435 (closed, [MUI] AI Mini Drama Italian chip): other feature.
+- Nothing commented, uploaded or filed.

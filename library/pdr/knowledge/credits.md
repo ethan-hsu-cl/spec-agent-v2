@@ -19,12 +19,15 @@ screen is reopened, and the Pro tab can trail one charge behind the ledger (Andr
 
 ## KP-041 Daily free credits
 - kind: fact · platform: both · use: analysis, run · tags: credits, claim
-- source: exploration KB mine-page.md (2026-09-07 PDRM TestFlight, and 2026-09-29, 16.9.0 build 189315, Free); Android: Video Enhance run 2026-11-10-r1-full O-27 (offer seen, not claimed)
+- source: exploration KB mine-page.md (2026-09-07 PDRM TestFlight, and 2026-09-29, 16.9.0 build 189315, Free); Android: Video Enhance run 2026-11-10-r1-full O-27 (offer seen, not claimed); Christmas & New Year Sales Android run 2026-11-26-r3-lowbalance O-5 (inbox I-031) · verified: android 16.9.0 build 2611251 (2026-11-26)
 
 My Credits carries 「Complimentary daily credits / Claim once every 24 hours / Claim」; a claim gives 5 credits
 (toast 「5 Credits Received · valid for 7 days」). Yet 「Expiring within 7 days」 stays 「0 credit」 after it
 (ISS-MP-27, DRI261893-0042). Android's Mine › Credit page shows the same 「Complimentary daily credits ‹Claim›」
-offer (16.9.0 build 2611091); its amount there is unchecked.
+offer (16.9.0 build 2611091). On Android (Pro, Stage, Christmas credit page, 16.9.0 build 2611251) merely opening the
+credit page granted 3 credits with no tap: toast 「3 Credits Received」 「Daily free credits are valid for 7 days. Check
+back again tomorrow for more!」, 「Expiring within 7 days: 3 credits」. Each new phone day may add 3 more, so re-read the
+balance before a low-balance row.
 
 ## KP-067 Credits can read 「--」 or 0 right after a launch
 - kind: quirk · platform: android · use: run · tags: credits, billing, logs, launch
@@ -74,7 +77,7 @@ Omni Flash 1.1 5 s 25. Prices are server-set: recheck on each build (Image / Tex
 
 ## KP-092 Reading the balance from the Android log
 - kind: howto · platform: android · use: run · tags: credits, logs
-- source: AIGC Watermark Android run 2026-11-17-r1-full O-1, O-7, O-18, O-25; AIGC Watermark Android run 2026-11-23-r2-changed · verified: 16.9.0 build 2611193 (2026-11-23)
+- source: AIGC Watermark Android run 2026-11-17-r1-full O-1, O-7, O-18, O-25; AIGC Watermark Android run 2026-11-23-r2-changed · verified: 16.9.0 build 2611231 (2026-11-25)
 
 CreditSystemManager logs `totalRemain=<n>` after each launch and each charge; it matched the credit pill every time,
 so a charge can be checked by clock time in logcat without opening Mine › Credits.
@@ -95,3 +98,12 @@ Image to Video 5 s: Kling 4.0 70, Kling O3 25, Pixverse V6 20, Wan 3.0 50, Gemin
 40, Seedance 2.5 150, Seedance 2.0 40, Veo 3.1 32, Vidu Q2 15, Wan 2.7 40; templates 15 or 25. Text to Video 9:16 5 s
 1080p: Kling 4.0 70, Wan 3.0 50, Seedance 2.5 150, Seedance 2.0 40, Gemini Omni Flash 25, Happy Horse 1.1 40, Wan 2.7
 40, Veo 3.1 28, Kling O3 30. Video Edit by Chat Seedance 2.5 14 a second, Kling O3 5. Others as KP-091.
+
+## KP-145 Stage ran a Black Friday Not Enough Credit dialog on 2026-11-26
+- kind: fact · platform: android · use: run, analysis · tags: credits, campaign, server, date · authority: observed
+- source: Christmas & New Year Sales Android run 2026-11-26-r3-lowbalance O-3 (inbox I-031; scope: seen from Image to Video, the dialog is the app's credit gate) · verified: 16.9.0 build 2611251 (2026-11-26)
+
+On the real date 2026-11-26 Stage showed no Christmas or New Year theme, and Generate with too few credits opened a
+Black Friday dialog (purple card, 「Black Friday」 「SALE」, 「More Credits Needed!」, 「Grab Discount Now!」, ⓧ closes it
+with no charge). So a real-date run on Stage is not a "regular" baseline while another campaign is live. The dialog is
+not in the accessibility tree: read its texts from the screenshot. Version-bound; check the date's campaign first.

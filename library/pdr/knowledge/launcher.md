@@ -131,3 +131,12 @@ to Video templates (Ghost Step 15, Breakthrough / Tiny Darling 25 credits). No T
 A drag on the AI-Powered Creation row can land as a tap on a Recent Projects card when the page sits lower: find
 `tv_smart_tools` first and drag about 330 px below it. Switching the phone's dark / light mode recreates the Launcher:
 Back from an open Recent page then lands on Home, not where it came from.
+
+## KP-140 Intro pages before the Launcher after a reset
+- kind: fact · platform: android · use: analysis, run · tags: launch, intro, reset
+- source: Christmas & New Year Sales Android run 2026-11-23-r1-christmas O-8 · verified: 16.9.0 build 2611201 (2026-11-23)
+
+On the second launch after `pm clear` (en-US) the app shows 「Welcome to PowerDirector」 「Get Started」 (Open intro),
+then an AI Mini Drama intro (「Turn your ideas and characters into captivating mini dramas.」 「Continue」, then 「Try It
+Now」 with 「Don't show again」); its back arrow goes on to the next launch page (a campaign interstitial, else the
+Launcher). Rows that start from a launch walk past these pages first.

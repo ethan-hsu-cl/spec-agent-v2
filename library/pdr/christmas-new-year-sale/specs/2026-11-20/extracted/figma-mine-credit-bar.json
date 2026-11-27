@@ -1,0 +1,14 @@
+{
+  "read_at": "2026-11-26",
+  "how": "figma-design get_metadata (qa-dm), Design file HpkQG91Rm4POCXpzjC1QbT, Christmas section; user request 2026-11-26 (Mine Credits bar proportion).",
+  "unit": "Figma px on a 375 x 812 frame",
+  "free": {"frame": "2682:13540 mine_free", "card": {"node": "2682:13542 usercard", "x": 16, "y": 104, "w": 343, "h": 232},
+           "top": {"node": "I2682:13542;330:13181", "h": 176}, "credit_bar": {"node": "I2682:13542;330:13215", "y_in_card": 176, "w": 343, "h": 56,
+           "children": {"icon+Credits": "x 12 y 16 w 82 h 24 (icon 24, text 20)", "value+chevron": "x 273 y 18 w 58 h 20"}},
+           "ratios": {"bar_h_over_card_h": 0.2414, "bar_h_over_card_w": 0.1633, "bar_h_over_top_h": 0.3182}},
+  "pro": {"frame": "2718:4363 mine_vip", "card": {"node": "2718:4366 usercard", "x": 16, "y": 96, "w": 343, "h": 180},
+          "top": {"node": "I2718:4366;330:14087", "h": 124}, "credit_bar": {"node": "I2718:4366;330:14121", "y_in_card": 124, "w": 343, "h": 56,
+          "children": {"icon+Credits": "x 12 y 16 w 82 h 24", "value+chevron": "x 282 y 18 w 49 h 20"}},
+          "ratios": {"bar_h_over_card_h": 0.3111, "bar_h_over_card_w": 0.1633, "bar_h_over_top_h": 0.4516}},
+  "note": "2718:4471 mine_vip is the other VIP card style (My Credits inside the card, no separate bar)."
+}

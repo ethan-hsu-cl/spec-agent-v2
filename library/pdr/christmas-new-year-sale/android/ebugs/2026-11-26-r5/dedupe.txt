@@ -1,0 +1,17 @@
+# Dedupe — Christmas & New Year Sales Android R5 (16.9.0.2611251), read-only eBug Search, PowerDirector Mobile for Android only
+
+- ecl_query.py dedupe upload/bodies.json: 3 entries; 「New Year Sale (IAP)」 searched 5 candidates, the two other feature terms 0; no likely duplicate. Open on 16.9.0 in that pool: DRA262611P0307 (discount 57 % vs 57.99 %) — other defect.
+- Whole pool read by text (--limit 2000): "light mode" / "Light Mode" (71), "dark mode" (24), "New Year" (56), "landscape" (633, read for IAP / sale / light / dark), "separator" (3), "Credits bar" (0), "Credit bar" (0), "Mine" (34), "height" (51), "IAP" (405), "Christmas" (75), "border" (185), and every 16.9.0 ticket filtered for sale / Mine / credit / IAP / landscape / light / dark.
+- ISS-XMA-44 (TC-102, TC-146: New Year IAP annual card keeps the dark navy background in light mode) — no same-OS match.
+  - DRA262611P0309 (NAB by the user's ruling, R2: New Year IAP plan-card tag and discount texts 「Special Offer」 / 「57% OFF」): NOT A DUPLICATE — text of the card, ruled NAB (follows the Design); this is the card's background colour. Mentioned in the review lede and QA note only; not commented on, not cited in the ticket.
+  - DRA262611P0275 (NAB, Christmas IAP texts), DRA262611P0307 / P0269 (discount maths), DRA262611P0310 / P0258 (NAB, Mine VIP card decoration): other defects.
+  - DRA252508-0159 (closed, 15.7.0 [UX][Light Mode] IAP background awkward), DRA252508-0271 (closed, IAP 「Try It Free」 in dark mode), DRA252509-0208 / DRA252511-0150 (closed, 「100 monthly credits」 hard to read in light mode): other elements, closed, not this campaign card.
+- ISS-XMA-45 (TC-146: landscape IAP 「|」 separators white in both modes, monthly border fixed grey; both seasons) — no same-OS open match.
+  - DRA252511-0121 / DRA252511-0122 (closed, 15.9.1 [Landscape] Christmas Sale (IAP): selected monthly plan highlight colour, light / dark) and DRA252512-0005 (closed, 15.9.1 [Landscape] Christmas/New Year (IAP): price, discount and terms text colours): RELATED, CLOSED — last year's landscape colour fixes; they do not name the separators or the unselected monthly border. Closed same-OS tickets do not hide a finding (overlay rule 7): new entry, named in the Note's Related line.
+  - DRA252509-0008 (closed, 15.7.0 [Light Mode] IAP divider colour, portrait): other screen orientation and element; portrait separators are correct today.
+  - DRA262611P0305 / P0267 (open, interstitial bottom links overlap separators in RUS/FRA/UKR/POL): other screen (interstitial), other defect (overlap, not colour).
+  - DRA262607-0035 (closed, 16.5.5 Obon landscape yearly plan text colour), DRA252511-0155 (closed, navigation bar overlaps landscape IAP): other defects.
+- ISS-XMA-46 (O-5, O-8: Mine / Pro Credits bar 207 px vs 162.6 Figma-scaled) — no same-OS match.
+  - DRA262608-0026 (closed, 16.6.0 Mine page uses the iOS layout), DRA262608-0030 (closed, VIP crown too small), DRA262608-0069 (closed, whole credit section tappable), DRA262608-0087 / -0120 / -0125 / -0134 (closed, Mine text / benefits): other elements of Mine; none is about the Credits bar height or proportion.
+  - DRA262611P0308 / P0263 (Mine top pill), DRA262611P0310 / P0258 (NAB, VIP card decoration): other elements.
+- Nothing commented, uploaded or filed.

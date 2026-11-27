@@ -1,0 +1,244 @@
+2026-11-26T09:20:34.732Z restart R5CN8194YSN
+2026-11-26T09:20:43.652Z logcat start
+2026-11-26T09:20:43.882Z build 
+2026-11-26T09:20:48.460Z shot r5-start
+2026-11-26T09:20:49.360Z texts 
+2026-11-26T09:21:03.021Z source 
+2026-11-26T09:21:03.581Z els 
+2026-11-26T09:21:09.162Z source 
+2026-11-26T09:21:25.828Z shot r5c-mine-free-dark
+2026-11-26T09:21:27.039Z source 
+2026-11-26T09:21:36.858Z id layout_premium
+2026-11-26T09:21:39.377Z shot r5c-mine-free-dark
+2026-11-26T09:21:40.120Z source 
+2026-11-26T09:21:45.938Z launch 
+2026-11-26T09:21:53.228Z texts 
+2026-11-26T09:21:54.004Z shot r5-after-launch-dark
+2026-11-26T09:22:07.342Z shot r5-sys-display
+2026-11-26T09:22:15.194Z activate 
+2026-11-26T09:22:17.657Z els 
+2026-11-26T09:22:21.102Z id iv_menu
+2026-11-26T09:22:23.493Z texts 
+2026-11-26T09:22:26.794Z lbl Preferences
+2026-11-26T09:22:28.811Z texts 
+2026-11-26T09:22:35.351Z lbl Appearance
+2026-11-26T09:22:37.584Z texts 
+2026-11-26T09:22:38.420Z shot r5-app-appearance
+2026-11-26T09:22:45.139Z lbl Device Settings
+2026-11-26T09:22:48.616Z shot r5-app-appearance-device
+2026-11-26T09:22:49.500Z texts 
+2026-11-26T09:22:54.890Z back 
+2026-11-26T09:22:55.198Z back 
+2026-11-26T09:22:56.920Z texts 
+2026-11-26T09:22:57.361Z id layout_premium
+2026-11-26T09:22:59.725Z shot r5c-mine-free-dark
+2026-11-26T09:23:00.551Z source 
+2026-11-26T09:23:04.980Z back 
+2026-11-26T09:23:06.709Z id layout_premium
+2026-11-26T09:23:09.902Z shot r5c-mine-free-dark
+2026-11-26T09:23:10.649Z source 
+2026-11-26T09:23:40.137Z texts 
+2026-11-26T09:23:46.935Z texts 
+2026-11-26T09:23:51.366Z lbl Set date
+2026-11-26T09:23:53.283Z els 
+2026-11-26T09:23:58.074Z lbl Wednesday, December 30, 2026
+2026-11-26T09:23:59.402Z lbl Done
+2026-11-26T09:24:04.050Z texts 
+2026-11-26T09:24:12.367Z launch 
+2026-11-26T09:24:19.690Z case TC-102
+2026-11-26T09:24:19.854Z texts 
+2026-11-26T09:24:24.100Z shot r5a-ny-interstitial-light
+2026-11-26T09:24:25.375Z els 
+2026-11-26T09:24:30.505Z id btn_close
+2026-11-26T09:24:32.867Z id layout_premium
+2026-11-26T09:24:35.955Z id btn_claim_offer
+2026-11-26T09:24:40.648Z shot r5a-ny-iap-light
+2026-11-26T09:24:41.684Z source 
+2026-11-26T09:24:52.580Z els 
+2026-11-26T09:25:36.002Z texts 
+2026-11-26T09:25:51.255Z id layout_premium
+2026-11-26T09:26:34.746Z id btn_claim_offer
+2026-11-26T09:26:49.828Z shot r5a-ny-iap-dark
+2026-11-26T09:26:50.896Z source 
+2026-11-26T09:27:14.428Z lbl [AID]IAP_Back
+2026-11-26T09:27:58.152Z case TC-146
+2026-11-26T09:28:01.368Z id layout_home
+2026-11-26T09:28:45.414Z shot r5b-ny-launcher-land-light
+2026-11-26T09:28:46.443Z els 
+2026-11-26T09:29:06.097Z id view_promotion_bubble
+2026-11-26T09:29:10.483Z shot r5b-ny-iap-land-light
+2026-11-26T09:29:11.432Z source 
+2026-11-26T09:29:23.643Z texts 
+2026-11-26T09:29:24.101Z shot r5b-ny-iap-land-dark
+2026-11-26T09:29:28.472Z id view_promotion_bubble
+2026-11-26T09:29:33.059Z shot r5b-ny-iap-land-dark
+2026-11-26T09:29:34.003Z source 
+2026-11-26T09:30:06.965Z back 
+2026-11-26T09:30:09.702Z lbl Set date
+2026-11-26T09:30:11.709Z lbl Previous month
+2026-11-26T09:30:12.128Z lbl Thursday, December 24, 2026
+2026-11-26T09:30:13.294Z lbl Done
+2026-11-26T09:30:20.301Z lbl Set date
+2026-11-26T09:30:22.243Z lbl Thursday, December 24, 2026
+2026-11-26T09:30:23.384Z lbl Done
+2026-11-26T09:30:34.053Z launch 
+2026-11-26T09:30:41.329Z case TC-102
+2026-11-26T09:30:41.480Z tapif btn_close
+2026-11-26T09:30:41.872Z id btn_close
+2026-11-26T09:30:45.207Z id layout_premium
+2026-11-26T09:30:47.851Z id btn_claim_offer
+2026-11-26T09:30:52.276Z shot r5a-xmas-iap-light
+2026-11-26T09:30:53.368Z source 
+2026-11-26T09:31:14.391Z texts 
+2026-11-26T09:31:25.222Z tapif btn_claim_offer
+2026-11-26T09:31:36.541Z texts 
+2026-11-26T09:31:52.051Z id layout_premium
+2026-11-26T09:32:35.098Z id btn_claim_offer
+2026-11-26T09:32:50.445Z shot r5a-xmas-iap-dark
+2026-11-26T09:32:51.444Z source 
+2026-11-26T09:33:16.946Z case TC-146
+2026-11-26T09:33:21.461Z texts 
+2026-11-26T09:33:21.978Z tapif [AID]IAP_Back
+2026-11-26T09:33:22.489Z id layout_home
+2026-11-26T09:33:24.902Z els 
+2026-11-26T09:33:30.061Z id tv_try
+2026-11-26T09:33:34.969Z shot r5b-xmas-iap-land-light
+2026-11-26T09:33:35.812Z source 
+2026-11-26T09:33:40.477Z tapif tv_try
+2026-11-26T09:33:41.032Z id tv_try
+2026-11-26T09:33:45.634Z shot r5b-xmas-iap-land-dark
+2026-11-26T09:33:46.562Z source 
+2026-11-26T09:34:15.328Z tapif [AID]IAP_Back
+2026-11-26T09:34:16.096Z texts 
+2026-11-26T09:34:16.471Z id iv_menu
+2026-11-26T09:34:18.634Z lbl Preferences
+2026-11-26T09:34:20.882Z lbl Appearance
+2026-11-26T09:34:23.039Z lbl Light Mode
+2026-11-26T09:34:25.700Z texts 
+2026-11-26T09:34:29.183Z shot r5-end-check
+2026-11-26T09:34:30.090Z texts 
+2026-11-26T09:34:40.637Z back 
+2026-11-26T09:34:52.662Z shot r5-end-check
+2026-11-26T09:35:03.405Z tap 82 180
+2026-11-26T09:35:05.759Z shot r5-end-check
+2026-11-26T09:35:11.376Z texts 
+2026-11-26T09:35:20.494Z id iv_menu
+2026-11-26T09:35:22.324Z scrollto Preferences
+2026-11-26T09:35:22.805Z lbl Preferences
+2026-11-26T09:35:24.727Z lbl Appearance
+2026-11-26T09:35:26.582Z lbl Light Mode
+2026-11-26T09:35:28.976Z texts 
+2026-11-26T09:35:29.866Z shot r5-end-appearance
+2026-11-26T09:35:33.863Z texts 
+2026-11-26T09:35:34.558Z back 
+2026-11-26T09:35:35.886Z back 
+2026-11-26T09:35:37.223Z texts 
+2026-11-26T09:35:42.355Z back 
+2026-11-26T09:35:44.082Z texts 
+2026-11-26T09:35:55.561Z pull-logs R5-a
+2026-11-26T09:36:33.111Z run-log set TC-102 Fail
+2026-11-26T09:36:33.253Z run-log set TC-146 Fail
+2026-11-26T09:40:10.048Z restart R5CN8194YSN
+2026-11-26T09:40:18.794Z logcat start
+2026-11-26T09:40:18.949Z build 
+2026-11-26T09:40:19.207Z texts r5d-start
+2026-11-26T09:40:24.371Z lbl Claim Holiday Deal
+2026-11-26T09:40:27.716Z texts r5d-iap
+2026-11-26T09:40:45.771Z lbl Continue
+2026-11-26T09:41:34.886Z texts r5d-play-sheet
+2026-11-26T09:41:43.104Z lbl Subscribe
+2026-11-26T09:41:54.383Z texts r5d-after-sub
+2026-11-26T09:42:02.568Z back 
+2026-11-26T09:42:06.465Z texts r5d-back-from-chrome
+2026-11-26T09:42:14.023Z els Subscribe
+2026-11-26T09:42:14.418Z tap 540 2190
+2026-11-26T09:42:24.706Z texts r5d-after-sub
+2026-11-26T09:42:29.019Z lbl Mine
+2026-11-26T09:42:33.717Z texts r5d-mine-pro-light
+2026-11-26T09:42:37.869Z els 
+2026-11-26T09:42:41.469Z id layout_premium
+2026-11-26T09:42:46.064Z texts r5d-mine-pro-light
+2026-11-26T09:42:52.847Z shot r5c-mine-pro-light
+2026-11-26T09:42:53.555Z source 
+2026-11-26T09:43:20.313Z lbl Home
+2026-11-26T09:43:22.796Z id iv_menu
+2026-11-26T09:43:25.185Z scrollto Preferences
+2026-11-26T09:43:25.772Z lbl Preferences
+2026-11-26T09:43:28.300Z lbl Appearance
+2026-11-26T09:43:30.871Z texts r5d-appearance-before
+2026-11-26T09:43:36.604Z lbl Dark Mode
+2026-11-26T09:43:41.012Z texts r5d-after-dark
+2026-11-26T09:43:46.338Z back 
+2026-11-26T09:43:48.705Z back 
+2026-11-26T09:43:51.039Z texts 
+2026-11-26T09:43:51.576Z id layout_premium
+2026-11-26T09:43:56.033Z texts 
+2026-11-26T09:43:56.544Z shot r5c-mine-pro-dark
+2026-11-26T09:43:57.248Z source 
+2026-11-26T09:44:01.922Z back 
+2026-11-26T09:44:04.659Z id layout_premium
+2026-11-26T09:44:09.139Z texts 
+2026-11-26T09:44:09.573Z shot r5c-mine-pro-dark
+2026-11-26T09:44:10.320Z source 
+2026-11-26T09:44:29.398Z lbl Home
+2026-11-26T09:44:31.921Z id iv_menu
+2026-11-26T09:44:34.314Z scrollto Preferences
+2026-11-26T09:44:34.849Z lbl Preferences
+2026-11-26T09:44:37.366Z lbl Appearance
+2026-11-26T09:44:40.024Z lbl Light Mode
+2026-11-26T09:44:45.965Z texts r5d-end-appearance
+2026-11-26T09:44:47.121Z back 
+2026-11-26T09:44:49.468Z back 
+2026-11-26T09:44:51.806Z back 
+2026-11-26T09:44:54.557Z texts r5d-end
+2026-11-26T09:45:03.798Z pull-logs R5-c
+2026-11-26T09:20:49.175Z file screenshots/r5-start.png
+2026-11-26T09:21:09.479Z file screenshots/r5c-mine-free-light.png
+2026-11-26T09:21:55.056Z file screenshots/r5-after-launch-dark.png
+2026-11-26T09:22:07.859Z file screenshots/r5-sys-display.png
+2026-11-26T09:22:38.915Z file screenshots/r5-app-appearance.png
+2026-11-26T09:22:49.105Z file screenshots/r5-app-appearance-device.png
+2026-11-26T09:23:10.465Z file screenshots/r5c-mine-free-dark.png
+2026-11-26T09:24:25.177Z file screenshots/r5a-ny-interstitial-light.png
+2026-11-26T09:24:41.498Z file screenshots/r5a-ny-iap-light.png
+2026-11-26T09:26:50.707Z file screenshots/r5a-ny-iap-dark.png
+2026-11-26T09:28:46.243Z file screenshots/r5b-ny-launcher-land-light.png
+2026-11-26T09:29:11.241Z file screenshots/r5b-ny-iap-land-light.png
+2026-11-26T09:29:33.810Z file screenshots/r5b-ny-iap-land-dark.png
+2026-11-26T09:30:53.170Z file screenshots/r5a-xmas-iap-light.png
+2026-11-26T09:32:51.254Z file screenshots/r5a-xmas-iap-dark.png
+2026-11-26T09:33:35.621Z file screenshots/r5b-xmas-iap-land-light.png
+2026-11-26T09:33:46.366Z file screenshots/r5b-xmas-iap-land-dark.png
+2026-11-26T09:35:06.798Z file screenshots/r5-end-check.png
+2026-11-26T09:35:30.330Z file screenshots/r5-end-appearance.png
+2026-11-26T09:36:01.100Z file logs/R5-a-20261126-173555
+2026-11-26T09:36:01.598Z file screenshots/r5c-crop-free-light.png
+2026-11-26T09:36:01.709Z file screenshots/r5c-crop-free-dark.png
+2026-11-26T09:36:01.819Z file screenshots/r5c-crop-free-dark-r4.png
+2026-11-26T09:36:01.918Z file screenshots/r5c-crop-pro-dark-r4.png
+2026-11-26T09:40:19.350Z file screenshots/r5d-start.txt
+2026-11-26T09:40:19.836Z file screenshots/r5d-start.png
+2026-11-26T09:40:40.686Z file screenshots/r5d-iap.txt
+2026-11-26T09:40:41.430Z file screenshots/r5d-iap.png
+2026-11-26T09:41:35.047Z file screenshots/r5d-play-sheet.txt
+2026-11-26T09:41:35.631Z file screenshots/r5d-play-sheet.png
+2026-11-26T09:42:06.720Z file screenshots/r5d-back-from-chrome.txt
+2026-11-26T09:42:07.256Z file screenshots/r5d-back-from-chrome.png
+2026-11-26T09:42:24.994Z file screenshots/r5d-after-sub.txt
+2026-11-26T09:42:26.009Z file screenshots/r5d-after-sub.png
+2026-11-26T09:42:46.224Z file screenshots/r5d-mine-pro-light.txt
+2026-11-26T09:42:46.722Z file screenshots/r5d-mine-pro-light.png
+2026-11-26T09:42:53.375Z file screenshots/r5c-mine-pro-light.png
+2026-11-26T09:43:31.377Z file screenshots/r5d-appearance-before.txt
+2026-11-26T09:43:31.944Z file screenshots/r5d-appearance-before.png
+2026-11-26T09:43:41.504Z file screenshots/r5d-after-dark.txt
+2026-11-26T09:43:41.867Z file screenshots/r5d-after-dark.png
+2026-11-26T09:44:10.122Z file screenshots/r5c-mine-pro-dark.png
+2026-11-26T09:44:23.434Z file screenshots/r5c-crop-pro-light.png
+2026-11-26T09:44:23.688Z file screenshots/r5c-crop-pro-dark.png
+2026-11-26T09:44:46.434Z file screenshots/r5d-end-appearance.txt
+2026-11-26T09:44:46.907Z file screenshots/r5d-end-appearance.png
+2026-11-26T09:44:54.937Z file screenshots/r5d-end.txt
+2026-11-26T09:44:55.958Z file screenshots/r5d-end.png
+2026-11-26T09:45:04.466Z file logs/.live
+2026-11-26T09:45:09.758Z file logs/R5-c-20261126-174503

@@ -1,0 +1,10 @@
+{
+  "lede": "Third batch of this feature, from R2: the New Year rows with the phone's date inside the New Year window (REQ-006), build 2611231 installed with adb, Stage. Most entries are the filed Christmas bugs (P0254–P0275) repeating on the New Year screens: those tickets name the Christmas sale only, so each is a new entry naming its related ticket. New: ISS-XMA-26 (Back needs two presses), ISS-XMA-30 (title art language), ISS-XMA-35 (Mine pill countdown), ISS-XMA-40 (countdown on the Christmas credit page).",
+  "why": {
+    "ISS-XMA-26": "New on 2611231: R1 on 2611201 closed with one Back.",
+    "ISS-XMA-30": "New Year art only: the Christmas art was translated.",
+    "ISS-XMA-34": "57 vs 58 in all 27 languages; the rows failed on other items too.",
+    "ISS-XMA-39": "The footer and 「unused credits」 stay with held ISS-XMA-20.",
+    "ISS-XMA-40": "Ruling Q-11: countdown on New Year only."
+  }
+}

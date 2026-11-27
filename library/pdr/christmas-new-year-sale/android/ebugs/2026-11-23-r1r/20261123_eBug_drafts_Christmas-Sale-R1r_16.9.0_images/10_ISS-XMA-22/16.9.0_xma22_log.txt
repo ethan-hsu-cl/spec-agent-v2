@@ -1,0 +1,4 @@
+2026-11-23 14:58:26.775 16774 16774 D GoogleBillingWrapper: getProductDetails: monthlysubscription_christmas_2611 price: ₱485.00
+2026-11-23 14:58:26.775 16774 16774 D GoogleBillingWrapper: getProductDetails: monthly_sub_usd6.99_202209 price: ₱469.00
+2026-11-23 15:03:15.785 18607 18607 D GoogleBillingWrapper: getProductDetails: monthlysubscription_christmas_2611 price: NT$240.00
+2026-11-23 15:03:15.785 18607 18607 D GoogleBillingWrapper: getProductDetails: monthly_sub_usd6.99_202209 price: NT$240.00

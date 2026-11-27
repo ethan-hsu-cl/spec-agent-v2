@@ -1,0 +1,8 @@
+{
+  "lede": "Seventh batch of this feature, from R5 (REQ-010): light-mode rechecks and the Mine / Pro Credits bar, build 2611251, Stage, acda.test9 (Free, then Pro by the test subscription). Three new bugs: ISS-XMA-44 the New Year annual plan card keeps the dark-mode navy in light mode (TC-102, and TC-146 in landscape); ISS-XMA-45 landscape IAP separators invisible in light and the monthly border not themed (TC-146, both seasons); ISS-XMA-46 the Mine / Pro Credits bar 27 % taller than the Design (measured). Plan-card texts are NAB by your ruling on DRA262611P0309 and are not re-raised; P0309 is about text, not the card background, so it is not a duplicate and is not commented on.",
+  "why": {
+    "ISS-XMA-44": "Design light frame draws a cream card; the app shows the dark navy art in light mode, portrait and landscape (Christmas follows the mode). RD, S3.",
+    "ISS-XMA-45": "Design draws landscape dark only; basis is the app's own portrait light/dark colours plus your ruling. RD, S3 (S4 possible).",
+    "ISS-XMA-46": "Measured: bar 207 px vs 162.6 Figma-scaled (+27.3 %), ratios and padding in the Note's Comparison block. RD, S3 (S4 possible)."
+  }
+}

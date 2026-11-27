@@ -1,0 +1,2 @@
+2027-01-01 12:00:28.048 16539 16539 D GoogleBillingWrapper: getProductDetails: monthly_sub_usd6.99_202209 price: $7.99
+2027-01-01 12:00:28.048 16539 16539 D GoogleBillingWrapper: getProductDetails: annualsubscription_newyear_2611 price: $45.99

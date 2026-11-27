@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "creator": "ANGOL_HUANG",
+    "creators_read_back": [
+      "ANGOL_HUANG"
+    ],
+    "token_owner": "",
+    "method": "api",
+    "tr": "TR261125-0064",
+    "server": "Stage",
+    "version": "16.9.0",
+    "build": "2611251",
+    "filed_on": "2026-11-26"
+  },
+  "bugs": [
+    {
+      "bugcode": "DRA262611P0327",
+      "short": "PDR-A 16.9.0 - [AIAgent] Christmas & New Year Sale (Not Enough Credit): Free dialog: one Back also closes Image to Video",
+      "status": "BugNeedReview",
+      "severity": 2,
+      "priority": 5,
+      "belong": "RD",
+      "creator": "ANGOL_HUANG",
+      "created": "2026-11-26T15:41:41",
+      "build": "2611251",
+      "tr": "TR261125-0064",
+      "product": "PowerDirector Mobile for Android",
+      "template": "Generic v16.9",
+      "assignee": null,
+      "handler": "ANGOL_HUANG",
+      "version": "16.9.0",
+      "bug_source": "QA",
+      "reproduce": "3/3",
+      "happened": "Unknown",
+      "desc": "Repro Steps:\n1. Launch the APP\n2. Tap 「Image to Video」 on the Launcher\n3. Tap 「Custom」\n4. Tap the photo area\n5. Select a photo\n6. Enter a prompt\n7. Set the phone date to 2026-12-24 in Settings (automatic date and time off)\n8. Return to the APP\n9. Tap 「Generate」 (70 credits)\n10. Wait until the 「Upgrade to Pro」 dialog shows\n11. Press system Back once\n12. Check the result\n\nResult:\nOne Back closes the dialog and Image to Video: the Launcher shows, photo and prompt lost. ⓧ closes only the dialog.\n摘要：按一次返回鍵，對話框與 Image to Video 一起關閉回到首頁，輸入遺失；ⓧ 只關對話框。\n{16.9.0_xma41_dialog.jpg} {16.9.0_xma41_after_back.jpg} {16.9.0_xma41_after_x.jpg} {16.9.0_xma41_log.txt}\n\nExpect Result:\nOne Back closes only the dialog, back on Image to Video with the inputs kept, as ⓧ does.\n摘要：按一次返回鍵應如 ⓧ 只關閉對話框，留在 Image to Video，輸入保留。\n\nNote:\nDevice: Samsung Galaxy A51 SM-A516B / Android 13\nRelated: Christmas sale window (Stage server, phone date 2026-12-24) and New Year sale window (phone date 2026-12-30); build 2611251; Free account, signed in, balance 7 credits (below the price); Image to Video Custom (Kling 4.0, 5 s) costs 70\nRelated: same on the New Year dialog (phone date 2026-12-30); the same dialog's ⓧ closes only the dialog (TC-142 third setup, TC-141 on the paid dialog); Back on the paid 「More Credits Needed!」 dialog was not tried\nSpec Link: Christmas & New Year PM spec (PDRM-MX, Christmas Sale), pm-xmas-credit board (free user without enough credits: 「Upgrade to Pro」 dialog; ⓧ closes it, back on the feature page; Android system Back acts as ⓧ, QA rule R-062) -\nhttps://www.figma.com/design/3urWYejMUP2uaglb4s73M5/PDRM-MX?node-id=3226-21365\nSpec Link: Christmas & New Year PM spec (PDRM-MX, New Year Sale), pm-ny-credit board (New Year Not Enough Credit dialog, same logic) -\nhttps://www.figma.com/design/3urWYejMUP2uaglb4s73M5/PDRM-MX?node-id=3271-4161\n<Claude Reviewed>",
+      "attachments": [
+        "16.9.0_xma41_dialog.jpg",
+        "16.9.0_xma41_after_back.jpg",
+        "16.9.0_xma41_after_x.jpg",
+        "16.9.0_xma41_log.txt"
+      ],
+      "key": "NewYear-Sale-R3-01",
+      "iss": "ISS-XMA-41",
+      "feature": "NewYear-Sale-R3",
+      "problem_type": "Functional"
+    }
+  ],
+  "dispositions": {}
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "creator": "ANGOL_HUANG",
+    "creators_read_back": [
+      "ANGOL_HUANG"
+    ],
+    "token_owner": "",
+    "method": "api",
+    "tr": "TR261125-0064",
+    "server": "Stage",
+    "version": "16.9.0",
+    "build": "2611251",
+    "filed_on": "2026-11-26"
+  },
+  "bugs": [
+    {
+      "bugcode": "DRA262611P0329",
+      "short": "PDR-A 16.9.0 - [AIAgent][UI][VIE] Christmas Sale (Not Enough Credit): Paid dialog body mostly English",
+      "status": "BugNeedReview",
+      "severity": 3,
+      "priority": 5,
+      "belong": "RD",
+      "creator": "ANGOL_HUANG",
+      "created": "2026-11-26T16:47:35",
+      "build": "2611251",
+      "tr": "TR261125-0064",
+      "product": "PowerDirector Mobile for Android",
+      "template": "Generic v16.9",
+      "assignee": null,
+      "handler": "ANGOL_HUANG",
+      "version": "16.9.0",
+      "bug_source": "QA",
+      "reproduce": "1/1",
+      "happened": "Unknown",
+      "desc": "Repro Steps:\n1. Launch the APP with the phone on the real date\n2. Tap 「Image to Video」 on the Launcher\n3. Tap 「Custom」\n4. Tap the photo area\n5. Select a photo\n6. Tap an inspiration chip to fill the prompt\n7. Set the phone date to 2026-12-24 in Settings (automatic date and time off)\n8. Set the app language of PowerDirector to Tiếng Việt in Settings (per-app language)\n9. Return to the APP (Image to Video still open)\n10. Tap 「Tạo」 (70 credits)\n11. Wait until the 「Cần Thêm Tín Dụng!」 dialog shows\n12. Read the dialog body\n13. Check the result\n\nResult:\nThe VIE body reads 「You don't have enough tín dụng to use this feature. Get tín dụng now!」 (English).\n摘要：越南文付費對話框內文除了「tín dụng」外仍是英文（標題與按鈕已翻譯）。\n{16.9.0_xma43_vie.jpg} {16.9.0_xma43_eng.jpg}\n\nExpect Result:\nThe body is fully in Vietnamese, saying 「…enough credits… Get credits now!」 like the title and CTA.\n摘要：內文應完整翻譯成越南文，意思與英文內文相同。\n\nNote:\nDevice: Samsung Galaxy A51 SM-A516B / Android 13\nRelated: Christmas sale window (Stage server, phone date 2026-12-24); build 2611251; Pro account (subscribed), signed in, balance 22 credits (below the price); Image to Video Custom (Kling 4.0, 5 s) costs 70; app language set per app\nRelated: DRA262611P0328 covers the Free dialog 「Nâng Cấp Lên Pro」 (its body says Pro+ and is mostly English); this is the paid dialog 「Cần Thêm Tín Dụng!」, another string. The other 25 languages translate the paid body (TC-179 – TC-204)\nSpec Link: Christmas & New Year PM spec (PDRM-MX, Christmas Sale), pm-xmas-credit board (paid user without enough credits: 「More Credits Needed!」 dialog, English body 「You don’t have enough credits to use this feature. Get credits now!」) -\nhttps://www.figma.com/design/3urWYejMUP2uaglb4s73M5/PDRM-MX?node-id=3226-21365\n<Claude Reviewed>",
+      "attachments": [
+        "16.9.0_xma43_vie.jpg",
+        "16.9.0_xma43_eng.jpg"
+      ],
+      "key": "NewYear-Sale-R4b-01",
+      "iss": "ISS-XMA-43",
+      "feature": "NewYear-Sale-R4b",
+      "problem_type": "UI"
+    }
+  ],
+  "dispositions": {}
+}

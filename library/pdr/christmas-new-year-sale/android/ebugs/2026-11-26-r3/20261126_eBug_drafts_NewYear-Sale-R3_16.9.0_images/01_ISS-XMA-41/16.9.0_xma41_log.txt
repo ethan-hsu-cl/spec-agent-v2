@@ -1,0 +1,10 @@
+2026-12-24 15:24:33.430  4884  4884 I ViewRootImpl@93443f3[ImageToVideoActivity]: ViewPostIme key 0
+2026-12-24 15:24:33.434  4884  4884 I ViewRootImpl@93443f3[ImageToVideoActivity]: ViewPostIme key 1
+2026-12-24 15:24:33.473  4884  4884 I ViewRootImpl@1727751[Project2Activity]: handleAppVisibility mAppVisible = false visible = true
+2026-12-24 15:24:33.623  4884  4884 I ViewRootImpl@93443f3[ImageToVideoActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0
+2026-12-24 15:24:33.964  4884  4884 D ViewRootImpl@78d3840[ImageToVideoActivity]: WindowStopped on com.cyberlink.powerdirector.DRA140225_01/com.cyberlink.powerdirector.imagetovideo.ImageToVideoActivity set to true
+2026-12-24 15:24:33.965  4884  4884 D ViewRootImpl@93443f3[ImageToVideoActivity]: WindowStopped on com.cyberlink.powerdirector.DRA140225_01/com.cyberlink.powerdirector.imagetovideo.ImageToVideoActivity set to true
+2026-12-30 15:30:07.170  4884  4884 I ViewRootImpl@ad3b807[ImageToVideoActivity]: ViewPostIme key 0
+2026-12-30 15:30:07.174  4884  4884 I ViewRootImpl@ad3b807[ImageToVideoActivity]: ViewPostIme key 1
+2026-12-30 15:30:07.214  4884  4884 I ViewRootImpl@1727751[Project2Activity]: handleAppVisibility mAppVisible = false visible = true
+2026-12-30 15:30:07.412  4884  4884 I ViewRootImpl@ad3b807[ImageToVideoActivity]: MSG_WINDOW_FOCUS_CHANGED 0 0

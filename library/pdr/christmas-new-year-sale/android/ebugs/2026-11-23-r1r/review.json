@@ -1,0 +1,10 @@
+{
+  "lede": "Second batch of this feature, from the R1r recheck on the Play test build (signed in, Play Billing Lab countries, Pro and Auto Pass purchases on the test track). It continues the unfiled R1 batch (ISS-XMA-01…12, ebugs/2026-11-23-r1): review both together. Two findings are the same bugs as R1 entries and are listed below as additions (ISS-XMA-06: the app truncates, Indonesia 58.68% → 58; ISS-XMA-12: same card on the US store); R1's held TC-124 is now ISS-XMA-16.",
+  "why": {
+    "ISS-XMA-13": "US store only: the interstitial and the IAP page disagree (52% vs 45%).",
+    "ISS-XMA-16": "R1 held this until a signed-in recheck; same signed in.",
+    "ISS-XMA-20": "Design's 「consumed credits」 looks like a slip: PM decides, not RD.",
+    "ISS-XMA-22": "Store-price question for PM (no defect in the app's code).",
+    "ISS-XMA-23": "No translation exists in the spec: PM supplies it."
+  }
+}

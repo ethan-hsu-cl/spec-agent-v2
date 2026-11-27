@@ -1,0 +1,11 @@
+# Dedupe — Christmas & New Year Sales Android R1 (16.9.0.2611201), read-only eBug Search, PowerDirector Mobile for Android only
+
+Searched 2026-11-23: --text Christmas / Interstitial / Holiday / Benefits / Special Offer / Try Pro / Unofficial / Sale / subscription plan / banner, and every open 16.9.0 ticket (86).
+No entry repeats an Android ticket. The Christmas tickets in the pool are the 2025 campaign's (15.9.x, closed / NAB / Won't Fix).
+
+Kept here only (not drafted):
+- O-9 (Stage sign-in after pm clear: bindMember HTTP 403): DRA262611P0200 — Assigned, RD, S1, 16.9.0.2611161: 「SIgn In: Sign in CL account fail」
+- O-9 / O-10 (sign-in and purchases on the adb-installed 2611201): DRA262611P0253 — BugNeedReview, RD, 16.9.0.2611201: 「SIgn In: Sign in fail if install AP via APK」
+- TC-095 (「15+ Benefits」 vs Design 「20+ Benefits」): DRA262608-0134 — Close, 16.6.0: 「[UX] Mine: Mine page shows "20+ Benefits" instead of "15+ Benefits"」 — the app's 15+ is the ruled state; cited
+
+Related, other campaigns (closed, not the same bug): DRA262607-0038 (Obon 「Save up to」 not localized), DRA252511-0129 (15.9.1 Back from plans briefly shows the interstitial).

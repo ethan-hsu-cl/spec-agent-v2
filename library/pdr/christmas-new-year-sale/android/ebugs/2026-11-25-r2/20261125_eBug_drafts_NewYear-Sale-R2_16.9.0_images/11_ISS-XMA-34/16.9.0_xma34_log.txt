@@ -1,0 +1,3 @@
+2026-12-29 11:50:29.873 28440 28440 D GoogleBillingWrapper: getProductDetails: monthlysubscription_newyear_2611 price: NT$240.00
+2026-12-29 11:50:29.873 28440 28440 D GoogleBillingWrapper: getProductDetails: annualsubscription_newyear_2611 price: NT$1,210.00
+2026-12-29 11:50:29.873 28440 28440 D GoogleBillingWrapper: getProductDetails: monthly_sub_usd6.99_202209 price: NT$240.00

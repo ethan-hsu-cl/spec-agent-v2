@@ -1,0 +1,537 @@
+{
+ "draft": "20261120-165128",
+ "current": [
+  "R3"
+ ],
+ "needs": {
+  "TC-001": [
+   "rd-date"
+  ],
+  "TC-002": [
+   "rd-date"
+  ],
+  "TC-005": [
+   "rd-date"
+  ],
+  "TC-010": [
+   "rd-date"
+  ],
+  "TC-011": [
+   "old-build"
+  ],
+  "TC-012": [
+   "old-build"
+  ],
+  "TC-147": [
+   "purchase"
+  ],
+  "TC-148": [
+   "purchase"
+  ],
+  "TC-149": [
+   "purchase"
+  ],
+  "TC-150": [
+   "purchase"
+  ]
+ },
+ "unavailable": {
+  "rd-date": "test-data: the campaign follows the phone's system date (user, 2026-11-25); not needed for New Year rows",
+  "old-build": "test-data: no earlier PowerDirector build is on this computer to upgrade from"
+ },
+ "phases": [
+  {
+   "id": "R1",
+   "name": "Round 1: Christmas rows of Android v2 on 16.9.0 (2611201), Samsung SM-A516B",
+   "round": true,
+   "origin": {
+    "TC-008": "R1",
+    "TC-009": "R1",
+    "TC-006": "R1",
+    "TC-013": "R1",
+    "TC-014": "R1",
+    "TC-015": "R1",
+    "TC-016": "R1",
+    "TC-017": "R1",
+    "TC-018": "R1",
+    "TC-019": "R1",
+    "TC-027": "R1",
+    "TC-028": "R1",
+    "TC-029": "R1",
+    "TC-030": "R1",
+    "TC-031": "R1",
+    "TC-032": "R1",
+    "TC-033": "R1",
+    "TC-034": "R1",
+    "TC-035": "R1",
+    "TC-036": "R1",
+    "TC-037": "R1",
+    "TC-038": "R1",
+    "TC-039": "R1",
+    "TC-040": "R1",
+    "TC-041": "R1",
+    "TC-042": "R1",
+    "TC-043": "R1",
+    "TC-044": "R1",
+    "TC-045": "R1",
+    "TC-046": "R1",
+    "TC-047": "R1",
+    "TC-048": "R1",
+    "TC-049": "R1",
+    "TC-050": "R1",
+    "TC-051": "R1",
+    "TC-052": "R1",
+    "TC-053": "R1",
+    "TC-054": "R1",
+    "TC-055": "R1",
+    "TC-083": "R1",
+    "TC-084": "R1",
+    "TC-087": "R1",
+    "TC-090": "R1",
+    "TC-091": "R1",
+    "TC-093": "R1",
+    "TC-095": "R1",
+    "TC-096": "R1",
+    "TC-098": "R1",
+    "TC-100": "R1",
+    "TC-101": "R1",
+    "TC-104": "R1",
+    "TC-105": "R1",
+    "TC-108": "R1",
+    "TC-109": "R1",
+    "TC-110": "R1",
+    "TC-111": "R1",
+    "TC-112": "R1",
+    "TC-113": "R1",
+    "TC-124": "R1",
+    "TC-134": "R1",
+    "TC-135": "R1",
+    "TC-142": "R1",
+    "TC-143": "R1",
+    "TC-144": "R1",
+    "TC-145": "R1",
+    "TC-146": "R1",
+    "TC-148": "R1",
+    "TC-147": "R1",
+    "TC-151": "R1",
+    "TC-114": "R1",
+    "TC-115": "R1",
+    "TC-117": "R1",
+    "TC-118": "R1",
+    "TC-119": "R1",
+    "TC-120": "R1",
+    "TC-125": "R1",
+    "TC-127": "R1",
+    "TC-129": "R1",
+    "TC-130": "R1",
+    "TC-131": "R1",
+    "TC-132": "R1",
+    "TC-133": "R1",
+    "TC-141": "R1",
+    "TC-122": "R1",
+    "TC-149": "R1",
+    "TC-140": "R1",
+    "TC-150": "R1",
+    "TC-126": "R1",
+    "TC-001": "R1",
+    "TC-002": "R1",
+    "TC-005": "R1",
+    "TC-010": "R1",
+    "TC-011": "R1",
+    "TC-012": "R1"
+   },
+   "note": "Christmas only (user, 2026-11-23: the stage server is set to the Christmas window). The 57 New Year rows are left for a later round.",
+   "segments": [
+    {
+     "id": "R1-a",
+     "name": "Fresh install and the Christmas interstitial (Free, signed out)",
+     "note": "Clean install of the given APK (pm clear or reinstall, logs pulled first; Stage file stays in /sdcard/cyberlink/PDR/). The interstitial shows once a day (Q-4): every row that needs it showing again gets a fresh first launch (pm clear, then GDPR 「Get Started」) unless a phone-date step is shown to bring it back. TC-008 / TC-009 are the 1st and 2nd launch of one clean install. TC-006 checks the New User Offer is absent on a new install. TC-017 / TC-018 open the Google Play panel and back out, no purchase.",
+     "cases": [
+      "TC-008",
+      "TC-009",
+      "TC-006",
+      "TC-013",
+      "TC-014",
+      "TC-015",
+      "TC-016",
+      "TC-017",
+      "TC-018",
+      "TC-019",
+      "TC-027",
+      "TC-028"
+     ]
+    },
+    {
+     "id": "R1-b",
+     "name": "Interstitial languages (27, Christmas)",
+     "note": "Each row: `launch --lang <code>` (per-app language, Android 13) and the interstitial on a first launch (pm clear first, as in R1-a). Compare with the 多國文案 sheet text in the row; 「<xx>」 and 「<monthly price>」 are the store's values (this account's store; record which). End with `locale reset`.",
+     "cases": [
+      "TC-029",
+      "TC-030",
+      "TC-031",
+      "TC-032",
+      "TC-033",
+      "TC-034",
+      "TC-035",
+      "TC-036",
+      "TC-037",
+      "TC-038",
+      "TC-039",
+      "TC-040",
+      "TC-041",
+      "TC-042",
+      "TC-043",
+      "TC-044",
+      "TC-045",
+      "TC-046",
+      "TC-047",
+      "TC-048",
+      "TC-049",
+      "TC-050",
+      "TC-051",
+      "TC-052",
+      "TC-053",
+      "TC-054",
+      "TC-055"
+     ]
+    },
+    {
+     "id": "R1-c",
+     "name": "Launcher, Mine and IAP (Free)",
+     "note": "Free account (signed in if a row needs it). Opening a Google Play panel is fine; never subscribe or buy here. US prices (TC-100, TC-101) need the Play country set to US in Play Billing Lab; TC-111 – TC-113 set India / Indonesia / Philippines there (Q-17); restore the country after. Dark/light (TC-083 / TC-084), display size (TC-143) and rotation (TC-144 – TC-146) are phone settings the run sets and restores; landscape rows are Blocked test-data only if the app stays portrait on this phone. TC-134 / TC-135 / TC-142 need a Free balance below the Image to Video (Custom) price.",
+     "cases": [
+      "TC-083",
+      "TC-084",
+      "TC-087",
+      "TC-090",
+      "TC-091",
+      "TC-093",
+      "TC-095",
+      "TC-096",
+      "TC-098",
+      "TC-100",
+      "TC-101",
+      "TC-104",
+      "TC-105",
+      "TC-108",
+      "TC-109",
+      "TC-110",
+      "TC-111",
+      "TC-112",
+      "TC-113",
+      "TC-124",
+      "TC-134",
+      "TC-135",
+      "TC-142",
+      "TC-143",
+      "TC-144",
+      "TC-145",
+      "TC-146"
+     ]
+    },
+    {
+     "id": "R1-d",
+     "name": "Purchases and Pro rows",
+     "note": "Test purchases only when the Google Play sheet shows a test purchase (license tester, 「Test card, always approves」); a real payment method stops for the user (AGENTS.md). TC-148 (500 pack, Free) first, then TC-147 makes the account Pro. Paid low-balance rows (TC-132, TC-133, TC-141) before the credit purchases; TC-140 after TC-149 (enough credits). TC-150 (Auto Pass) before TC-126. TC-151: steps 1–2 only (Christmas); step 3 needs the New Year RD date. TC-114 needs app language 日本語 and Play country Japan (Play Billing Lab), restored after.",
+     "cases": [
+      "TC-148",
+      "TC-147",
+      "TC-151",
+      "TC-114",
+      "TC-115",
+      "TC-117",
+      "TC-118",
+      "TC-119",
+      "TC-120",
+      "TC-125",
+      "TC-127",
+      "TC-129",
+      "TC-130",
+      "TC-131",
+      "TC-132",
+      "TC-133",
+      "TC-141",
+      "TC-122",
+      "TC-149",
+      "TC-140",
+      "TC-150",
+      "TC-126"
+     ]
+    },
+    {
+     "id": "R1-z",
+     "name": "Rows the fixed Christmas server date or a missing build cannot run",
+     "note": "Recorded at init from `unavailable`.",
+     "cases": [
+      "TC-001",
+      "TC-002",
+      "TC-005",
+      "TC-010",
+      "TC-011",
+      "TC-012"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R1r",
+   "name": "Round 1 recheck: rows R1 skipped, on the Play test build 16.9.0 (2611201), Samsung SM-A516B",
+   "round": true,
+   "note": "REQ-005: purchases need a Play-downloaded test build (the adb install is refused). Play Billing Lab terms OK from the user.",
+   "segments": [
+    {
+     "id": "R1r-a",
+     "name": "Play Billing Lab country rows (Free, signed in); accept the terms (user OK 2026-11-23), restore Taiwan at the end",
+     "cases": [
+      "TC-013",
+      "TC-014",
+      "TC-100",
+      "TC-101",
+      "TC-111",
+      "TC-112",
+      "TC-113"
+     ]
+    },
+    {
+     "id": "R1r-b",
+     "name": "Free signed in: low balance, credit pack, trial and monthly CTAs (cancel the sheet), then buy the 500 pack",
+     "cases": [
+      "TC-134",
+      "TC-135",
+      "TC-142",
+      "TC-124",
+      "TC-104",
+      "TC-105",
+      "TC-148"
+     ]
+    },
+    {
+     "id": "R1r-c",
+     "name": "Subscribe (test card) and the Pro rows, R1-d order",
+     "cases": [
+      "TC-147",
+      "TC-151",
+      "TC-114",
+      "TC-115",
+      "TC-117",
+      "TC-118",
+      "TC-119",
+      "TC-120",
+      "TC-125",
+      "TC-127",
+      "TC-129",
+      "TC-130",
+      "TC-131",
+      "TC-132",
+      "TC-133",
+      "TC-141",
+      "TC-122",
+      "TC-149",
+      "TC-140",
+      "TC-150",
+      "TC-126"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "name": "Round 2: New Year rows of Android v2 on 16.9.0 (2611231), Samsung SM-A516B",
+   "round": true,
+   "origin": {
+    "TC-020": "R2",
+    "TC-021": "R2",
+    "TC-022": "R2",
+    "TC-023": "R2",
+    "TC-024": "R2",
+    "TC-025": "R2",
+    "TC-026": "R2",
+    "TC-007": "R2",
+    "TC-003": "R2",
+    "TC-004": "R2",
+    "TC-056": "R2",
+    "TC-057": "R2",
+    "TC-058": "R2",
+    "TC-059": "R2",
+    "TC-060": "R2",
+    "TC-061": "R2",
+    "TC-062": "R2",
+    "TC-063": "R2",
+    "TC-064": "R2",
+    "TC-065": "R2",
+    "TC-066": "R2",
+    "TC-067": "R2",
+    "TC-068": "R2",
+    "TC-069": "R2",
+    "TC-070": "R2",
+    "TC-071": "R2",
+    "TC-072": "R2",
+    "TC-073": "R2",
+    "TC-074": "R2",
+    "TC-075": "R2",
+    "TC-076": "R2",
+    "TC-077": "R2",
+    "TC-078": "R2",
+    "TC-079": "R2",
+    "TC-080": "R2",
+    "TC-081": "R2",
+    "TC-082": "R2",
+    "TC-085": "R2",
+    "TC-086": "R2",
+    "TC-088": "R2",
+    "TC-089": "R2",
+    "TC-152": "R2",
+    "TC-092": "R2",
+    "TC-094": "R2",
+    "TC-097": "R2",
+    "TC-099": "R2",
+    "TC-102": "R2",
+    "TC-103": "R2",
+    "TC-106": "R2",
+    "TC-107": "R2",
+    "TC-138": "R2",
+    "TC-139": "R2",
+    "TC-151": "R2",
+    "TC-116": "R2",
+    "TC-121": "R2",
+    "TC-123": "R2",
+    "TC-129": "R2",
+    "TC-136": "R2",
+    "TC-137": "R2"
+   },
+   "note": "REQ-006: the phone's system date puts the app in the New Year window (user set 2026-12-29).",
+   "segments": [
+    {
+     "id": "R2-a",
+     "name": "New Year interstitial and window boundaries (Free, phone date 2026-12-29)",
+     "note": "Phone system time drives the campaign window (user, 2026-11-25). TC-003 / TC-004 change the phone date and time (Settings › Date and time, automatic off) and put it back to 2026-12-29 afterwards. The interstitial is once a day: moving the phone date a day forward brings it back without pm clear. TC-024 / TC-025 only open the Play sheet and back out; on this adb install a 「Unofficial Version」 dialog instead is recorded Blocked test-data.",
+     "cases": [
+      "TC-020",
+      "TC-021",
+      "TC-022",
+      "TC-023",
+      "TC-024",
+      "TC-025",
+      "TC-026",
+      "TC-007",
+      "TC-003",
+      "TC-004"
+     ]
+    },
+    {
+     "id": "R2-b",
+     "name": "New Year interstitial in 27 languages",
+     "note": "As R1-b: per-app locale, interstitial brought back by moving the phone date a day (restore 2026-12-29) or pm clear; end on en-US.",
+     "cases": [
+      "TC-056",
+      "TC-057",
+      "TC-058",
+      "TC-059",
+      "TC-060",
+      "TC-061",
+      "TC-062",
+      "TC-063",
+      "TC-064",
+      "TC-065",
+      "TC-066",
+      "TC-067",
+      "TC-068",
+      "TC-069",
+      "TC-070",
+      "TC-071",
+      "TC-072",
+      "TC-073",
+      "TC-074",
+      "TC-075",
+      "TC-076",
+      "TC-077",
+      "TC-078",
+      "TC-079",
+      "TC-080",
+      "TC-081",
+      "TC-082"
+     ]
+    },
+    {
+     "id": "R2-c",
+     "name": "Launcher, Mine and IAP in the New Year window (Free)",
+     "cases": [
+      "TC-085",
+      "TC-086",
+      "TC-088",
+      "TC-089",
+      "TC-152",
+      "TC-092",
+      "TC-094",
+      "TC-097",
+      "TC-099",
+      "TC-102",
+      "TC-103",
+      "TC-106",
+      "TC-107",
+      "TC-138",
+      "TC-139"
+     ]
+    },
+    {
+     "id": "R2-d",
+     "name": "Pro rows in the New Year window",
+     "note": "Needs acda.test9 Pro. Buying Pro needs a Play-installed build (KP-138); if the account is Free and only the adb build is on the phone, record the rows Blocked test-data and do not reinstall.",
+     "cases": [
+      "TC-151",
+      "TC-116",
+      "TC-121",
+      "TC-123",
+      "TC-129",
+      "TC-136",
+      "TC-137"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "name": "Round 3: low-balance Not Enough Credit rows on 16.9.0 (2611251), Samsung SM-A516B",
+   "round": true,
+   "origin": {
+    "TC-134": "R3",
+    "TC-135": "R3",
+    "TC-142": "R3",
+    "TC-138": "R3",
+    "TC-139": "R3",
+    "TC-132": "R3",
+    "TC-133": "R3",
+    "TC-141": "R3",
+    "TC-136": "R3",
+    "TC-137": "R3"
+   },
+   "note": "User, 2026-11-26: the test account's balance is now low enough; run the rows blocked on balance.",
+   "segments": [
+    {
+     "id": "R3-a",
+     "name": "Not Enough Credit, Free (Christmas 12/24, New Year 12/30)",
+     "note": "Free tier needed. Christmas rows on the phone date 2026-12-24 (user set), New Year rows after moving the phone date to 2026-12-30. Nothing is generated: a balance at or above the price is Blocked test-data.",
+     "cases": [
+      "TC-134",
+      "TC-135",
+      "TC-142",
+      "TC-138",
+      "TC-139"
+     ]
+    },
+    {
+     "id": "R3-b",
+     "name": "Not Enough Credit, Pro (Christmas, New Year)",
+     "note": "Pro tier needed: if Free, buy a test subscription on the Play test sheet only (「Test card, always approves」). Read the balance after the purchase: a trial bonus that lifts it to the price or above blocks the rows test-data.",
+     "cases": [
+      "TC-132",
+      "TC-133",
+      "TC-141",
+      "TC-136",
+      "TC-137"
+     ]
+    }
+   ]
+  }
+ ]
+}

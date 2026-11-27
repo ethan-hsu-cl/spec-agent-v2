@@ -1,0 +1,5 @@
+# Dedupe — Christmas & New Year Sales Android R1r (16.9.0.2611201), read-only eBug Search, PowerDirector Mobile for Android only
+
+No entry repeats an Android ticket. Searched the Android pool (PowerDirector Mobile for Android) for Christmas, Credit Special Offer, Auto Pass, VIP, Benefits, Credit Pack, Credit IAP, Credit System, Credit, First Purchase, cancel, Monthly, Special Offer, Holiday, Interstitial, banner, Save, Mine, IAP, Subscription, Purchase, Pro; read every 16.9.0 hit: none is about the campaign, the credit page or the IAP page.
+Related, closed, not the same bug: DRA252510-0140 (15.9.0 [MUI] VIP Benefits: page content not localized; shows a VIP Benefits page existed then, ISS-XMA-17); DRA262604-0081 (16.4.0 Pro account shows 「First Purchase Discount」 after subscribing Credit Auto Pass, Close; context for ISS-XMA-16's side note); DRA262605-0051 (16.4.0 Auto Pass default landing pack, Close).
+Against the R1 batch (2026-11-23-r1, not filed): TC-100 = ISS-XMA-12 and TC-112's truncation = ISS-XMA-06 (listed as additions, not drafted); every other entry is a different screen or rule.

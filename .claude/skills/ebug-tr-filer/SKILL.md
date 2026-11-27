@@ -207,6 +207,11 @@ here. In one line: **Result and Expect Result are each one English sentence (≤
 used to follow the first sentence — reproduction counts, controls, comparisons, impact — lives in the
 draft's QA note and on the review page, not in the ticket.
 
+**Exception: a comparison the reviewer asks for (user, 2026-11-25).** When a decision's note asks for a
+comparison in the ticket (e.g. sheet text vs app per language), the Note gets a `Comparison: <what is compared>`
+line followed by one `- <item>: sheet 「…」 / app 「…」` row per line; `check_ebug_format.py` accepts those rows and
+does not count them against the Note cap (DRA262611P0304).
+
 This replaced the 2026-09-15 guidance ("one sentence, blank line, then as long as it needs"), which
 still produced tickets managers and RDs found hard to scan. The named examples are read back from
 TR260915-0007 in the draft-generator skill; re-read them with

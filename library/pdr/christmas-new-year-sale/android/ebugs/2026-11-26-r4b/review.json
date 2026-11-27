@@ -1,0 +1,6 @@
+{
+  "lede": "Sixth batch of this feature, from the R4-b re-run: the paid 「More Credits Needed!」 dialog in 26 languages (R-070, R-053, Q-19, REQ-009; draft 20261126-154459 in review), build 2611251, Stage, acda.test9 Pro with 22 credits against the 70-credit Image to Video Custom price, phone date 2026-12-24 (KP-144 route). One new bug: ISS-XMA-43 (TC-194), the Vietnamese paid body left in English except 「tín dụng」. DRA262611P0328 (R4, the Free dialog body) is related, not a duplicate, and is not commented on.",
+  "why": {
+    "ISS-XMA-43": "Paid dialog, another string than P0328's Free body; RD per the text rule (PM spec states the English, R-070 forbids English left), S3 like P0328."
+  }
+}

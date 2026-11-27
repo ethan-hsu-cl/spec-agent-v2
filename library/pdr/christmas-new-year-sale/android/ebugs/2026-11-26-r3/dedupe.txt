@@ -1,0 +1,10 @@
+# Dedupe — Christmas & New Year Sales Android R3 (16.9.0.2611251), read-only eBug Search, PowerDirector Mobile for Android only
+
+- ecl_query.py dedupe upload/bodies.json: 1 entry, no likely duplicate (feature term 「Christmas & New Year Sale (Not Enough Credit)」 searched 0 candidates, so the pool was read by text below).
+- Whole pool read by text (--limit 2000): "Image to Video" (488), "Christmas" (72), "New Year" (55), "Not Enough Credit" (6), "enough credit" (8), "Upgrade to Pro" (3), "More Credits Needed" (2), "System Back" (12), "Back" (895, filtered for dialog / credit / Image to Video). Open on 16.9.0: 150 tickets read; none is about the Not Enough Credit dialog or Back on Image to Video.
+- ISS-XMA-41 (TC-142, O-7: one system Back on the Free 「Upgrade to Pro」 dialog also closes Image to Video) — no same-OS match.
+  - DRA262611P0299 (open, New Year interstitial: first Back ignored): other screen, other behaviour.
+  - DRA262608-0053 (closed, 16.6.0, tapping outside the I2V sign-in dialog returns to the Launcher): other dialog and gesture; similar pattern, not the same bug.
+  - DRA262607-0258 (closed, 16.6.0, ‹ on Recent task after generation goes to the Launcher): other screen.
+  - DRA262607-0292 (closed, 「Upgrade to Pro」 dialog again on tab switch), DRA252511-0119 (closed, 15.9.1 I2V Not Enough Credit button order), DRA262610P0301 (NAB, Black Friday dialog background), DRA262602-0271 (closed, iStock 「Reach limitation」 dialog ignores Back): different defects.
+- Nothing commented, uploaded or filed.

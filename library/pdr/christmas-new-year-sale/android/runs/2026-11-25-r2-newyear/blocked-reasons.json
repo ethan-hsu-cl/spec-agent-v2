@@ -1,0 +1,6 @@
+{
+  "TC-138": {"group": "need:low-balance", "label": "Needs a low-balance account (balance below the Image to Video (Custom) price)", "note": "acda.test9 had 3720 credits (Free); credits not burned"},
+  "TC-139": {"group": "need:low-balance", "label": "Needs a low-balance account (balance below the Image to Video (Custom) price)", "note": "depends on TC-138's dialog; acda.test9 had 3720 credits"},
+  "TC-136": {"group": "need:low-balance", "label": "Needs a low-balance account (balance below the Image to Video (Custom) price)", "note": "acda.test9 (Pro) had 3755 credits; credits not burned"},
+  "TC-137": {"group": "need:low-balance", "label": "Needs a low-balance account (balance below the Image to Video (Custom) price)", "note": "depends on TC-136's dialog; acda.test9 had 3755 credits"}
+}

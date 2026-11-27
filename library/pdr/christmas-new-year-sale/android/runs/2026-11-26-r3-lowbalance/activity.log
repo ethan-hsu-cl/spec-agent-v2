@@ -1,0 +1,323 @@
+2026-11-26T06:27:49.261Z restart R5CN8194YSN
+2026-11-26T06:27:58.224Z build 
+2026-11-26T06:28:02.295Z logcat start
+2026-11-26T06:28:02.604Z shot r3a-start
+2026-11-26T06:28:03.363Z texts 
+2026-11-26T06:28:15.148Z back 
+2026-11-26T06:28:18.045Z shot r3a-launcher
+2026-11-26T06:28:19.387Z texts 
+2026-11-26T06:28:25.751Z tap 84 193
+2026-11-26T06:28:28.037Z shot r3a-mine
+2026-11-26T06:28:28.700Z els 
+2026-11-26T06:28:37.288Z back 
+2026-11-26T06:28:39.025Z tap 972 2230
+2026-11-26T06:28:42.309Z shot r3a-mine
+2026-11-26T06:28:43.039Z texts 
+2026-11-26T06:28:50.562Z launch 
+2026-11-26T06:28:59.695Z texts 
+2026-11-26T06:29:05.955Z tap 972 2230
+2026-11-26T06:29:09.239Z shot r3a-mine-after-relaunch
+2026-11-26T06:29:09.982Z texts 
+2026-11-26T06:29:15.733Z tap 107 2230
+2026-11-26T06:29:18.022Z lbl Image to Video
+2026-11-26T06:29:22.807Z shot r3a-i2v-price
+2026-11-26T06:29:24.478Z els 
+2026-11-26T06:29:28.271Z tap 540 2078
+2026-11-26T06:29:33.547Z shot r3a-i2v-price
+2026-11-26T06:29:34.194Z els 
+2026-11-26T06:29:50.052Z texts 
+2026-11-26T06:30:12.440Z case TC-134
+2026-11-26T06:30:12.589Z run-log set TC-134 Blocked
+2026-11-26T06:30:12.745Z case TC-135
+2026-11-26T06:30:12.891Z run-log set TC-135 Blocked
+2026-11-26T06:30:13.047Z case TC-142
+2026-11-26T06:30:13.194Z run-log set TC-142 Blocked
+2026-11-26T06:30:13.349Z case TC-138
+2026-11-26T06:30:13.496Z run-log set TC-138 Blocked
+2026-11-26T06:30:13.650Z case TC-139
+2026-11-26T06:30:13.794Z run-log set TC-139 Blocked
+2026-11-26T06:30:23.758Z back 
+2026-11-26T06:30:26.594Z texts 
+2026-11-26T06:30:27.809Z pull-logs R3-a
+2026-11-26T06:31:51.271Z restart R5CN8194YSN
+2026-11-26T06:31:58.754Z logcat start
+2026-11-26T06:32:04.876Z els 
+2026-11-26T06:32:12.796Z texts 
+2026-11-26T06:32:18.634Z lbl Automatic date and time
+2026-11-26T06:32:22.213Z texts 
+2026-11-26T06:32:31.638Z launch 
+2026-11-26T06:32:41.203Z shot r3b-launcher-realdate
+2026-11-26T06:32:42.619Z texts 
+2026-11-26T06:32:50.884Z case TC-132
+2026-11-26T06:32:51.043Z lbl Image to Video
+2026-11-26T06:32:57.833Z shot r3b-i2v-realdate
+2026-11-26T06:32:58.950Z els 
+2026-11-26T06:33:02.658Z id tv_try_it_now
+2026-11-26T06:33:09.803Z shot r3b-i2v-realdate
+2026-11-26T06:33:10.496Z els 
+2026-11-26T06:33:22.018Z tap 163 1537
+2026-11-26T06:33:26.298Z shot r3b-i2v-filled
+2026-11-26T06:33:27.064Z els 
+2026-11-26T06:33:34.884Z tap 190 913
+2026-11-26T06:33:39.191Z shot r3b-i2v-picker
+2026-11-26T06:33:40.646Z els 
+2026-11-26T06:33:44.274Z id tv_continue
+2026-11-26T06:33:48.674Z tapif Allow
+2026-11-26T06:33:49.739Z shot r3b-i2v-gallery
+2026-11-26T06:33:56.909Z tap 520 1790
+2026-11-26T06:34:02.224Z shot r3b-i2v-ready
+2026-11-26T06:34:03.021Z els 
+2026-11-26T06:34:09.467Z id tvGenerateLabel
+2026-11-26T06:34:14.257Z shot r3b-nec-realdate
+2026-11-26T06:34:14.967Z els 
+2026-11-26T06:34:25.928Z texts 
+2026-11-26T06:34:26.154Z source 
+2026-11-26T06:34:31.085Z source 
+2026-11-26T06:34:38.740Z tap 937 770
+2026-11-26T06:34:42.031Z shot r3b-nec-realdate-closed
+2026-11-26T06:34:42.811Z els 
+2026-11-26T06:34:53.339Z lbl Automatic date and time
+2026-11-26T06:34:56.143Z lbl Set date
+2026-11-26T06:34:59.803Z els 
+2026-11-26T06:35:04.248Z lbl Next month
+2026-11-26T06:35:05.676Z lbl Thursday, December 24, 2026
+2026-11-26T06:35:07.993Z lbl Done
+2026-11-26T06:35:10.710Z texts 
+2026-11-26T06:35:19.243Z activate 
+2026-11-26T06:35:22.817Z els 
+2026-11-26T06:35:26.945Z id tvGenerateLabel
+2026-11-26T06:35:31.715Z shot TC-132-nec-1224
+2026-11-26T06:36:18.583Z run-log set TC-132 Pass
+2026-11-26T06:36:18.742Z case TC-133
+2026-11-26T06:36:18.901Z tap 540 1482
+2026-11-26T06:36:24.235Z shot TC-133-cta-page
+2026-11-26T06:36:25.050Z texts 
+2026-11-26T06:36:36.335Z run-log set TC-133 Pass
+2026-11-26T06:36:36.490Z back 
+2026-11-26T06:36:40.476Z els 
+2026-11-26T06:36:45.603Z case TC-141
+2026-11-26T06:36:45.758Z id tvGenerateLabel
+2026-11-26T06:36:50.524Z shot TC-141-dialog
+2026-11-26T06:36:51.276Z tap 937 770
+2026-11-26T06:36:54.569Z shot TC-141-closed
+2026-11-26T06:36:55.466Z els 
+2026-11-26T06:37:08.660Z run-log set TC-141 Pass
+2026-11-26T06:37:11.123Z lbl Set date
+2026-11-26T06:37:13.530Z lbl Wednesday, December 30, 2026
+2026-11-26T06:37:14.769Z lbl Done
+2026-11-26T06:37:26.730Z activate 
+2026-11-26T06:37:30.311Z case TC-136
+2026-11-26T06:37:30.463Z els 
+2026-11-26T06:37:31.231Z id tvGenerateLabel
+2026-11-26T06:37:36.114Z shot TC-136-nec-1230
+2026-11-26T06:37:44.293Z run-log set TC-136 Pass
+2026-11-26T06:37:44.447Z case TC-137
+2026-11-26T06:37:44.601Z tap 540 1482
+2026-11-26T06:37:49.895Z shot TC-137-cta-page
+2026-11-26T06:37:50.716Z texts 
+2026-11-26T06:37:58.715Z run-log set TC-137 Pass
+2026-11-26T06:37:59.010Z back 
+2026-11-26T06:38:02.048Z back 
+2026-11-26T06:38:04.925Z texts 
+2026-11-26T06:38:14.554Z lbl Set date
+2026-11-26T06:38:16.980Z lbl Thursday, December 24, 2026
+2026-11-26T06:38:18.225Z lbl Done
+2026-11-26T06:38:30.299Z launch 
+2026-11-26T06:38:39.773Z texts 
+2026-11-26T06:38:40.055Z shot r3b-end-launcher
+2026-11-26T06:38:48.355Z lbl Close
+2026-11-26T06:38:50.746Z texts 
+2026-11-26T06:38:51.932Z pull-logs R3-b
+2026-11-26T06:28:03.175Z file screenshots/r3a-start.png
+2026-11-26T06:28:19.197Z file screenshots/r3a-launcher.png
+2026-11-26T06:28:42.844Z file screenshots/r3a-mine.png
+2026-11-26T06:29:09.802Z file screenshots/r3a-mine-after-relaunch.png
+2026-11-26T06:29:34.008Z file screenshots/r3a-i2v-price.png
+2026-11-26T06:30:38.148Z file logs/R3-a-20261126-143027
+2026-11-26T06:32:42.432Z file screenshots/r3b-launcher-realdate.png
+2026-11-26T06:33:10.319Z file screenshots/r3b-i2v-realdate.png
+2026-11-26T06:33:26.890Z file screenshots/r3b-i2v-filled.png
+2026-11-26T06:33:40.449Z file screenshots/r3b-i2v-picker.png
+2026-11-26T06:33:50.792Z file screenshots/r3b-i2v-gallery.png
+2026-11-26T06:34:02.840Z file screenshots/r3b-i2v-ready.png
+2026-11-26T06:34:14.790Z file screenshots/r3b-nec-realdate.png
+2026-11-26T06:34:42.635Z file screenshots/r3b-nec-realdate-closed.png
+2026-11-26T06:35:32.634Z file screenshots/TC-132-nec-1224.png
+2026-11-26T06:36:24.873Z file screenshots/TC-133-cta-page.png
+2026-11-26T06:36:51.094Z file screenshots/TC-141-dialog.png
+2026-11-26T06:36:55.173Z file screenshots/TC-141-closed.png
+2026-11-26T06:37:36.719Z file screenshots/TC-136-nec-1230.png
+2026-11-26T06:37:50.539Z file screenshots/TC-137-cta-page.png
+2026-11-26T06:38:41.055Z file screenshots/r3b-end-launcher.png
+2026-11-26T06:38:52.563Z file logs/.live
+2026-11-26T06:38:57.585Z file logs/R3-b-20261126-143851
+2026-11-26T07:19:28.000Z restart R5CN8194YSN
+2026-11-26T07:19:36.716Z build 
+2026-11-26T07:19:36.973Z logcat start
+2026-11-26T07:19:37.131Z shot r3a2-start
+2026-11-26T07:19:38.486Z texts 
+2026-11-26T07:19:44.425Z launch 
+2026-11-26T07:19:51.494Z texts 
+2026-11-26T07:19:52.690Z tap 972 2230
+2026-11-26T07:19:54.985Z shot r3a2-mine
+2026-11-26T07:19:55.649Z texts 
+2026-11-26T07:20:03.470Z els 
+2026-11-26T07:20:07.592Z lbl Automatic date and time
+2026-11-26T07:20:11.157Z texts 
+2026-11-26T07:20:19.905Z launch 
+2026-11-26T07:20:29.271Z shot r3a2-launcher-realdate
+2026-11-26T07:20:30.411Z texts 
+2026-11-26T07:20:31.495Z lbl Image to Video
+2026-11-26T07:20:37.732Z shot r3a2-i2v-realdate
+2026-11-26T07:20:38.982Z els 
+2026-11-26T07:20:42.839Z id tv_try_it_now
+2026-11-26T07:20:48.263Z shot r3a2-i2v-page
+2026-11-26T07:20:49.016Z els 
+2026-11-26T07:20:53.473Z tap 163 1537
+2026-11-26T07:20:56.773Z shot r3a2-i2v-filled
+2026-11-26T07:20:57.528Z els 
+2026-11-26T07:21:01.476Z tap 190 913
+2026-11-26T07:21:04.782Z shot r3a2-i2v-picker
+2026-11-26T07:21:06.018Z texts 
+2026-11-26T07:21:12.208Z tap 520 1790
+2026-11-26T07:21:17.515Z tapif Allow
+2026-11-26T07:21:18.207Z shot r3a2-i2v-ready
+2026-11-26T07:21:18.999Z els 
+2026-11-26T07:21:19.702Z texts 
+2026-11-26T07:21:28.011Z lbl Automatic date and time
+2026-11-26T07:21:30.425Z lbl Set date
+2026-11-26T07:21:32.939Z els 
+2026-11-26T07:21:37.495Z lbl Next month
+2026-11-26T07:21:39.099Z lbl Thursday, December 24, 2026
+2026-11-26T07:21:41.253Z lbl Done
+2026-11-26T07:21:53.681Z activate 
+2026-11-26T07:21:57.184Z els 
+2026-11-26T07:21:57.824Z case TC-134
+2026-11-26T07:21:57.982Z id tvGenerateLabel
+2026-11-26T07:22:02.792Z shot TC-134-nec-free-1224
+2026-11-26T07:22:03.680Z texts 
+2026-11-26T07:22:17.666Z case TC-142
+2026-11-26T07:22:17.831Z back 
+2026-11-26T07:22:20.716Z shot TC-142-after-back
+2026-11-26T07:22:22.032Z els 
+2026-11-26T07:22:38.911Z lbl Image to Video
+2026-11-26T07:22:43.651Z els 
+2026-11-26T07:22:47.210Z id tv_try_it_now
+2026-11-26T07:22:54.323Z els 
+2026-11-26T07:22:59.823Z shot r3a2-i2v-1224-nomodel
+2026-11-26T07:23:00.463Z back 
+2026-11-26T07:23:05.501Z lbl Automatic date and time
+2026-11-26T07:23:12.165Z activate 
+2026-11-26T07:23:15.601Z texts 
+2026-11-26T07:23:20.045Z lbl Image to Video
+2026-11-26T07:23:25.158Z id tv_try_it_now
+2026-11-26T07:23:31.618Z els 
+2026-11-26T07:23:36.991Z tap 163 1537
+2026-11-26T07:23:40.272Z tap 190 913
+2026-11-26T07:23:44.566Z tap 520 1790
+2026-11-26T07:23:49.871Z shot r3a2-i2v-ready2
+2026-11-26T07:23:50.658Z els 
+2026-11-26T07:23:53.384Z lbl Automatic date and time
+2026-11-26T07:23:55.831Z lbl Set date
+2026-11-26T07:23:58.296Z lbl Next month
+2026-11-26T07:23:59.957Z lbl Thursday, December 24, 2026
+2026-11-26T07:24:02.679Z lbl Done
+2026-11-26T07:24:13.939Z back 
+2026-11-26T07:24:16.458Z activate 
+2026-11-26T07:24:20.043Z els 
+2026-11-26T07:24:20.473Z case TC-142
+2026-11-26T07:24:20.629Z id tvGenerateLabel
+2026-11-26T07:24:25.435Z shot TC-142-dialog
+2026-11-26T07:24:35.670Z shot TC-142-after-back2
+2026-11-26T07:24:37.049Z texts 
+2026-11-26T07:24:49.497Z lbl Automatic date and time
+2026-11-26T07:24:55.197Z activate 
+2026-11-26T07:24:58.647Z lbl Image to Video
+2026-11-26T07:25:03.910Z id tv_try_it_now
+2026-11-26T07:25:10.947Z tap 163 1537
+2026-11-26T07:25:14.240Z tap 190 913
+2026-11-26T07:25:18.531Z tap 520 1790
+2026-11-26T07:25:23.819Z els 
+2026-11-26T07:25:32.559Z shot r3a2-i2v-ready3
+2026-11-26T07:25:35.515Z lbl Automatic date and time
+2026-11-26T07:25:37.922Z lbl Set date
+2026-11-26T07:25:40.436Z lbl Next month
+2026-11-26T07:25:41.981Z lbl Thursday, December 24, 2026
+2026-11-26T07:25:44.306Z lbl Done
+2026-11-26T07:25:50.169Z activate 
+2026-11-26T07:25:53.553Z case TC-142
+2026-11-26T07:25:53.713Z id tvGenerateLabel
+2026-11-26T07:25:58.616Z shot TC-142-dialog-x
+2026-11-26T07:25:59.383Z tap 937 749
+2026-11-26T07:26:01.675Z shot TC-142-after-x
+2026-11-26T07:26:02.555Z els 
+2026-11-26T07:26:14.766Z case TC-135
+2026-11-26T07:26:14.924Z id tvGenerateLabel
+2026-11-26T07:26:19.514Z shot TC-135-dialog
+2026-11-26T07:26:20.266Z tap 540 1504
+2026-11-26T07:26:26.551Z shot TC-135-cta-page
+2026-11-26T07:26:27.667Z texts 
+2026-11-26T07:26:50.343Z lbl IAP_Back
+2026-11-26T07:27:55.551Z els 
+2026-11-26T07:27:56.297Z shot TC-135-after-iap-back
+2026-11-26T07:27:59.267Z lbl Set date
+2026-11-26T07:28:01.727Z els 
+2026-11-26T07:28:02.247Z lbl Wednesday, December 30, 2026
+2026-11-26T07:28:04.459Z lbl Done
+2026-11-26T07:28:10.313Z back 
+2026-11-26T07:28:10.610Z activate 
+2026-11-26T07:28:14.027Z els 
+2026-11-26T07:28:14.659Z case TC-138
+2026-11-26T07:28:14.816Z id tvGenerateLabel
+2026-11-26T07:28:19.615Z shot TC-138-nec-free-1230
+2026-11-26T07:28:26.886Z case TC-139
+2026-11-26T07:28:27.045Z tap 540 1504
+2026-11-26T07:28:33.335Z shot TC-139-cta-page
+2026-11-26T07:28:34.380Z texts 
+2026-11-26T07:28:46.534Z lbl IAP_Back
+2026-11-26T07:29:51.509Z els 
+2026-11-26T07:30:01.775Z id tvGenerateLabel
+2026-11-26T07:30:06.545Z shot r3a2-ny-dialog-back-before
+2026-11-26T07:30:09.390Z shot r3a2-ny-dialog-back-after
+2026-11-26T07:30:25.483Z tap 96 144
+2026-11-26T07:30:31.578Z lbl Set date
+2026-11-26T07:30:34.055Z lbl Thursday, December 24, 2026
+2026-11-26T07:30:36.209Z lbl Done
+2026-11-26T07:30:41.930Z launch 
+2026-11-26T07:30:52.257Z shot r3a2-end-launcher
+2026-11-26T07:30:53.527Z texts 
+2026-11-26T07:30:59.049Z tap 96 144
+2026-11-26T07:31:02.516Z shot r3a2-end-launcher
+2026-11-26T07:31:03.831Z texts 
+2026-11-26T07:31:10.889Z pull-logs R3-a2
+2026-11-26T07:32:03.551Z run-log set TC-134 Pass
+2026-11-26T07:32:03.693Z run-log set TC-142 Fail
+2026-11-26T07:32:03.835Z run-log set TC-135 Pass
+2026-11-26T07:32:03.977Z run-log set TC-138 Pass
+2026-11-26T07:32:04.119Z run-log set TC-139 Pass
+2026-11-26T07:19:38.297Z file screenshots/r3a2-start.png
+2026-11-26T07:19:55.467Z file screenshots/r3a2-mine.png
+2026-11-26T07:20:30.217Z file screenshots/r3a2-launcher-realdate.png
+2026-11-26T07:20:38.753Z file screenshots/r3a2-i2v-realdate.png
+2026-11-26T07:20:48.833Z file screenshots/r3a2-i2v-page.png
+2026-11-26T07:20:57.339Z file screenshots/r3a2-i2v-filled.png
+2026-11-26T07:21:05.829Z file screenshots/r3a2-i2v-picker.png
+2026-11-26T07:21:18.818Z file screenshots/r3a2-i2v-ready.png
+2026-11-26T07:22:03.490Z file screenshots/TC-134-nec-free-1224.png
+2026-11-26T07:22:21.846Z file screenshots/TC-142-after-back.png
+2026-11-26T07:23:00.279Z file screenshots/r3a2-i2v-1224-nomodel.png
+2026-11-26T07:23:50.472Z file screenshots/r3a2-i2v-ready2.png
+2026-11-26T07:24:26.012Z file screenshots/TC-142-dialog.png
+2026-11-26T07:24:36.755Z file screenshots/TC-142-after-back2.png
+2026-11-26T07:25:33.182Z file screenshots/r3a2-i2v-ready3.png
+2026-11-26T07:25:59.192Z file screenshots/TC-142-dialog-x.png
+2026-11-26T07:26:02.265Z file screenshots/TC-142-after-x.png
+2026-11-26T07:26:20.081Z file screenshots/TC-135-dialog.png
+2026-11-26T07:26:27.351Z file screenshots/TC-135-cta-page.png
+2026-11-26T07:27:56.924Z file screenshots/TC-135-after-iap-back.png
+2026-11-26T07:28:20.143Z file screenshots/TC-138-nec-free-1230.png
+2026-11-26T07:28:34.189Z file screenshots/TC-139-cta-page.png
+2026-11-26T07:30:07.082Z file screenshots/r3a2-ny-dialog-back-before.png
+2026-11-26T07:30:10.162Z file screenshots/r3a2-ny-dialog-back-after.png
+2026-11-26T07:31:03.640Z file screenshots/r3a2-end-launcher.png
+2026-11-26T07:31:16.563Z file logs/R3-a2-20261126-153110

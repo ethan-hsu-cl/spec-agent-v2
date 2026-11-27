@@ -1,0 +1,9 @@
+{
+  "logs": {
+    "files": "[_/](logcat-live)\\.txt$",
+    "failure": "(Promotion|Interstitial|Iap|IAP|Billing).*(fail|error)|status=fail|error=",
+    "toast": "Toast|toast for",
+    "credit": "CreditSystemManager|credit=|refund|returned",
+    "timing": "PromotionInterstitial|IapActivity|BillingClient|launchBillingFlow|querySkuDetails|productId"
+  }
+}

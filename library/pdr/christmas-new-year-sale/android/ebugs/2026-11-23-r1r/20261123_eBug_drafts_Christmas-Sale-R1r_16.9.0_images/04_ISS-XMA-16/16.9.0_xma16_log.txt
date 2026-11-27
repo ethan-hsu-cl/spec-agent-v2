@@ -1,0 +1,10 @@
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_500_credit_paiduser_non_consumable price: NT$1,190.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_firstpurchase_non_consumable price: NT$2,820.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_500_credit_paiduser price: NT$1,190.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_firstpurchase price: NT$2,820.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_paiduser_christmas price: NT$2,740.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_500_credit_freeuser_non_consumable price: NT$2,350.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_freeuser_firstpurchase_non_consumable price: NT$5,600.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_500_credit_freeuser price: NT$2,350.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_2000_credit_freeuser_firstpurchase price: NT$5,600.00
+2026-11-23 15:02:36.453 18607 18607 D GoogleBillingWrapper: getProductDetails: pdrm_500_credit_freeuser_christmas price: NT$1,960.00

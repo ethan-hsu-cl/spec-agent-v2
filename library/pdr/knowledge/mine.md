@@ -77,12 +77,13 @@ One capability: the Mine Free card calls it 「Advanced Cutout」, the paywall's
 
 ## KP-094 Google sign-in goes through Chrome on Android
 - kind: howto · platform: android · use: run · tags: sign-in, google, chrome
-- source: AIGC Watermark Android run 2026-11-17-r1-full O-27, O-28, O-29 (user approved 「Continue as Acda」, 2026-11-18) · verified: 16.9.0 build 2611231 (2026-11-24)
+- source: AIGC Watermark Android run 2026-11-17-r1-full O-27, O-28, O-29 (user approved 「Continue as Acda」, 2026-11-18); Christmas & New Year Sales Android run 2026-11-23-r1-christmas O-9 · verified: 16.9.0 build 2611231 (2026-11-24)
 
 Mine › User Sign in › Google opens Chrome (not the Android account chooser): first Chrome's 「Sign in to Chrome」 sheet
 (「Continue as <name>」 / 「Skip」). 「Continue as …」 signs Chrome into the phone's account and goes on without a
 password (Stage lands on mauth-stage.cyberlink.com 「You Are All Set!」); 「Skip」 leads to an empty Google 「Email or
-phone」 page, which needs the user. Any other account needs its password typed by the user.
+phone」 page, which needs the user. Any other account needs its password typed by the user. Once Chrome is signed
+in, the button goes straight to 「You Are All Set!」 with no sheet.
 
 ## KP-127 Two My Artwork pages on Android
 - kind: fact · platform: android · use: analysis, run, ebug · tags: my-artwork, navigation, layout
@@ -91,3 +92,11 @@ phone」 page, which needs the user. Any other account needs its password typed 
 ☰ › My Artwork switches to the AI Magic tab's My Artwork (46 px side gutter), like iOS (KP-032). Pro / Mine › 「My
 Artwork」 opens a separate page whose titles and tiles start at x = 0 with no side margin and its ‹ / title row at
 y = 0. Not in a spec; compare with the Design's My Artwork board before filing.
+
+## KP-143 No VIP Benefits page on Android Mine
+- kind: fact · platform: android · use: analysis, run · tags: mine, tier, vip, iap
+- source: Christmas & New Year Sales Android run 2026-11-23-r1r-recheck O-10 · verified: 16.9.0 build 2611201 (2026-11-23)
+
+On a Pro account the VIP banner is the card at the top of Mine and tapping it opens nothing: there is no separate
+「VIP Benefits」 page. Pro also has no upgrade (IAP page) entry, so the IAP page and its banner can only be reached on
+Free.

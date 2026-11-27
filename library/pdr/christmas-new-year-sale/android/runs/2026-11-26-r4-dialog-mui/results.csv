@@ -1,0 +1,267 @@
+﻿ID,Phase,Segment,Needs,Section,Action,Expected Result,Result,Disposition,Actual,Evidence,Recorded At
+TC-153,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 中文（台灣）, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「升級到 Pro 版」 / body 「您的點數不足，無法使用此功能。升級至 Pro，每月即可獲得免費額外點數。」 / CTA 「立即搶優惠」. Traditional Chinese, same meaning as English, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-153-CHT.png,2026-11-26T07:56:15.431Z
+TC-154,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 中文（简体）, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「升级到 Pro 版」 / body 「你的点数不足，无法使用此功能。升级到 Pro 版，每月可获赠额外免费点数。」 / CTA 「立即享优惠」. Simplified Chinese, same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-154-CHS.png,2026-11-26T07:56:15.578Z
+TC-155,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Français, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Mettre à niveau à Pro」 / body 「Vous n'avez pas assez de crédits pour utiliser cette fonctionnalité. Passez en Pro pour obtenir des crédits bonus gratuits chaque mois.」 / CTA 「Obtenez maintenant une réduction」 (two lines, inside the button). French, same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-155-FRA.png,2026-11-26T07:56:15.727Z
+TC-156,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Deutsch, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Upgrade auf Pro」 / body 「Sie haben nicht genügend Credits, um die Funktion zu verwenden. Aktualisieren Sie auf Pro, um jeden Monat kostenlose Bonus-Credits zu erhalten.」 / CTA 「Rabatt jetzt holen」. German (「Upgrade」 and 「Credits」 are the German UI loanwords), same meaning, nothing clipped. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-156-DEU.png,2026-11-26T07:56:15.874Z
+TC-157,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in हिन्दी, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Pro में अपग्रेड करें」 / body 「इस सुविधा का उपयोग करने के लिए आपके पास पर्याप्त क्रेडिट नहीं हैं। हर महीने मुफ़्त बोनस क्रेडिट पाने के लिए Pro में अपग्रेड करें।」 / CTA 「अभी छूट पाएँ」. Hindi, same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-157-HIN.png,2026-11-26T07:56:16.024Z
+TC-158,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Bahasa Indonesia, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Tingkatkan ke Pro」 / body 「Anda tidak punya cukup kredit untuk menggunakan fitur ini. Tingkatkan ke Pro untuk mendapatkan kredit bonus gratis setiap bulan.」 / CTA 「Ambil Diskon Sekarang」. Indonesian, same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-158-IND.png,2026-11-26T07:56:16.173Z
+TC-159,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Italiano, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Fail,defect,"Title 「Passa a Pro」 / body 「Non disponi di sufficienti crediti per usare questa funzione. Passa Pro+ per ricevere crediti bonus gratuiti ogni mese.」 / CTA 「Approfitta ora dello sconto」. The body names the wrong plan: 「Passa Pro+」 (Pro+, and the 「a」 missing) where the English says 「Upgrade to Pro」 and the title says 「Passa a Pro」; expected 「Passa a Pro per ricevere…」. Otherwise Italian, nothing clipped. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-159-ITA.png,2026-11-26T07:56:16.323Z
+TC-160,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 日本語, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Pro にアップグレード」 / body 「この機能を使うにはクレジットが足りません。Pro にアップグレードすると、毎月無料クレジットがもらえます。」 / CTA 「今すぐ割引をゲット」. Japanese, same meaning (「bonus」 rendered only as 無料クレジット), nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-160-JPN.png,2026-11-26T07:56:16.470Z
+TC-161,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in 한국어, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「프로로 업그레이드」 / body 「이 기능을 사용할 수 있는 충분한 크레딧이 없습니다. Pro로 업그레이드하여 매월 보너스 크레딧을 받으세요.」 / CTA 「지금 할인 받기」. Korean, same meaning; notes: 「free」 not rendered (보너스 크레딧, no 무료), title writes 프로 while the body writes Pro, and 받으세요 breaks with 「요.」 alone on the last line (not clipped). Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-161-KOR.png,2026-11-26T07:56:16.623Z
+TC-162,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Español (España), saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Actualizar a Pro」 / body 「No tiene créditos suficientes para usar esta función. Actualice a Pro para recibir créditos gratis cada mes.」 / CTA 「Aprovechar el descuento」. Spanish, same meaning (「bonus」 rendered only as créditos gratis), nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-162-ESP.png,2026-11-26T07:56:16.774Z
+TC-163,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Bahasa Melayu, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Tingkatkan kepada Pro」 / body 「Kredit anda tidak mencukupi untuk menggunakan ciri ini. Tingkatkan pelan kepada Pro untuk mendapat kredit bonus percuma setiap bulan.」 / CTA 「Dapatkan Diskaun Sekarang」. Malay, same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-163-MAL.png,2026-11-26T07:56:16.923Z
+TC-164,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Português (Brasil), saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Atualizar para o Pro」 / body 「Você não tem créditos suficientes para usar esse recurso. Faça upgrade para o Pro e receba créditos bônus grátis todos os meses.」 / CTA 「Agarrar desconto agora」. Portuguese (Brazil), same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-164-PTB.png,2026-11-26T07:56:17.070Z
+TC-165,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Русский, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Обновить до версии Pro」 / body 「У вас недостаточно кредитов для использования этой функции. Обновите до Pro, чтобы каждый месяц получать бесплатные бонусные кредиты.」 / CTA 「Получите скидку сейчас」. Russian, same meaning, nothing clipped or left in English. Phone 2026-12-24 (O-4 workaround), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-165-RUS.png,2026-11-26T07:56:17.217Z
+TC-166,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in ไทย, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「อัปเกรดเป็นระดับโปร」 / body 「คุณไม่มีเครดิตเพียงพอที่จะใช้คุณสมบัตินี้ อัปเกรดเป็น Pro เพื่อรับเครดิตโบนัสฟรีทุกเดือน」 / CTA 「รีบคว้าส่วนลดเดี๋ยวนี้」. Thai, same meaning (title writes โปร, body Pro), nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-166-THA.png logs/R4-a2-20261126-160306,2026-11-26T08:03:35.746Z
+TC-167,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Español (México), saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Actualiza a Pro」 / body 「No tienes suficientes créditos para usar esta función. Actualiza a Pro para obtener créditos de bonificación gratis cada mes.」 / CTA 「¡Obtén tu descuento ahora!」. Spanish (MX), same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-167-ESPMX.png logs/R4-a2-20261126-160306,2026-11-26T08:03:35.896Z
+TC-168,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Tiếng Việt, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Fail,defect,"Title 「Nâng Cấp Lên Pro」 / body 「You don't have enough tín dụng to use this feature. Nâng cấp lên Pro+ to get free bonus tín dụng every month.」 / CTA 「Nhận Ưu Đãi Ngay!」. The body is mostly left in English (only 「tín dụng」 and 「Nâng cấp lên Pro+」 are Vietnamese) and names the wrong plan, Pro+, where the English and the title say Pro. Title and CTA Vietnamese, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-168-VIE.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.054Z
+TC-169,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Nederlands, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Upgraden naar Pro」 / body 「Je hebt niet genoeg tegoed om deze functie te gebruiken. Upgrade naar Pro om elke maand gratis bonustegoed te krijgen.」 / CTA 「Pak nu korting!」. Dutch, same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-169-NLD.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.210Z
+TC-170,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Türkçe, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Pro'ya yükselt」 / body 「Bu özelliği kullanmak için yeterli krediniz yok. Pro'ya yükseltin ve her ay ücretsiz bonus kredi alın.」 / CTA 「İndirimi hemen al!」. Turkish, same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-170-TUR.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.356Z
+TC-171,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in العربية, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「قم بالترقية إلى Pro」 / body 「ليس لديك أرصدة كافية لاستخدام هذه الميزة. قم بالترقية إلى Pro للحصول على أرصدة إضافية مجانية كل شهر.」 / CTA 「احصل على الخصم الآن!」. Arabic, right to left (Pro inline, sentence starts at the right), same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-171-ARA.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.503Z
+TC-172,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Polski, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Uaktualnij do wersji Pro」 / body 「Nie masz wystarczającej liczby kredytów, aby skorzystać z tej funkcji. Przejdź na plan Pro, aby co miesiąc otrzymywać darmowe kredyty bonusowe.」 / CTA 「Skorzystaj z rabatu teraz!」. Polish, same meaning, body 4 lines, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-172-POL.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.662Z
+TC-173,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in فارسی, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「ارتقا به نسخهٔ حرفه‌ای」 / body 「برای استفاده از این قابلیت، اعتبار کافی ندارید. برای دریافت اعتبار هدیهٔ رایگان هر ماه، به نسخهٔ Pro ارتقا دهید.」 / CTA 「همین حالا تخفیف بگیرید!」. Persian, right to left, same meaning (title 「professional version」, body Pro; O-5), nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-173-FAS.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.815Z
+TC-174,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in עברית, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「שדרג ל-Pro」 / body 「אין לך מספיק קרדיטים כדי להשתמש בתכונה זו. שדרג ל-Pro וקבל קרדיטים חינמיים כבונוס מדי חודש.」 / CTA 「קבלו הנחה עכשיו!」. Hebrew, right to left, same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-174-HEB.png logs/R4-a2-20261126-160306,2026-11-26T08:03:36.959Z
+TC-175,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Svenska, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Uppgradera till Pro」 / body 「Du har inte tillräckligt med krediter för att använda den här funktionen. Uppgradera till Pro för att få gratis bonuskrediter varje månad.」 / CTA 「Få rabatt nu!」. Swedish, same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-175-SVE.png logs/R4-a2-20261126-160306,2026-11-26T08:03:37.104Z
+TC-176,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Dansk, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Opgrader til Pro」 / body 「Du har ikke nok kreditter til at bruge denne funktion. Opgrader til Pro for at få gratis bonuskreditter hver måned.」 / CTA 「Få rabat nu!」. Danish, same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-176-DAN.png logs/R4-a2-20261126-160306,2026-11-26T08:03:37.258Z
+TC-177,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Norsk bokmål, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Oppgrader til Pro」 / body 「Du har ikke nok kreditter til å bruke denne funksjonen. Oppgrader til Pro for å få gratis bonuskreditter hver måned.」 / CTA 「Få rabatt nå!」. Norwegian bokmål, same meaning, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-177-NOR.png logs/R4-a2-20261126-160306,2026-11-26T08:03:37.418Z
+TC-178,R4,R4-a,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「Upgrade to Pro」 dialog: title, body and CTA in Українська, saying what the English 「Upgrade to Pro」 / 「You don’t have enough credits to use this feature. Upgrade to Pro to get free bonus credits every month.」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Оновити до Pro」 / body 「У вас недостатньо кредитів, щоб скористатися цією функцією. Оновіть до Pro, щоб щомісяця отримувати безкоштовні бонусні кредити.」 / CTA 「Отримайте знижку зараз!」. Ukrainian, same meaning, body 4 lines, nothing clipped. Phone 2026-12-24 (O-1 route), acda.test9 Free, balance 7, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-178-UKR.png logs/R4-a2-20261126-160306,2026-11-26T08:03:37.579Z
+TC-179,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 中文（台灣）, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「需要更多點數！」 / body 「你的點數不足以使用此功能。立即獲取更多點數。」 / CTA 「立即搶優惠」. Same meaning as the English. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-179-CHT.png logs/R4-b2-20261126-162818,2026-11-26T08:28:50.234Z
+TC-180,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 中文（简体）, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「需要更多点数!」 / body 「你的点数不足以使用此功能。立即获取更多点数。」 / CTA 「立即享优惠」. Same meaning as the English. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-180-CHS.png logs/R4-b2-20261126-162818,2026-11-26T08:28:50.385Z
+TC-181,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Français, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Il vous faut plus de crédits !」 / body 「Vous n’avez pas assez de crédits pour cette fonction. Obtenez plus de crédits maintenant.」 / CTA 「Obtenez maintenant une réduction」. Same meaning; the CTA wraps to two lines inside the button (not clipped). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-181-FRA.png logs/R4-b2-20261126-162818,2026-11-26T08:28:50.532Z
+TC-182,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Deutsch, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Weitere Credits erforderlich!」 / body 「Sie haben nicht genügend Credits für diese Funktion. Holen Sie sich jetzt weitere Credits.」 / CTA 「Rabatt jetzt holen」. Same meaning (Credits is the German product term). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-182-DEU.png logs/R4-b2-20261126-162818,2026-11-26T08:28:50.680Z
+TC-183,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in हिन्दी, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「और क्रेडिट की ज़रूरत है!」 / body 「इस सुविधा का उपयोग करने के लिए आपके पास पर्याप्त क्रेडिट नहीं हैं। अभी क्रेडिट प्राप्त करें!」 / CTA 「अभी छूट पाएँ」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-183-HIN.png logs/R4-b2-20261126-162818,2026-11-26T08:28:50.827Z
+TC-184,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Bahasa Indonesia, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Butuh Lebih Banyak Kredit!」 / body 「Anda tidak punya cukup kredit untuk menggunakan fitur ini. Dapatkan kredit sekarang!」 / CTA 「Ambil Diskon Sekarang」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-184-IND.png logs/R4-b2-20261126-162818,2026-11-26T08:28:50.971Z
+TC-185,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Italiano, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Servono altri crediti!」 / body 「Crediti insufficienti per questa funzione. Ottieni altri crediti adesso.」 / CTA 「Approfitta ora dello sconto」. Same meaning (no plan name in this dialog, unlike TC-159). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-185-ITA.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.118Z
+TC-186,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 日本語, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「クレジットが必要です!」 / body 「この機能に必要なクレジットが不足しています。クレジットを購入してください。」 / CTA 「今すぐ割引をゲット」. Same meaning (title drops 「more」; body says 「please buy credits」 for 「Get credits now」, recorded per Q-19). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-186-JPN.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.266Z
+TC-187,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in 한국어, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「크레딧이 더 필요합니다!」 / body 「이 기능을 사용하기에 크레딧이 충분하지 않습니다. 지금 더 많은 크레딧 얻기.」 / CTA 「지금 할인 받기」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-187-KOR.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.412Z
+TC-188,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Español (España), saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「¡Se necesitan más créditos!」 / body 「No tiene suficientes créditos para esta función. Obtenga más créditos ahora.」 / CTA 「Aprovechar el descuento」. Same meaning (CTA drops 「now」, recorded per Q-19). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-188-ESP.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.556Z
+TC-189,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Bahasa Melayu, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Lebih Banyak Kredit Diperlukan!」 / body 「Kredit anda tidak mencukupi untuk menggunakan ciri ini. Dapatkan kredit sekarang!」 / CTA 「Dapatkan Diskaun Sekarang」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-189-MAL.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.702Z
+TC-190,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Português (Brasil), saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Mais créditos necessários!」 / body 「Você não tem créditos suficientes para usar esse recurso. Obtenha créditos agora!」 / CTA 「Agarrar desconto agora」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-190-PTB.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.847Z
+TC-191,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Русский, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Требуется больше кредитов!」 / body 「У вас недостаточно кредитов для использования этой функции. Получите кредиты сейчас!」 / CTA 「Получите скидку сейчас」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-191-RUS.png logs/R4-b2-20261126-162818,2026-11-26T08:28:51.995Z
+TC-192,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in ไทย, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「ต้องการเครดิตเพิ่มเติม!」 / body 「คุณไม่มีเครดิตเพียงพอที่จะใช้คุณสมบัตินี้ รับเครดิตเดี๋ยวนี้!」 / CTA 「รีบคว้าส่วนลดเดี๋ยวนี้」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-192-THA.png logs/R4-b2-20261126-162818,2026-11-26T08:28:52.140Z
+TC-193,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Español (México), saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Necesitas más créditos.」 / body 「No tienes suficientes créditos para usar esta función. ¡Obtén créditos ahora!」 / CTA 「¡Obtén tu descuento ahora!」. Same meaning; the title ends with a period, not 「!」 (recorded per Q-19). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-193-ESPMX.png logs/R4-b2-20261126-162818,2026-11-26T08:28:52.285Z
+TC-194,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Tiếng Việt, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Fail,defect,"Title 「Cần Thêm Tín Dụng!」 / body 「You don't have enough tín dụng to use this feature. Get tín dụng now!」 / CTA 「Nhận Ưu Đãi Ngay!」. The body is left in English except 「tín dụng」 (credits); title and CTA are Vietnamese, nothing clipped. Same pattern as the Free dialog's body (TC-168). Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-194-VIE.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.873Z
+TC-195,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Nederlands, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Meer tegoed nodig!」 / body 「Je hebt niet genoeg tegoed om deze functie te gebruiken. Koop nu tegoed!」 / CTA 「Pak nu korting!」. Same meaning (credits as tegoed; 「Koop」 = buy). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-195-NLD.png logs/R4-b2-20261126-162818,2026-11-26T08:28:52.430Z
+TC-196,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Türkçe, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Daha fazla kredi gerekiyor!」 / body 「Bu özelliği kullanmak için yeterli krediniz yok. Hemen kredi alın!」 / CTA 「İndirimi hemen al!」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-196-TUR.png logs/R4-b2-20261126-162818,2026-11-26T08:28:52.574Z
+TC-197,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in العربية, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「مطلوب المزيد من الأرصدة!」 / body 「لا تملك رصيدًا كافيًا لاستخدام هذه الميزة. احصل على أرصدة الآن!」 / CTA 「احصل على الخصم الآن!」. Same meaning; title, body and CTA run right to left (「!」 at the left end). Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-197-ARA.png logs/R4-b2-20261126-162818,2026-11-26T08:28:52.720Z
+TC-198,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Polski, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Potrzeba więcej kredytów!」 / body 「Nie masz wystarczającej liczby kredytów, aby skorzystać z tej funkcji. Zdobądź kredyty teraz!」 / CTA 「Skorzystaj z rabatu teraz!」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-198-POL.png logs/R4-b2-20261126-162818,2026-11-26T08:28:52.865Z
+TC-199,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in فارسی, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「اعتبار بیشتری لازم است!」 / body 「برای استفاده از این ویژگی اعتبار کافی ندارید. همین حالا اعتبار دریافت کنید!」 / CTA 「همین حالا تخفیف بگیرید!」. Same meaning; right to left. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-199-FAS.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.009Z
+TC-200,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in עברית, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Texts aligned right to left
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「דרושים עוד קרדיטים!」 / body 「אין לך מספיק קרדיטים כדי להשתמש בתכונה זו. השג קרדיטים עכשיו!」 / CTA 「קבלו הנחה עכשיו!」. Same meaning; right to left. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-200-HEB.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.151Z
+TC-201,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Svenska, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Fler krediter behövs!」 / body 「Du har inte tillräckligt med krediter för att använda den här funktionen. Skaffa krediter nu!」 / CTA 「Få rabatt nu!」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-201-SVE.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.294Z
+TC-202,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Dansk, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Flere kreditter påkrævet!」 / body 「Du har ikke nok kreditter til at bruge denne funktion. Få kreditter nu!」 / CTA 「Få rabat nu!」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-202-DAN.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.438Z
+TC-203,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Norsk bokmål, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Du trenger flere kreditter!」 / body 「Du har ikke nok kreditter til å bruke denne funksjonen. Skaff kreditter nå!」 / CTA 「Få rabatt nå!」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-203-NOR.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.584Z
+TC-204,R4,R4-b,,Not Enough Credit dialog,"1. Open Image to Video › Custom
+2. Enter a prompt
+3. Tap 「Generate」","The 「More Credits Needed!」 dialog: title, body and CTA in Українська, saying what the English 「More Credits Needed!」 / 「You don’t have enough credits to use this feature. Get credits now!」 / 「Grab Discount Now!」 says
+No text clipped, overlapped or left in English
+Christmas background and image as in English (the art has no text)",Pass,,"Title 「Потрібно більше кредитів!」 / body 「У вас недостатньо кредитів, щоб скористатися цією функцією. Отримайте кредити зараз!」 / CTA 「Отримайте знижку зараз!」. Same meaning. Nothing clipped, overlapped or left in English. Phone 2026-12-24 (O-1 route, R4-b re-run), acda.test9 Pro, balance 22, I2V Custom Kling 4.0 = 70; Christmas art (red card, stocking, candy canes).",screenshots/TC-204-UKR.png logs/R4-b2-20261126-162818,2026-11-26T08:28:53.730Z

@@ -1,0 +1,406 @@
+{
+ "measured_at": "2026-11-26",
+ "build": "16.9.0 (2611251)",
+ "phone": "SM-A516B 1080x2400",
+ "figma": "specs/2026-11-20/extracted/figma-mine-credit-bar.json (Free card 343x232 bar 56; Pro card 343x180 bar 56)",
+ "note": "Page source bounds of free_card_view and credit_remain_area (bar bottom = card bottom; the bar includes the card 3 px border). Pro has no page source saved: measured from the screenshot border pixels (card border colour 54,59,67 at x=540 / row edges at x=42 and 1038), same method checked against the Free page source (exact match). R5-c (2026-11-26 17:40-17:45): account made Pro with the test subscription, Pro light and dark captured with page source; they match the R4 dark pixel measure exactly.",
+ "rows": [
+  {
+   "tier": "Free",
+   "mode": "light",
+   "source": "screenshots/r5c-mine-free-light.png + mine/mine-free-light.xml",
+   "measured_by": "page source",
+   "card_px": {
+    "x": 42,
+    "y": 288,
+    "w": 996,
+    "h": 778
+   },
+   "credit_bar_px": {
+    "x": 42,
+    "y": 859,
+    "w": 996,
+    "h": 207
+   },
+   "ratios": {
+    "bar_h_over_card_h": 0.2661,
+    "bar_h_over_card_w": 0.2078
+   },
+   "figma_ratios": {
+    "bar_h_over_card_h": 0.2414,
+    "bar_h_over_card_w": 0.1633
+   },
+   "diff_pct": {
+    "bar_h_over_card_h": 10.2,
+    "bar_h_over_card_w": 27.3
+   },
+   "vs_figma_scaled_px": {
+    "scale": 2.904,
+    "card_h_expected": 673.7,
+    "card_h_diff_pct": 15.5,
+    "bar_h_expected": 162.6,
+    "bar_h_diff_pct": 27.3
+   }
+  },
+  {
+   "tier": "Free",
+   "mode": "dark",
+   "source": "screenshots/r5c-mine-free-dark.png + mine/mine-free-dark.xml",
+   "measured_by": "page source",
+   "card_px": {
+    "x": 42,
+    "y": 288,
+    "w": 996,
+    "h": 778
+   },
+   "credit_bar_px": {
+    "x": 42,
+    "y": 859,
+    "w": 996,
+    "h": 207
+   },
+   "ratios": {
+    "bar_h_over_card_h": 0.2661,
+    "bar_h_over_card_w": 0.2078
+   },
+   "figma_ratios": {
+    "bar_h_over_card_h": 0.2414,
+    "bar_h_over_card_w": 0.1633
+   },
+   "diff_pct": {
+    "bar_h_over_card_h": 10.2,
+    "bar_h_over_card_w": 27.3
+   },
+   "vs_figma_scaled_px": {
+    "scale": 2.904,
+    "card_h_expected": 673.7,
+    "card_h_diff_pct": 15.5,
+    "bar_h_expected": 162.6,
+    "bar_h_diff_pct": 27.3
+   }
+  },
+  {
+   "tier": "Free",
+   "mode": "dark",
+   "source": "../2026-11-26-r4-dialog-mui/screenshots/r4a-mine.png (no page source saved)",
+   "measured_by": "screenshot pixels",
+   "card_px": {
+    "x": 42,
+    "y": 240,
+    "w": 996,
+    "h": 778
+   },
+   "credit_bar_px": {
+    "x": 42,
+    "y": 811,
+    "w": 996,
+    "h": 207
+   },
+   "ratios": {
+    "bar_h_over_card_h": 0.2661,
+    "bar_h_over_card_w": 0.2078
+   },
+   "figma_ratios": {
+    "bar_h_over_card_h": 0.2414,
+    "bar_h_over_card_w": 0.1633
+   },
+   "diff_pct": {
+    "bar_h_over_card_h": 10.2,
+    "bar_h_over_card_w": 27.3
+   },
+   "vs_figma_scaled_px": {
+    "scale": 2.904,
+    "card_h_expected": 673.7,
+    "card_h_diff_pct": 15.5,
+    "bar_h_expected": 162.6,
+    "bar_h_diff_pct": 27.3
+   }
+  },
+  {
+   "tier": "Pro",
+   "mode": "dark",
+   "source": "../2026-11-26-r4-dialog-mui/screenshots/r4b2-mine.png (no page source saved)",
+   "measured_by": "screenshot pixels",
+   "card_px": {
+    "x": 42,
+    "y": 246,
+    "w": 996,
+    "h": 529
+   },
+   "credit_bar_px": {
+    "x": 42,
+    "y": 568,
+    "w": 996,
+    "h": 207
+   },
+   "ratios": {
+    "bar_h_over_card_h": 0.3913,
+    "bar_h_over_card_w": 0.2078
+   },
+   "figma_ratios": {
+    "bar_h_over_card_h": 0.3111,
+    "bar_h_over_card_w": 0.1633
+   },
+   "diff_pct": {
+    "bar_h_over_card_h": 25.8,
+    "bar_h_over_card_w": 27.3
+   },
+   "vs_figma_scaled_px": {
+    "scale": 2.904,
+    "card_h_expected": 522.7,
+    "card_h_diff_pct": 1.2,
+    "bar_h_expected": 162.6,
+    "bar_h_diff_pct": 27.3
+   }
+  },
+  {
+   "tier": "Pro",
+   "mode": "light",
+   "source": "screenshots/r5c-mine-pro-light.png + mine/mine-pro-light.xml",
+   "measured_by": "page source (R5-c, app Appearance Light Mode)",
+   "card_px": {
+    "x": 42,
+    "y": 246,
+    "w": 996,
+    "h": 529
+   },
+   "credit_bar_px": {
+    "x": 42,
+    "y": 568,
+    "w": 996,
+    "h": 207
+   },
+   "ratios": {
+    "bar_h_over_card_h": 0.3913,
+    "bar_h_over_card_w": 0.2078
+   },
+   "figma_ratios": {
+    "bar_h_over_card_h": 0.3111,
+    "bar_h_over_card_w": 0.1633
+   },
+   "diff_pct": {
+    "bar_h_over_card_h": 25.8,
+    "bar_h_over_card_w": 27.3
+   },
+   "vs_figma_scaled_px": {
+    "scale": 2.904,
+    "card_h_expected": 522.7,
+    "card_h_diff_pct": 1.2,
+    "bar_h_expected": 162.6,
+    "bar_h_diff_pct": 27.3
+   }
+  },
+  {
+   "tier": "Pro",
+   "mode": "dark",
+   "source": "screenshots/r5c-mine-pro-dark.png + mine/mine-pro-dark.xml",
+   "measured_by": "page source (R5-c, app Appearance Dark Mode)",
+   "card_px": {
+    "x": 42,
+    "y": 246,
+    "w": 996,
+    "h": 529
+   },
+   "credit_bar_px": {
+    "x": 42,
+    "y": 568,
+    "w": 996,
+    "h": 207
+   },
+   "ratios": {
+    "bar_h_over_card_h": 0.3913,
+    "bar_h_over_card_w": 0.2078
+   },
+   "figma_ratios": {
+    "bar_h_over_card_h": 0.3111,
+    "bar_h_over_card_w": 0.1633
+   },
+   "diff_pct": {
+    "bar_h_over_card_h": 25.8,
+    "bar_h_over_card_w": 27.3
+   },
+   "vs_figma_scaled_px": {
+    "scale": 2.904,
+    "card_h_expected": 522.7,
+    "card_h_diff_pct": 1.2,
+    "bar_h_expected": 162.6,
+    "bar_h_diff_pct": 27.3
+   }
+  }
+ ],
+ "crops": [
+  "screenshots/r5c-crop-free-light.png",
+  "screenshots/r5c-crop-free-dark.png",
+  "screenshots/r5c-crop-free-dark-r4.png",
+  "screenshots/r5c-crop-pro-dark-r4.png",
+  "screenshots/r5c-crop-pro-light.png",
+  "screenshots/r5c-crop-pro-dark.png"
+ ],
+ "bar_content": {
+  "how": "Page source bounds of the bar's children, plus the painted ink (screenshot pixels differing from the bar background) for the real glyph/icon extent. Offset = element centre minus bar centre (px; + = below). Same values in light and dark, Free and Pro (Free bar y 859-1066, Pro 568-775; children shifted by the same 291 px).",
+  "figma": {
+   "bar_h": 56,
+   "icon_plus_text_frame": "y 16 h 24 (icon 24, text 20) -> centre 28 = bar centre, 16 Figma px above and below",
+   "value_plus_chevron_frame": "y 18 h 20 -> centre 28 = bar centre, 18 above and below",
+   "scaled_px": {
+    "bar_h": 162.6,
+    "gap_16": 46.5,
+    "gap_18": 52.3,
+    "icon_24": 69.7,
+    "text_line_20": 58.1,
+    "left_inset_12": 34.8,
+    "right_inset_12": 34.8
+   }
+  },
+  "app_view_bounds_pro": {
+   "bar": [
+    42,
+    568,
+    1038,
+    775
+   ],
+   "icon": {
+    "bounds": [
+     84,
+     645,
+     137,
+     698
+    ],
+    "h": 53,
+    "top_gap": 77,
+    "bottom_gap": 77,
+    "centre_offset": 0
+   },
+   "Credits_text": {
+    "bounds": [
+     158,
+     643,
+     811,
+     700
+    ],
+    "h": 57,
+    "top_gap": 75,
+    "bottom_gap": 75,
+    "centre_offset": 0
+   },
+   "value_122": {
+    "bounds": [
+     832,
+     636,
+     922,
+     707
+    ],
+    "h": 71,
+    "top_gap": 68,
+    "bottom_gap": 68,
+    "centre_offset": 0
+   },
+   "chevron": {
+    "bounds": [
+     933,
+     650,
+     975,
+     692
+    ],
+    "h": 42,
+    "top_gap": 82,
+    "bottom_gap": 83,
+    "centre_offset": -0.5
+   },
+   "click_area": {
+    "bounds": [
+     811,
+     615,
+     996,
+     728
+    ],
+    "h": 113,
+    "top_gap": 47,
+    "bottom_gap": 47
+   }
+  },
+  "app_view_bounds_free": {
+   "bar": [
+    42,
+    859,
+    1038,
+    1066
+   ],
+   "icon": [
+    84,
+    936,
+    137,
+    989
+   ],
+   "Credits_text": [
+    158,
+    934,
+    841,
+    991
+   ],
+   "value_22": [
+    862,
+    927,
+    922,
+    998
+   ],
+   "chevron": [
+    933,
+    941,
+    975,
+    983
+   ],
+   "centre_offsets": "0 / 0 / 0 / -0.5 (same as Pro)"
+  },
+  "app_ink_pro": {
+   "icon": {
+    "y": [
+     649,
+     693
+    ],
+    "h": 44,
+    "top_gap": 81,
+    "bottom_gap": 82,
+    "centre_offset": -0.5
+   },
+   "Credits_text": {
+    "y": [
+     656,
+     689
+    ],
+    "h": 33,
+    "top_gap": 88,
+    "bottom_gap": 86,
+    "centre_offset": 1.0
+   },
+   "value": {
+    "y": [
+     653,
+     692
+    ],
+    "h": 39,
+    "top_gap": 85,
+    "bottom_gap": 83,
+    "centre_offset": 1.0
+   },
+   "chevron": {
+    "y": [
+     657,
+     685
+    ],
+    "h": 28,
+    "top_gap": 89,
+    "bottom_gap": 90,
+    "centre_offset": -0.5
+   }
+  },
+  "app_ink_free": "identical gaps and offsets (icon 81/82, Credits 88/86, value 85/83, chevron 89/90)",
+  "horizontal": {
+   "icon_left_inset_px": 42,
+   "icon_left_inset_figma_scaled": 34.8,
+   "chevron_right_inset_px": 63,
+   "value_chevron_right_inset_figma_scaled": 34.8
+  },
+  "verdict": "Content is vertically centred in the bar (within 1 px) on Free and Pro, light and dark. The extra height is padding: icon+text row 77 px above and below (view bounds) against 46.5 Figma-scaled (+30.5 px, +66 %) each side; value row 68 px against 52.3 (18 Figma px) (+15.7 px each side). The total extra is 207 - 162.6 = 44.4 px, about 22 px above and 22 below the content (the content itself is also smaller: icon 53 px vs 69.7, 24 % smaller), so the bar is taller while its content is centred."
+ }
+}

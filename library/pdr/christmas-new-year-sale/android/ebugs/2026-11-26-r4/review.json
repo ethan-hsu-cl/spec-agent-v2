@@ -1,0 +1,6 @@
+{
+  "lede": "Fifth batch of this feature, from R4: the Not Enough Credit dialog in 26 languages (R-070, Q-19, REQ-009; draft 20261126-154459 in review), build 2611251, Stage, acda.test9 Free with 7 credits against the 70-credit Image to Video Custom price, phone date 2026-12-24 (KP-144 route). One new bug: ISS-XMA-42 merges TC-159 (Italian) and TC-168 (Vietnamese): the same body string names Pro+ in both, and the Vietnamese one is mostly English. The paid dialog rows are Blocked (test data).",
+  "why": {
+    "ISS-XMA-42": "One string, two locales: both bodies say Pro+ where the title and English say Pro; RD per the text rule (PM spec states the English)."
+  }
+}

@@ -113,3 +113,24 @@ before 「Saved to Gallery」). Some exports show a 「Your video is awesome!」
 Close the paywall with `[AID]IAP_Back`, the dialog with 「Not now」; the file is saved regardless. On 2611193 an export 「AIGC
 Watermark」 dialog comes before it, at the editor's 「Export」 (KF-005).
 
+## KP-138 「Unofficial Version」 blocks purchases on an adb-installed build
+- kind: quirk · platform: android · use: run, ebug · tags: billing, purchase, install, integrity
+- source: Christmas & New Year Sales Android run 2026-11-23-r1-christmas O-10; user 2026-11-23 (chat, inbox I-034); Christmas & New Year Sales Android run 2026-11-23-r1r-recheck O-11; run 2026-11-25-r2-newyear O-11 · verified: 16.9.0 build 2611201 (2026-11-23; Play test build bought a subscription and Auto Pass); 2611231 adb install not blocked (2026-11-25)
+
+From 16.9.0 build 2611201 the app checks its installation before a purchase: on an APK installed with `adb install`
+a subscription or credit CTA opens the app's own dialog 「Unofficial Version」 「We couldn’t verify your app
+installation. Purchases are unavailable.」 「Understood」 instead of the Google Play sheet, with no billing line in
+logcat (it can pass once and then start blocking). Only a test build downloaded from the Play Store (installer
+`com.android.vending`) makes test purchases; install that one for any purchase row.
+
+On build 2611231 installed with adb (installer null) the check did not block (2026-11-25, Christmas & New Year Sales
+R2 O-11): every subscription and credit CTA opened the Play test sheet and a New Year annual test subscription was
+bought. So whether it blocks depends on the build: try the CTA once before marking purchase rows Blocked.
+
+## KP-139 Restore Purchase first asks for the Google accounts permission
+- kind: quirk · platform: android · use: run · tags: restore, subscription, permission
+- source: Christmas & New Year Sales Android run 2026-11-23-r1-christmas O-2 · verified: 16.9.0 build 2611201 (2026-11-23)
+
+After a fresh install or `pm clear`, the first 「Restore Purchase」 › OK opens Google's 「Get a list of Google accounts
+on the device」 permission; after Allow the app shows no result (log: GoogleAuthUtil `NEED_PERMISSION`). Only a second
+tap gives the result (「Your current Google Play Store account has no purchases.」). Tap it twice before judging.

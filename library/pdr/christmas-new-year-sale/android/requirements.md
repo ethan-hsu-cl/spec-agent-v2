@@ -76,6 +76,7 @@ Test setup (ruling Q-1, REQ-002): RD sets a test date on the stage server, and t
 - R-056 [PM:pm-xmas-credit 「If點數夠」] With enough credits the feature starts generating; no dialog.
 - R-057 [PM:pm-xmas-credit] The dialog's ⓧ closes it, back on the feature page with nothing charged.
 - R-058 [PM:pm-ny-credit] In the New Year campaign the dialog background and image are the New Year theme as the Design draws it (ruling Q-15, REQ-002; the PM New Year frames still read 「CHRISTMAS SALE」).
+- R-070 [Rule: localization; ruling Q-16, REQ-002; request REQ-009] The Not Enough Credit dialog, free (R-055) and paid (R-053), shows its title, body and CTA in the app language in every shipped language (all 27, Q-16), complete, not clipped or overlapped and not left in English, right to left in Arabic, Persian and Hebrew; the campaign art has no text and is the same in every language. Wording: Q-19.
 
 ## Landscape (Design 「Landscape」)
 - R-059 [DS:ds-xmas-landscape] In landscape the Launcher shows the campaign top banner and pill over the regular landscape Launcher (My Projects, tool row).
@@ -142,6 +143,60 @@ Test setup (ruling Q-1, REQ-002): RD sets a test date on the stage server, and t
 ### Variants
 | Requirement | Variant | Rows |
 |---|---|---|
+| R-070 | free · ENG | TC-134 |
+| R-070 | free · CHT | TC-153 |
+| R-070 | free · CHS | TC-154 |
+| R-070 | free · FRA | TC-155 |
+| R-070 | free · DEU | TC-156 |
+| R-070 | free · Hindi | TC-157 |
+| R-070 | free · IND | TC-158 |
+| R-070 | free · ITA | TC-159 |
+| R-070 | free · JPN | TC-160 |
+| R-070 | free · KOR | TC-161 |
+| R-070 | free · ESP | TC-162 |
+| R-070 | free · Malay | TC-163 |
+| R-070 | free · PTB | TC-164 |
+| R-070 | free · RUS | TC-165 |
+| R-070 | free · Thai | TC-166 |
+| R-070 | free · ESP (MX) | TC-167 |
+| R-070 | free · Viet | TC-168 |
+| R-070 | free · Dutch | TC-169 |
+| R-070 | free · Turkish | TC-170 |
+| R-070 | free · Arabic | TC-171 |
+| R-070 | free · Polish | TC-172 |
+| R-070 | free · Persian | TC-173 |
+| R-070 | free · Hebrew | TC-174 |
+| R-070 | free · SVE | TC-175 |
+| R-070 | free · DAN | TC-176 |
+| R-070 | free · NOR | TC-177 |
+| R-070 | free · UKR | TC-178 |
+| R-070 | paid · ENG | TC-132 |
+| R-070 | paid · CHT | TC-179 |
+| R-070 | paid · CHS | TC-180 |
+| R-070 | paid · FRA | TC-181 |
+| R-070 | paid · DEU | TC-182 |
+| R-070 | paid · Hindi | TC-183 |
+| R-070 | paid · IND | TC-184 |
+| R-070 | paid · ITA | TC-185 |
+| R-070 | paid · JPN | TC-186 |
+| R-070 | paid · KOR | TC-187 |
+| R-070 | paid · ESP | TC-188 |
+| R-070 | paid · Malay | TC-189 |
+| R-070 | paid · PTB | TC-190 |
+| R-070 | paid · RUS | TC-191 |
+| R-070 | paid · Thai | TC-192 |
+| R-070 | paid · ESP (MX) | TC-193 |
+| R-070 | paid · Viet | TC-194 |
+| R-070 | paid · Dutch | TC-195 |
+| R-070 | paid · Turkish | TC-196 |
+| R-070 | paid · Arabic | TC-197 |
+| R-070 | paid · Polish | TC-198 |
+| R-070 | paid · Persian | TC-199 |
+| R-070 | paid · Hebrew | TC-200 |
+| R-070 | paid · SVE | TC-201 |
+| R-070 | paid · DAN | TC-202 |
+| R-070 | paid · NOR | TC-203 |
+| R-070 | paid · UKR | TC-204 |
 | R-022 | Christmas · ENG | TC-029 |
 | R-022 | Christmas · CHT | TC-030 |
 | R-022 | Christmas · CHS | TC-031 |
@@ -258,6 +313,7 @@ Test setup (ruling Q-1, REQ-002): RD sets a test date on the stage server, and t
 - Q-17 India, Indonesia and the Philippines (R-007) need a Play account in that country; the run marks those rows Blocked as test-data until one exists. Answer (2026-11-20, REQ-002, Cases page): testers set the test account's country with Play Billing Lab. R-007.
 
 ## Open questions
+- Q-19 The spec gives no translation of the Not Enough Credit dialog (the 多國文案 sheet covers only the interstitial; the PM and Design draw the dialog in English only). Assumption: the app's own translation of the English texts is accepted when it says the same thing, is complete and fits; the wording read on each language is recorded, and a text left in English, clipped or overlapping is a defect. R-070, TC-153 – TC-204.
 - Q-7 Where does the Launcher top banner title 「Make Christmas magic with AI ›」 (New Year: 「Bring New Year moments to life ›」) lead? Not drawn. Assumption: the campaign's existing banner target; rows only check the banner.
 - Q-13 The free user's 500-credit Special Offer has no Design frame and no sale price (「右側原價劃掉，顯示原價」 reads as 「show the original price」 twice). Assumption: the original price struck through and the Play price of pdrm_500_credit_freeuser_christmas beside it. R-047.
 - Q-18 The New Year countdowns (Launcher and Mine pill, IAP under the CTA, credit page above the CTAs): what do they count to, and from when do they show? The PM New Year rules say 「12/21 開始倒數 7天」, a date before the New Year window opens (12/28), so it reads as copied from Christmas. Assumption: they count to the end of the New Year campaign (2027-01-05 23:59:59 local) and show for the whole window. R-029, R-038, R-049 (TC-089, TC-152).

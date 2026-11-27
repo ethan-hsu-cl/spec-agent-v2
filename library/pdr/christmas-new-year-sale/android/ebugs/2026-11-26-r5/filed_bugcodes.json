@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "creator": "ANGOL_HUANG",
+    "creators_read_back": [
+      "ANGOL_HUANG"
+    ],
+    "token_owner": "",
+    "method": "api",
+    "tr": "TR261125-0064",
+    "server": "Stage",
+    "version": "16.9.0",
+    "build": "2611251",
+    "filed_on": "2026-11-26"
+  },
+  "bugs": [
+    {
+      "bugcode": "DRA262611P0331",
+      "short": "PDR-A 16.9.0 - [AIAgent][UI] New Year Sale (IAP): Annual plan card uses the dark-mode background in light mode",
+      "status": "BugNeedReview",
+      "severity": 3,
+      "priority": 5,
+      "belong": "RD",
+      "creator": "ANGOL_HUANG",
+      "created": "2026-11-26T18:08:59",
+      "build": "2611251",
+      "tr": "TR261125-0064",
+      "product": "PowerDirector Mobile for Android",
+      "template": "Generic v16.9",
+      "assignee": null,
+      "handler": "ANGOL_HUANG",
+      "version": "16.9.0",
+      "bug_source": "QA",
+      "reproduce": "2/2",
+      "happened": "Unknown",
+      "desc": "Repro Steps:\n1. Set the phone date to 2026-12-30 in Settings (automatic date and time off)\n2. Set the phone to light mode in Settings\n3. Launch the APP\n4. Tap 「Mine」\n5. Tap 「Claim Holiday Deal」\n6. Look at the annual plan card\n7. Check the result\n\nResult:\nIn light mode the annual card has the dark-mode navy background, the same pixels as in dark mode.\n摘要：淺色模式下年方案卡片仍是深色模式的深藍背景，與深色模式完全相同。\n{16.9.0_xma44_light.jpg} {16.9.0_xma44_dark.jpg} {16.9.0_xma44_land_light.jpg} {16.9.0_xma44_design.jpg}\n\nExpect Result:\nIn light mode the annual card has the light background the Design draws (pale cream), as Christmas does.\n摘要：淺色模式下年方案卡片應為設計稿的淺色（米白）背景，與聖誕節一致。\n\nNote:\nDevice: Samsung Galaxy A51 SM-A516B / Android 13\nRelated: New Year sale window (Stage server, phone date 2026-12-30); build 2611251; Free account, signed in; app Appearance 「Device Settings」 with the system in light mode (also with Appearance 「Light Mode」)\nRelated: the Christmas IAP annual card follows the mode (cream in light, burgundy in dark)\nSpec Link: Christmas & New Year Design spec ([MX] Christmas & New Year, page 2026), New Year IAP & Credit board (IAP_year, light: cream annual card) -\nhttps://www.figma.com/design/HpkQG91Rm4POCXpzjC1QbT/-MX--Christmas---New-Year?node-id=2855-39936\n<Claude Reviewed>",
+      "attachments": [
+        "16.9.0_xma44_light.jpg",
+        "16.9.0_xma44_dark.jpg",
+        "16.9.0_xma44_land_light.jpg",
+        "16.9.0_xma44_design.jpg"
+      ],
+      "key": "NewYear-Sale-R5-01",
+      "iss": "ISS-XMA-44",
+      "feature": "NewYear-Sale-R5",
+      "problem_type": "UI"
+    },
+    {
+      "bugcode": "DRA262611P0332",
+      "short": "PDR-A 16.9.0 - [AIAgent][UI] Mine / Pro Page (Credits Bar): Credits bar 27% taller than Design, card proportions off",
+      "status": "BugNeedReview",
+      "severity": 3,
+      "priority": 5,
+      "belong": "RD",
+      "creator": "ANGOL_HUANG",
+      "created": "2026-11-26T18:09:18",
+      "build": "2611251",
+      "tr": "TR261125-0064",
+      "product": "PowerDirector Mobile for Android",
+      "template": "Generic v16.9",
+      "assignee": null,
+      "handler": "ANGOL_HUANG",
+      "version": "16.9.0",
+      "bug_source": "QA",
+      "reproduce": "4/4",
+      "happened": "Unknown",
+      "desc": "Repro Steps:\n1. Launch the APP\n2. Tap 「Mine」 (「Pro」 for a Pro account)\n3. Look at the Credits bar under the Free / Pro card\n4. Check the result\n\nResult:\nThe Credits bar is 207 px tall against 163 px from the Design (+27 %), so it takes too much of the card.\n摘要：Credits 橫條高 207 px，設計稿換算為 163 px（高 27%），占卡片比例過大。\n{16.9.0_xma46_free_vs_figma.jpg} {16.9.0_xma46_pro_vs_figma.jpg} {16.9.0_xma46_free_light.jpg} {16.9.0_xma46_pro_light.jpg}\n\nExpect Result:\nThe bar keeps the Design's height (56 of the card's 343 width, 163 px here): 0.241 of the Free card, 0.311 of Pro.\n摘要：Credits 橫條應為設計稿高度（此機 163 px），約占 Free 卡 0.241、Pro 卡 0.311。\n\nNote:\nDevice: Samsung Galaxy A51 SM-A516B / Android 13\nRelated: Free (balance 22) and Pro (122) on acda.test9, light and dark the same; build 2611251; Stage server\nComparison: Credits bar, Figma vs app (1 Figma px = 2.904 px: card 343 px = 996 px)\n- Bar height: Figma 56 (= 162.6 px) / app 207 px (+27.3 %)\n- Bar height / Free card height: Figma 56/232 = 0.241 / app 207/778 = 0.266\n- Bar height / Pro card height: Figma 56/180 = 0.311 / app 207/529 = 0.391\n- Bar height / card width: Figma 0.163 / app 0.208\n- Space above and below the icon row: Figma 16 (= 46.5 px) / app 77 px\n- Credits icon: Figma 24 (= 69.7 px) / app 53 px (-24 %)\nSpec Link: Christmas & New Year Design spec ([MX] Christmas & New Year, page 2026), Launcher & dialog board (mine_free: card 343×232, Credits bar 56) -\nhttps://www.figma.com/design/HpkQG91Rm4POCXpzjC1QbT/-MX--Christmas---New-Year?node-id=2682-13540\nSpec Link: Christmas & New Year Design spec ([MX] Christmas & New Year, page 2026), Launcher & dialog board (mine_vip: card 343×180, Credits bar 56) -\nhttps://www.figma.com/design/HpkQG91Rm4POCXpzjC1QbT/-MX--Christmas---New-Year?node-id=2718-4363\n<Claude Reviewed>",
+      "attachments": [
+        "16.9.0_xma46_free_vs_figma.jpg",
+        "16.9.0_xma46_pro_vs_figma.jpg",
+        "16.9.0_xma46_free_light.jpg",
+        "16.9.0_xma46_pro_light.jpg"
+      ],
+      "key": "NewYear-Sale-R5-03",
+      "iss": "ISS-XMA-46",
+      "feature": "NewYear-Sale-R5",
+      "problem_type": "UI"
+    }
+  ],
+  "dispositions": {}
+}
